@@ -2,7 +2,11 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        width: 'width',
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
