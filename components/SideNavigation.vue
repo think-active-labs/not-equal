@@ -7,7 +7,8 @@ const isOpen = ref(false)
 
 <template>
   <!-- <nav class="h-full w-24 flex flex-col items-center left-0 bg-red-500"> -->
-  <nav class="top-0 h-screen sm:w-3/5 fixed ease-in-out duration-150 z-30 flex flex-col sm:flex-row justify-between"
+  <nav
+    class="side-menu top-0 h-screen sm:w-3/5 fixed ease-in-out duration-300 z-30 flex flex-col sm:flex-row justify-between"
     :class="isOpen ? 'open' : 'close'">
     <div class="flex grow">
       <ul class="text-center w-full items-center">
@@ -40,9 +41,15 @@ const isOpen = ref(false)
   }
 }
 
+.side-menu {
+  background-color: #f0f0f0;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+}
+
 .open {
   transform: translateY(0, 0);
-  background-color: red;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  clip-path: inset(0px -60px 0px 0px);
 
   /* mobile */
   @media (max-width: 649px) {
