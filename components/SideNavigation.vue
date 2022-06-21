@@ -42,7 +42,7 @@ const isOpen = ref(false)
 }
 
 .side-menu {
-  background-color: #f0f0f0;
+  background-color: #e1e1e1;
   background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
 }
 

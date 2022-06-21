@@ -1,10 +1,14 @@
 <script setup>
+definePageMeta({
+  layout: "default",
+});
+
 const items = ref([])
 
 items.value.push({
   img: "home.png",
   title: "Not-Equal",
-  subtitle: "How can computers and their underlining algorithms help make the decisions that affect us all, fairer?",
+  subtitle: "Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
   slug: "home"
 })
 
@@ -18,21 +22,21 @@ items.value.push({
 items.value.push({
   img: "digital-security-for-all.png",
   title: "Digital Security for All",
-  subtitle: "How can computers and their underlining algorithms help make the decisions that affect us all, fairer?",
+  subtitle: "What digital security models can ensure the safeguarding of all in our digital society?",
   slug: "digital-security-for-all"
 })
 
 items.value.push({
   img: "fairer-future-for-business-and-workforce.png",
   title: "Fairer Futures for Business + Workforce",
-  subtitle: "How can computers and their underlining algorithms help make the decisions that affect us all, fairer?",
+  subtitle: "What business models offer fairer opportunities & working conditions for all in the platform economy?",
   slug: "fairer-future-for-business-and-workforce"
 })
 
 items.value.push({
   img: "digital-access.png",
   title: "Digital Access",
-  subtitle: "How can computers and their underlining algorithms help make the decisions that affect us all, fairer?",
+  subtitle: "Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis?",
   slug: "digital-access"
 })
 
@@ -43,10 +47,12 @@ const activeTab = ref("home")
 <template>
   <div class="flex h-screen">
     <!-- navbar -->
-    <SideNavigation v-on:click="activeTab = 'home'" class="cursor-pointer" />
+    <slot name="side-nav">
+      <SideNavigation v-on:click="activeTab = 'home'" class="cursor-pointer" />
+    </slot>
     <!-- page items -->
     <div class="ml-[90px] flex w-full">
-      <div class="flex" :class="activeTab == item.slug ? 'grow' : ''" v-for="item in items" :key="index"
+      <div class="flex" :class="activeTab == item.slug ? 'grow' : ''" v-for="item in items"
         v-on:click="activeTab = item.slug">
         <!-- titlebar -->
         <div
@@ -62,6 +68,7 @@ const activeTab = ref("home")
             <img :src="`/assets/images/${item.img}`" class="object-contain max-h-[50%]" />
             <h1 class="text-4xl">{{ item.title }}</h1>
             <p>{{ item.subtitle }}</p>
+            <NuxtLink :to="`/themes/${item.slug}`" class="text-underline justify-end">View More</NuxtLink>
           </div>
         </div>
       </div>

@@ -1,11 +1,14 @@
 <script setup>
 import '@/assets/css/tailwind.css'
+definePageMeta({
+  layout: "default",
+});
 </script>
 
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
 
 <style>
