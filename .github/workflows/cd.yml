@@ -10,6 +10,12 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
+      - name: Setup /not-equal prefix
+      - uses: 'finnp/create-file-action@master'
+        env:
+          FILE_NAME: '.env'
+          FILE_DATA: 'NUXT_APP_BASE_URL=/not-equal/'
+
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           npm ci
