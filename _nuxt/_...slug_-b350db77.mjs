@@ -1,0 +1,1 @@
+import{_ as s,o as n,m as r,n as c,E as a}from"./entry-d3595a5e.mjs";const p={__name:"[...slug]",setup(t,{expose:_}){_();const e={};return Object.defineProperty(e,"__isScriptSetup",{enumerable:!1,value:!0}),e}},u={class:"prose prose-xl"};function l(t,_,e,d,i,m){const o=a;return n(),r("div",u,[c(o)])}var x=s(p,[["render",l]]);export{x as default};
