@@ -68,7 +68,7 @@ const activeTab = ref("home")
             <img :src="`/assets/images/${item.img}`" class="object-contain max-h-[50%]" />
             <h1 class="text-4xl">{{ item.title }}</h1>
             <p>{{ item.subtitle }}</p>
-            <NuxtLink :to="`/themes/${item.slug}`" class="text-underline justify-end">View More</NuxtLink>
+            <!-- <NuxtLink :to="`themes/${item.slug}`" class="text-underline justify-end">View More</NuxtLink> -->
           </div>
         </div>
       </div>
