@@ -9,17 +9,15 @@ sections:
 - type: document
   path: content/pages/home.md
   label: Home
-  match: "**/*"
 - type: document
   path: content/pages/about.md
   label: About
-  match: "**/*"
 - type: heading
   label: Themes
-upload_dir: uploads
+upload_dir: static/uploads
 public_path: "/uploads"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: "/not-equal/uploads"
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   install_dependencies_command: npm install
