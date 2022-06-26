@@ -62,7 +62,7 @@ const activeTab = ref("home")
           <a href="#" class="mb-4 text-4xl">→</a>
         </div>
         <!-- content -->
-        <div class="flex flex-col p-8 justify-start border-r-slate-800 border-r-4"
+        <div class="flex flex-col p-12 justify-start border-r-slate-800 border-r-4"
           :class="activeTab == item.slug ? 'w-full' : 'hidden'">
           <div class="prose prose-2xl">
             <img :src="`/assets/images/${item.img}`" class="object-contain max-h-[50%]" />
