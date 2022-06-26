@@ -7,7 +7,7 @@ const items = ref([])
 
 items.value.push({
   img: "home.png",
-  title: "Not-Equal",
+  title: "Not-Equal home",
   subtitle: "Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
   slug: "home"
 })
