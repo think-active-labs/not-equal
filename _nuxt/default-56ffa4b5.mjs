@@ -1,0 +1,1 @@
+import{_ as s}from"./SideNavigation-f9ba1abb.mjs";import{_ as t,o as a,m as n,n as c,v as r,r as _}from"./entry-1818aa5a.mjs";const l={},d={class:"flex h-screen"},f={class:"ml-[90px] flex w-full p-12"};function i(e,m){const o=s;return a(),n("div",d,[c(o),r("div",f,[_(e.$slots,"default")])])}var x=t(l,[["render",i]]);export{x as default};
