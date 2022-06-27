@@ -7,6 +7,10 @@ module.exports = {
         width: 'width',
       },
     },
+    fontFamily: {
+      header: ['Take Cover'],
+      subtitle: ['Nixie One'],
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 }

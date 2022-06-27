@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Take Cover';
+  font-style: normal;
+  font-display: auto;
+  font-smooth: always;
+  src: url('~/assets/fonts/takecover.ttf') format('truetype');
+}
