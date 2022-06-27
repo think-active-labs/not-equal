@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <slot name="side-nav"></slot>
-    <slot></slot>
+  <div class="flex h-screen">
+    <SideNavigation />
+    <div class="ml-[90px] flex w-full p-12">
+      <slot></slot>
+    </div>
   </div>
 </template>
