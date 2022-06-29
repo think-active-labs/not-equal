@@ -6,10 +6,8 @@ export default defineNuxtConfig({
   generate: {
     fallback: true,
   },
-  router: {
-    base: '/not-equal/',
-  },
   app: {
+    baseUrl: '/not-equal/',
     head: {
       link: [
         {
@@ -23,7 +21,6 @@ export default defineNuxtConfig({
   css: ['@/assets/css/tailwind.css'],
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
   nitro: {
-    preset: 'service-worker',
-    baseUrl: '/not-equal/'
+    preset: 'service-worker'
   }
 })
