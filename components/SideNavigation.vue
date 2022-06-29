@@ -19,7 +19,7 @@ const isOpen = ref(false)
     </div>
     <!-- side items -->
     <div
-      class="flex w-full justify-end flex-row sm:flex-col sm:w-24 sm:justify-start items-center border-r-slate-800 border-r-4">
+      class="flex w-full justify-end flex-row sm:flex-col sm:w-24 sm:justify-start items-center border-r-slate-800 border-r-2">
       <!-- hamburger -->
       <div class="m-8 sm:mt-8 order-last sm:order-first" v-on:click="isOpen = !isOpen">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:cursor-pointer" fill="none" viewBox="0 0 24 24"
