@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   generate: {
     fallback: true,
   },
+  router: {
+    baseUrl: '/not-equal/',
+  },
   app: {
     baseUrl: '/not-equal/',
     head: {
