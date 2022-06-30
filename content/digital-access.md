@@ -1,6 +1,6 @@
 ---
 title: 'Digital Access'
-description: 'Accessing stuff digitally'
+description: 'How can computers and their underlining algorithms help make the decisions that affect us all, fairer?'
 ---
 
 Here's a grid of projects for this theme
