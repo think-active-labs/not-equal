@@ -4,10 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   // ssr: false,
   generate: {
-    fallback: 'true',
-  },
-  router: {
-    base: '/not-equal/',
+    fallback: true,
   },
   app: {
     head: {
