@@ -1,0 +1,1 @@
+import{_ as o,o as s,m as a,r}from"./entry-6e6fe5a6.mjs";const n={};function t(e,l){return s(),a("div",null,[r(e.$slots,"side-nav"),r(e.$slots,"default")])}var d=o(n,[["render",t]]);export{d as default};

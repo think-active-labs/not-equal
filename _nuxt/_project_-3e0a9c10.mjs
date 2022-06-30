@@ -1,1 +1,0 @@
-import{_ as o,o as t,m as c,n,s as _}from"./entry-56954721.mjs";const s={},r={class:"prose prose-xl"};function a(p,m){const e=_;return t(),c("div",r,[n(e)])}var f=o(s,[["render",a]]);export{f as default};
