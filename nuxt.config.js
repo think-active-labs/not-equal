@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     fallback: true,
   },
   app: {
-    baseURL: '/not-equal/'
+    baseURL: '/not-equal/',
     head: {
       link: [
         {
