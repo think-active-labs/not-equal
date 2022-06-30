@@ -9,7 +9,7 @@ items.value.push({
   img: "home.png",
   title: "Not-Equal home",
   subtitle: "Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
-  slug: "home"
+  slug: "social-algorithmic-justice"
 })
 
 items.value.push({
