@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Digital Access",
+    "slug": "digital-access",
+    "page": "content/themes/digital-access-1.md"
+  },
+  {
+    "name": "Fairer Futures for Businesses and Workforces",
+    "slug": "fairer-futures-for-businesses-and-workforces",
+    "page": "content/themes/fairer-future-for-business-and-workforce.md"
+  },
+  {
+    "name": "Inclusive Innovation",
+    "slug": "inclusive-innovation",
+    "page": "content/themes/digital-access.md"
+  },
+  {
+    "name": "Digital Security For All",
+    "slug": "digital-security-for-all",
+    "page": "content/themes/digital-security-for-all.md"
+  },
+  {
+    "name": "Algorithmic Social Justice",
+    "slug": "algorithmic-social-justice",
+    "page": "content/themes/social-algorithmic-justice.md"
+  }
+]
