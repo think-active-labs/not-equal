@@ -29,9 +29,9 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
   - name: 'pages'
-    label: 'Pages'
-    files:
-      - label: 'About Page'
-      name: 'about'
-      file: 'content/about.md'
-      format: 'frontmatter'
+  label: 'Pages'
+  files:
+    - label: 'About Page'
+    name: 'about'
+    file: 'content/about.md'
+    format: 'frontmatter'
