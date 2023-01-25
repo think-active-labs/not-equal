@@ -35,10 +35,10 @@ collections:
         name: "about"
         file: "content/about.md"
         format: "frontmatter"
-    fields:
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          hint: "Main content goes here.",
-        }
+        fields:
+          - {
+              label: "Body",
+              name: "body",
+              widget: "markdown",
+              hint: "Main content goes here.",
+            }
