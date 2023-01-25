@@ -27,3 +27,10 @@ collections:
     - { label: 'image', name: 'image1', widget: 'image' }
     - { label: 'Body', name: 'body', widget: 'markdown' }
     - { label: 'Tags', name: 'tags', widget: 'list' }
+- name: 'pages'
+  label: 'Pages'
+  files:
+    - label: 'About Page'
+    name: 'about'
+    file: 'content/about.md'
+    format: 'frontmatter'
