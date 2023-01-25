@@ -7,30 +7,30 @@ backend:
 media_folder: public/uploads
 
 collections:
-- name: 'bios'
-  label: 'Bio'
-  folder: 'src/pages/bios'
-  create: true
-  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-  format: 'frontmatter'
-  identifier_field: makerName
-  fields:
-    - {
-        label: 'Template Key',
-        name: 'templateKey',
-        widget: 'hidden',
-        default: 'bio-post',
-      }
-    - { label: 'Maker Name', name: 'makerName', widget: 'string' }
-    - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
-    - { label: 'Description', name: 'description', widget: 'text' }
-    - { label: 'image', name: 'image1', widget: 'image' }
-    - { label: 'Body', name: 'body', widget: 'markdown' }
-    - { label: 'Tags', name: 'tags', widget: 'list' }
-- name: 'pages'
-  label: 'Pages'
-  files:
-    - label: 'About Page'
-    name: 'about'
-    file: 'content/about.md'
+  - name: 'bios'
+    label: 'Bio'
+    folder: 'src/pages/bios'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     format: 'frontmatter'
+    identifier_field: makerName
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'bio-post',
+        }
+      - { label: 'Maker Name', name: 'makerName', widget: 'string' }
+      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'image', name: 'image1', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'About Page'
+      name: 'about'
+      file: 'content/about.md'
+      format: 'frontmatter'
