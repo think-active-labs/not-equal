@@ -64,6 +64,22 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     format: "frontmatter"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - label: "Project Lead(s)"
+        name: "project_lead"
+        widget: "list"
+        summary: "{{fields.lead}} - {{fields.email}}"
+        fields:
+          - { label: "Project Lead", name: "lead", widget: "string" }
+          - { label: "Project Lead Email", name: "email", widget: "string" }
+      - label: "Co-investigator(s)"
+        name: "investigators"
+        widget: "list"
+        summary: "{{fields.investigator}} - {{fields.email}}"
+        fields:
+          - { label: "Investigator", name: "investigator", widget: "string" }
+          - { label: "Investigator Email", name: "email", widget: "string" }
       - label: "Typed List"
         name: "typed_list"
         widget: "list"
