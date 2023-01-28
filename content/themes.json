@@ -1,0 +1,12 @@
+{
+  "themes": [
+    {
+      "name": "This is a test",
+      "slug": "this-is-a-test"
+    },
+    {
+      "name": "This is a second test",
+      "slug": "this-is-a-second-test"
+    }
+  ]
+}
