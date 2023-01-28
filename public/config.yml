@@ -83,10 +83,10 @@ collections:
             widget: list
             fields:
               - {
-                  label: "Name",
-                  name: "name",
+                  label: "Title",
+                  name: "title",
                   widget: "string",
-                  hint: "Name of the theme in the CMS. Edit the Theme Page under Site Content > Theme Pages to edit the theme's content.",
+                  hint: "Title of the theme in the CMS. Edit the Theme Page under Site Content > Theme Pages to edit the theme's content.",
                   required: true,
                 }
               - {
@@ -137,7 +137,8 @@ collections:
           name: "page",
           widget: "relation",
           collection: "theme-settings-file",
-          value_field: "title",
+          value_fields: ["title"],
+          display_field: "slug",
           search_fields: ["title"],
           multiple: true,
         }
