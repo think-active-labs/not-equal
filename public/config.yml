@@ -81,6 +81,9 @@ collections:
             media_library:
               config:
                 multiple: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
       - label: "Page Sections"
         name: "page_sections"
         widget: "list"
