@@ -104,19 +104,32 @@ collections:
                     widget: "image"
                   - {
                       label: "Description Text",
-                      name: "text",
+                      name: "string",
                       widget: "string",
                     }
           - label: "Link Block"
             name: "link-block"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "text" }
-              - { label: "Content", name: "title", widget: "markdown" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 summary: "{{fields.text}}"
                 fields:
-                  - { label: "Text", name: "text", widget: "text" }
-                  - { label: "Link", name: "url", widget: "text" }
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "Link", name: "url", widget: "string" }
+          - label: "Video Block"
+            name: "video-block"
+            widget: "object"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Caption", name: "caption", widget: "markdown" }
+              - {
+                  label: "Video Embed Code",
+                  name: "video_embed_code",
+                  widget: "text",
+                }
+              - { label: "Video URL", name: "video_embed_code", widget: "text" }
