@@ -10,3 +10,8 @@ page_sections:
       - image: /public/uploads/pexels-sena-aykut-10592693.jpg
         string: Adding person image
 ---
+# This is the page body
+
+
+
+This is normal text
