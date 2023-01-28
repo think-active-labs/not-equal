@@ -100,7 +100,9 @@ collections:
                   label: "Theme Page",
                   name: "page",
                   widget: "relation",
-                  collection: "",
+                  collection: "theme-pages",
+                  value_field: "title",
+                  search_fields: ["title"],
                 }
   - name: "projects"
     label: "Projects"
