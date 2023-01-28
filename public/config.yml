@@ -35,8 +35,32 @@ collections:
               widget: "markdown",
               hint: "Main content goes here.",
             }
-  - name: "themes"
-    label: "Themes"
+  - name: "theme-pages"
+    label: "Theme Pages"
+    folder: "content/themes"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    fields:
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          hint: "Title of the theme.",
+          required: true,
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          hint: "Short tag line to describe the theme.",
+        }
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        hint: "Image that describes the theme (used on home page and theme page)."
+  - name: "theme-settings"
+    label: "Theme Settings"
     delete: false
     description: "Add new themes, drag themes to change the order, and associate theme pages with theme paths."
     files:
@@ -63,6 +87,12 @@ collections:
                   widget: "string",
                   hint: "The website path of the theme (use dashes instead of spaces) i.e. entering digital-security-for-all will show as not-equal.tech/digital-security-for-all. Note: use lowercase text separated by dashes. Do not use slashes in the slug.",
                   required: true,
+                }
+              - {
+                  label: "Theme Page",
+                  name: "page",
+                  widget: "relation",
+                  collection: "",
                 }
   - name: "projects"
     label: "Projects"
