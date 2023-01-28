@@ -1,0 +1,9 @@
+{
+  "themes": [
+    {
+      "title": "test theme",
+      "slug": "test-theme",
+      "page": "My new theme"
+    }
+  ]
+}
