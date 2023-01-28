@@ -4,6 +4,11 @@
       "title": "test theme",
       "slug": "test-theme",
       "page": "My new theme"
+    },
+    {
+      "title": "hey there",
+      "slug": "hey-there",
+      "page": "My new theme"
     }
   ]
 }
