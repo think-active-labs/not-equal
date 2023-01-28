@@ -132,4 +132,4 @@ collections:
                   name: "video_embed_code",
                   widget: "text",
                 }
-              - { label: "Video URL", name: "video_embed_code", widget: "text" }
+              - { label: "Video URL", name: "src", widget: "text" }
