@@ -44,6 +44,7 @@ collections:
         name: "theme-settings"
         file: "content/themes.json"
         extension: "json"
+        format: "json"
         fields:
           - label: "Themes"
             name: "themes"
