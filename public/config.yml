@@ -55,10 +55,18 @@ collections:
           widget: "string",
           hint: "Short tag line to describe the theme.",
         }
-      - label: "Image"
-        name: "image"
-        widget: "image"
-        hint: "Image that describes the theme (used on home page and theme page)."
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          hint: "Image that describes the theme (used on home page and theme page).",
+        }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          hint: "Main page body of the project. If you wish to add custom widgets below this text, use the Page Sections below.",
+        }
   - name: "theme-settings"
     label: "Theme Settings"
     delete: false
