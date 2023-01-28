@@ -65,6 +65,22 @@ collections:
         fields:
           - { label: "Investigator", name: "investigator", widget: "string" }
           - { label: "Investigator Email", name: "email", widget: "string" }
+      - label: "Partner Images"
+        name: "partners"
+        widget: "list"
+        summary: "{{fields.name}} - {{fields.link}}"
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+          - label: "Link"
+            name: "link"
+            widget: "string"
+          - name: "partner_images"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
       - label: "Typed List"
         name: "typed_list"
         widget: "list"
