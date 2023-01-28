@@ -62,8 +62,6 @@ collections:
                   name: "slug",
                   widget: "string",
                   hint: "The website path of the theme (use dashes instead of spaces) i.e. entering digital-security-for-all will show as not-equal.tech/digital-security-for-all. Note: use lowercase text separated by dashes. Do not use slashes in the slug.",
-                  pattern:
-                    ['/^[\w-]+$/', "Must only use dashes and underscores."],
                   required: true,
                 }
   - name: "projects"
