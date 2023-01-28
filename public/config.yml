@@ -98,7 +98,8 @@ collections:
               - label: "Images"
                 name: "images"
                 widget: "list"
-                types:
+                summary: "{{fields.image}}"
+                fields:
                   - label: "Image"
                     name: "image"
                     widget: "image"
