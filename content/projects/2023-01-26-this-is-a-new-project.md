@@ -9,6 +9,9 @@ page_sections:
         string: Talking to each other
       - image: /public/uploads/pexels-sena-aykut-10592693.jpg
         string: Adding person image
+  - type: quote-block
+    quote: This is a quote
+    attribution: A really cool dude.
 ---
 # This is the page body
 
