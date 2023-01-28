@@ -136,7 +136,7 @@ collections:
           label: "Themes",
           name: "page",
           widget: "relation",
-          collection: "theme-settings-file",
+          collection: "theme-settings",
           file: "theme-settings-file",
           value_field: "title",
           display_field: "slug",
