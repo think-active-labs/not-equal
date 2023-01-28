@@ -40,14 +40,27 @@ collections:
     label: "Projects"
     folder: "content/projects"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     format: "frontmatter"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          hint: "Enter the project title (this will be used as your url i.e. Digital Transformation will become /digital-transformation",
+          required: true,
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          hint: "Short sentence or two describing the project (used on the project overview pages).",
+        }
       - label: "Header Image"
         name: "header_image"
         widget: "image"
+        hint: "Header image displayed at the top of the project page and on the theme projects pages."
+        required: true
         media_library:
           config:
             multiple: false
@@ -56,47 +69,80 @@ collections:
         widget: "list"
         summary: "{{fields.lead}} - {{fields.email}}"
         fields:
-          - { label: "Project Lead", name: "lead", widget: "string" }
-          - { label: "Project Lead Email", name: "email", widget: "string" }
+          - {
+              label: "Project Lead",
+              name: "lead",
+              widget: "string",
+              hint: "Enter the name and affiliation of the lead project coordinator. e.g. John Doe, Lecturer in Computer Science, University of Somewhere",
+            }
+          - {
+              label: "Project Lead Email",
+              name: "email",
+              widget: "string",
+              hint: "Enter the email of the lead project coordinator.",
+            }
       - label: "Co-investigator(s)"
         name: "investigators"
         widget: "list"
         summary: "{{fields.investigator}} - {{fields.email}}"
         fields:
-          - { label: "Investigator", name: "investigator", widget: "string" }
-          - { label: "Investigator Email", name: "email", widget: "string" }
+          - {
+              label: "Investigator",
+              name: "investigator",
+              widget: "string",
+              hint: "Enter the name and affiliation of the co-investigators. e.g. John Doe, Lecturer in Computer Science, University of Somewhere",
+            }
+          - {
+              label: "Investigator Email",
+              name: "email",
+              widget: "string",
+              hint: "Enter the email of the project co-investigators.",
+            }
       - label: "Partner Images"
         name: "partners"
         widget: "list"
         summary: "{{fields.name}} - {{fields.link}}"
+        hint: "Project partner images (shown on left hand side)."
         fields:
           - label: "Name"
             name: "name"
             widget: "string"
+            hint: "Name of project partner."
           - label: "Link"
             name: "link"
             widget: "string"
+            hint: "URL to link to the project partner image."
           - name: "partner_images"
             widget: "image"
+            hint: "Partner image shown on the left hand side."
             media_library:
               config:
                 multiple: false
       - label: "Body"
         name: "body"
         widget: "markdown"
+        hint: "Main page body of the project. If you wish to add custom widgets below this text, use the Page Sections below."
       - label: "Page Sections"
         name: "page_sections"
         widget: "list"
+        hint: "Customize the project page using blocks (text-block, image-gallery-block, link-block, and video-block). You can drag these up and down to re-order the list of blocks."
         types:
           - label: "Text Block"
             name: "text-block"
             widget: "object"
+            hint: "Markdown editor text block."
             fields:
-              - { label: "Text", name: "text", widget: "markdown" }
+              - {
+                  label: "Text",
+                  name: "text",
+                  widget: "markdown",
+                  hint: "Enter your custom text.",
+                }
           - label: "Image Gallery Block"
             name: "image-gallery-block"
             widget: "object"
             summary: "{{fields.image}}"
+            hint: "Image gallery of images with captions."
             fields:
               - label: "Images"
                 name: "images"
@@ -106,34 +152,93 @@ collections:
                   - label: "Image"
                     name: "image"
                     widget: "image"
+                    hint: "Add an image you want to show in the gallery."
                   - {
                       label: "Description Text",
                       name: "string",
                       widget: "string",
+                      hint: "Caption text describing the image.",
                     }
           - label: "Link Block"
             name: "link-block"
             widget: "object"
+            hint: "Block of text and associated link buttons to link to external content."
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  hint: "Title of the link text.",
+                }
+              - {
+                  label: "Content",
+                  name: "content",
+                  widget: "markdown",
+                  hint: "Custom text content.",
+                }
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 summary: "{{fields.text}}"
+                hint: "Buttons associated with the text block."
                 fields:
-                  - { label: "Text", name: "text", widget: "string" }
-                  - { label: "Link", name: "url", widget: "string" }
+                  - {
+                      label: "Text",
+                      name: "text",
+                      widget: "string",
+                      hint: "Button text.",
+                    }
+                  - {
+                      label: "Link",
+                      name: "url",
+                      widget: "string",
+                      hint: "URL that the button will open.",
+                    }
           - label: "Video Block"
             name: "video-block"
             widget: "object"
             summary: "{{fields.title}}"
+            hint: "Full width video element to embed YouTube videos into the project page."
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Caption", name: "caption", widget: "markdown" }
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  hint: "Title of the block (leave blank if you don't want a title to appear).",
+                }
+              - {
+                  label: "Caption",
+                  name: "caption",
+                  widget: "markdown",
+                  hint: "Caption displayed below the video.",
+                }
               - {
                   label: "Video Embed Code",
                   name: "video_embed_code",
                   widget: "text",
+                  hint: "Paste in video embed code (see https://support.google.com/youtube/answer/171780?hl=en-GB)",
                 }
-              - { label: "Video URL", name: "src", widget: "text" }
+              - {
+                  label: "Video URL",
+                  name: "src",
+                  widget: "text",
+                  hint: "Paste the video url to show as full width video (optional - you can use the video embed if you require more style control).",
+                }
+          - label: "Quote Block"
+            name: "quote-block"
+            widget: "object"
+            summary: "{{fields.quote}}"
+            hint: "Large caption quote block to display"
+            fields:
+              - {
+                  label: "Quote",
+                  name: "quote",
+                  widget: "string",
+                  hint: "Quote text to display (keep this short).",
+                }
+              - {
+                  label: "Attribution",
+                  name: "attribution",
+                  widget: "string",
+                  hint: "Person(s) you are attributing the quote to (optional).",
+                }
