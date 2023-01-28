@@ -137,8 +137,8 @@ collections:
           name: "page",
           widget: "relation",
           collection: "theme-settings",
-          value_field: "theme-settings-file.title",
-          search_fields: ["theme-settings-file.title"],
+          value_field: "title",
+          search_fields: ["title"],
           multiple: true,
         }
       - label: "Project Lead(s)"
