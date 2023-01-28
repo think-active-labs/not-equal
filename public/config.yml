@@ -35,7 +35,35 @@ collections:
               widget: "markdown",
               hint: "Main content goes here.",
             }
-
+  - name: "themes"
+    label: "Themes"
+    delete: false
+    description: "Add new themes, drag themes to change the order, and associate theme pages with theme paths."
+    files:
+      - label: "Theme Settings"
+        name: "theme-settings"
+        file: "content/themes.json"
+        fields:
+          - label: "Themes"
+            name: "themes"
+            widget: list
+            fields:
+              - {
+                  label: "Name",
+                  name: "name",
+                  widget: "string",
+                  hint: "Name of the theme in the CMS. Edit the Theme Page under Site Content > Theme Pages to edit the theme's content.",
+                  required: true,
+                }
+              - {
+                  label: "Slug",
+                  name: "slug",
+                  widget: "string",
+                  hint: "The website path of the theme (use dashes instead of spaces) i.e. entering digital-security-for-all will show as not-equal.tech/digital-security-for-all. Note: use lowercase text separated by dashes. Do not use slashes in the slug.",
+                  pattern:
+                    ['/^[\w-]+$/', "Must only use dashes and underscores."],
+                  required: true,
+                }
   - name: "projects"
     label: "Projects"
     folder: "content/projects"
