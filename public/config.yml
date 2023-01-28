@@ -73,7 +73,7 @@ collections:
     description: "Add new themes, drag themes to change the order, and associate theme pages with theme paths."
     files:
       - label: "Theme Settings"
-        name: "theme-settings"
+        name: "theme-settings-file"
         file: "content/themes.json"
         extension: "json"
         format: "json"
@@ -132,6 +132,15 @@ collections:
         media_library:
           config:
             multiple: false
+      - {
+          label: "Themes",
+          name: "page",
+          widget: "relation",
+          collection: "theme-settings",
+          value_field: "title",
+          search_fields: ["title"],
+          multiple: true,
+        }
       - label: "Project Lead(s)"
         name: "project_lead"
         widget: "list"
