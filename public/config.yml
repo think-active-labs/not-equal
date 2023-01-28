@@ -104,6 +104,7 @@ collections:
                   value_field: "title",
                   search_fields: ["title"],
                 }
+              - { label: "ID", name: "id", widget: "ncw-id", prefix: "theme" }
   - name: "projects"
     label: "Projects"
     folder: "content/projects"
@@ -139,6 +140,17 @@ collections:
           collection: "theme-settings",
           value_field: "title",
           search_fields: ["title"],
+          multiple: true,
+        }
+      - {
+          label: "Themes",
+          name: "page-themes",
+          widget: "ncw-file-relation",
+          collection: "theme-settings",
+          file: "theme-settings-file",
+          target_field: "title",
+          id_field: "id",
+          display_fields: "slug",
           multiple: true,
         }
       - label: "Project Lead(s)"

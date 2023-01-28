@@ -10,5 +10,8 @@
   "devDependencies": {
     "@nuxt/content": "^2.3.0",
     "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@ncwidgets/file-relation": "^0.9.0"
   }
 }
