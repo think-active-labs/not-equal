@@ -19,24 +19,25 @@ interface Config {
 const { data } = await useAsyncData(`home`, async () => {
   const themesQuery = queryContent('themes/').only(['title', 'description', 'slug', 'image']).find()
 
-  const themeConfigQuery = queryContent().where({ _file: { $eq: 'themes.json' } }).findOne()
+  const homeQuery = queryContent().where({ _file: { $eq: 'index.md' } }).findOne()
 
-  let [themes, themeConfig] = await Promise.all([themesQuery, themeConfigQuery])
+  let [themes, home] = await Promise.all([themesQuery, homeQuery])
 
-  let themeConfigLookup = new Map<string, string>()
-
-  themeConfig['themes'].forEach((config: { title: string, slug: string, page: string }) => {
-    themeConfigLookup.set(config.page, config.slug)
+  // loop over the themes and add the oder from the "theme_order" key in the index.md page
+  // then sort the themes so they display in the correct order
+  themes = themes.map((theme) => {
+    return {
+      ...theme,
+      order: home['theme_order'].findIndex((order: { slug: string }) => { return order.slug == theme.slug })
+    }
+  }).sort((a, b) => {
+    return a.order > b.order ? 1 : -1
   })
 
-  console.log(themeConfigLookup, 'themeConfigLookup')
-
-  let themesWithSlugs = themes.map((t) => {
-    themeConfigLookup.get(t.page)
-    return t
-  })
-
-  return themesWithSlugs
+  return {
+    home,
+    themes
+  }
 })
 
 const activeTab = ref('home')
