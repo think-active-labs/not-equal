@@ -8,7 +8,7 @@
       <!-- Project blocks -->
       <div v-for="p, index in data?.projects"
         class="w-full sm:h-1/2 sm:w-1/3 lg:w-1/4 flex flex-col gap-2 p-6 border-r-2 border-b-2 border-black justify-between overflow-hidden">
-        <img class="object-contain" :src="p.header_image" />
+        <img class="object-contain" :src="p.image" />
         <h1 class="font-title text-4xl">{{ p.title }}</h1>
         <p class="font-subtitle text-base md:text-xl text-clip">{{ p.description }}</p>
         <nuxt-link :to="`${theme}/${p._path.replace('/projects/', '')}`" class="text-xl sm:text-4xl">→</nuxt-link>
@@ -28,7 +28,7 @@ const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
 
   const projectsQuery = queryContent('projects')
     .where({ 'page': { $contains: route.params.theme } })
-    .only(['title', 'description', 'header_image', 'page', '_path'])
+    .only(['title', 'description', 'image', 'page', '_path'])
     .find()
 
   const [theme, projects] = await Promise.all([themeQuery, projectsQuery])

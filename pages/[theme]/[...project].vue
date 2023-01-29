@@ -1,25 +1,26 @@
 <template>
   <div class="">
-    <img v-if="data?.header_image" :src="data?.header_image" class="object-contain m-auto max-h-[10%]"
-      :alt="data?.description" />
+    <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[10%]" :alt="data?.description" />
 
     <div class="flex flex-col sm:flex-row">
       <!-- Mobile back button -->
-      <NuxtLink :to="`/ ${route.params.theme} `" class="sm:hidden p-4 text-2xl font-semibold">← <span
+      <NuxtLink :to="`/${route.params.theme} `" class="sm:hidden p-4 text-2xl font-semibold">← <span
           class="hover:underline">Back</span>
       </NuxtLink>
+      <a @click="$router.back()" class="sm:hidden p-4 text-2xl font-semibold">← <span
+          class="hover:underline">Back</span></a>
 
       <!-- Back and partners box -->
       <div class="p-2 sm:text-center order-last sm:-order-1 sm:w-1/5">
-        <NuxtLink :to="`/ ${route.params.theme} `" class="text-2xl font-semibold">← <span
-            class="hover:underline">Back</span>
-        </NuxtLink>
+        <a @click="$router.back()" class="text-2xl font-semibold cursor-pointer">← <span
+            class="hover:underline">Back</span></a>
+
         <!-- Partners box -->
         <div class="p-2 sm:p-8 text-left prose-xl">
           <h2 class="text-4xl font-light text-gray-600 my-6">Partners</h2>
           <div v-for="partner in data?.partners" class="flex flex-col gap-12">
             <a :href="partner.link" target="_blank">
-              <img v-if="partner.logo" :src="partner.logo" :alt="partner.name" />
+              <img v-if="partner.image" :src="partner.image" :alt="partner.name" />
               <h3 v-else>{{ partner.name }}</h3>
             </a>
           </div>
@@ -37,17 +38,17 @@
             <div class="w-1/2">
               <h2>Project Lead</h2>
               <p v-for="project_lead in data?.project_lead">
-                <a :href="`mailto:${project_lead?.email} `" v-if="project_lead.email">{{ project_lead.lead }}</a>
-              <p v-else>{{ project_lead.lead }}</p>
+                <a :href="`mailto:${project_lead?.email} `" v-if="project_lead.email">{{ project_lead.name }}</a>
+              <p v-else>{{ project_lead.name }}</p>
               </p>
             </div>
             <div class="w-1/2">
               <h2>Co-investigators</h2>
               <p v-for="investigator in data?.investigators">
                 <a :href="`mailto:${investigator?.email}`" v-if="investigator.email">{{
-                  investigator.investigator
+                  investigator.name
                 }}</a>
-              <p v-else>{{ investigator.investigator }}</p>
+              <p v-else>{{ investigator.name }}</p>
               </p>
             </div>
           </div>

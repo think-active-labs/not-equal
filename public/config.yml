@@ -108,7 +108,7 @@ collections:
           hint: "Short sentence or two describing the project (used on the project overview pages).",
         }
       - label: "Header Image"
-        name: "header_image"
+        name: "image"
         widget: "image"
         hint: "Header image displayed at the top of the project page and on the theme projects pages."
         required: true
@@ -131,7 +131,7 @@ collections:
         fields:
           - {
               label: "Project Lead",
-              name: "lead",
+              name: "name",
               widget: "string",
               hint: "Enter the name and affiliation of the lead project coordinator. e.g. John Doe, Lecturer in Computer Science, University of Somewhere",
             }
@@ -148,7 +148,7 @@ collections:
         fields:
           - {
               label: "Investigator",
-              name: "investigator",
+              name: "name",
               widget: "string",
               hint: "Enter the name and affiliation of the co-investigators. e.g. John Doe, Lecturer in Computer Science, University of Somewhere",
             }
@@ -172,7 +172,7 @@ collections:
             name: "link"
             widget: "string"
             hint: "URL to link to the project partner image."
-          - name: "partner_images"
+          - name: "partner_image"
             widget: "image"
             hint: "Partner image shown on the left hand side."
             media_library:
