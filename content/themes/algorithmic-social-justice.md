@@ -3,7 +3,7 @@ title: Algorithmic Social Justice
 description: How can computers and their underlining algorithms help make the
   decisions   that affect us all, fairer?
 slug: algorithmic-social-justice
-image: uploads/copy-of-cyberguardians_01.svg
+image: /uploads/copy-of-cyberguardians_01.svg
 ---
 # Co-designing a Sustainable Food Justice System with Blockchain Futures
 

@@ -5,13 +5,13 @@
         <h1 class="font-title text-5xl mb-4">{{ data?.theme.title }}</h1>
         <p class="font-subtitle text-lg sm:text-xl md:text-3xl">{{ data?.theme.description }}</p>
       </div>
+      <!-- Project blocks -->
       <div v-for="p, index in data?.projects"
         class="w-full sm:h-1/2 sm:w-1/3 lg:w-1/4 flex flex-col gap-2 p-6 border-r-2 border-b-2 border-black justify-between overflow-hidden">
-        <img class="object-contain"
-          :src="require(`~/assets/images/projects/${Math.floor(1 + Math.random() * (6 - 1 + 1))}.png`)" />
+        <img class="object-contain" :src="p.header_image" />
         <h1 class="font-title text-4xl">{{ p.title }}</h1>
         <p class="font-subtitle text-base md:text-xl text-clip">{{ p.description }}</p>
-        <!-- <nuxt-link :to="`${themeConfig.slug}/${p.slug}`" class="text-xl sm:text-4xl">→</nuxt-link> -->
+        <nuxt-link :to="`${theme}/${p._path.replace('/projects/', '')}`" class="text-xl sm:text-4xl">→</nuxt-link>
       </div>
       <div class="sm:h-1/2 sm:w-1/3 lg:w-1/4 p-6 border-r-2 border-b-2 border-black">
         <h1 class="font-subtitle sm:text-4xl md:text-7xl mb-4">Next Chapter</h1>
@@ -37,7 +37,7 @@ const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
 
 })
 
-// const theme = ref(route.params.theme)
+const theme = ref(route.params.theme)
 
 // const data = await queryContent().where({ _file: 'themes.json' }).findOne()
 

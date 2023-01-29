@@ -3,7 +3,7 @@ title: Digital Security For All
 description: What digital security models can ensure the safeguarding of all in
   our   digital society?
 slug: digital-security-for-all
-image: uploads/copy-of-openingdoors_01.svg
+image: /uploads/copy-of-openingdoors_01.svg
 ---
 # What digital security models can ensure the safeguarding of all in our digital society?
 

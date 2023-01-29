@@ -1,7 +1,7 @@
 ---
 title: Advancing Data Justice in the Future Generations Act
 description: Advancing Data Justice in the Future Generations Act
-header_image: uploads/fga_justice_01.svg
+header_image: /uploads/fga_justice_01.svg
 page:
   - algorithmic-social-justice
 project_lead:

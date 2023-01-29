@@ -3,7 +3,7 @@ title: Fairer Futures for Businesses and Workforces
 description: What business models offer fairer opportunities & working
   conditions   for all in the platform economy?
 slug: fairer-futures-for-businesses-and-workforces
-image: uploads/pubjusalgos_01.svg
+image: /uploads/pubjusalgos_01.svg
 ---
 # Fairer Futures for Business + Workforce
 
