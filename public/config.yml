@@ -35,6 +35,18 @@ collections:
               widget: "markdown",
               hint: "Main content goes here.",
             }
+          - label: "Theme Order"
+            name: "theme_order"
+            widget: list
+            fields:
+              - {
+                  label: "Theme Page",
+                  name: "page",
+                  widget: "relation",
+                  collection: "theme-pages",
+                  value_field: "slug",
+                  search_fields: ["title", "slug"],
+                }
   - name: "theme-pages"
     label: "Theme Pages"
     folder: "content/themes"
@@ -56,6 +68,13 @@ collections:
           hint: "Short tag line to describe the theme.",
         }
       - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "The website path of the theme (use dashes instead of spaces) i.e. entering digital-security-for-all will show as not-equal.tech/digital-security-for-all. Note: use lowercase text separated by dashes. Do not use slashes in the slug.",
+          required: true,
+        }
+      - {
           label: "Image",
           name: "image",
           widget: "image",
@@ -67,43 +86,6 @@ collections:
           widget: "markdown",
           hint: "Main page body of the project. If you wish to add custom widgets below this text, use the Page Sections below.",
         }
-  - name: "theme-settings"
-    label: "Theme Settings"
-    delete: false
-    description: "Add new themes, drag themes to change the order, and associate theme pages with theme paths."
-    files:
-      - label: "Theme Settings"
-        name: "theme-settings-file"
-        file: "content/themes.json"
-        extension: "json"
-        format: "json"
-        fields:
-          - label: "Themes"
-            name: "themes"
-            widget: list
-            fields:
-              - {
-                  label: "Title",
-                  name: "title",
-                  widget: "string",
-                  hint: "Title of the theme in the CMS. Edit the Theme Page under Site Content > Theme Pages to edit the theme's content.",
-                  required: true,
-                }
-              - {
-                  label: "Slug",
-                  name: "slug",
-                  widget: "string",
-                  hint: "The website path of the theme (use dashes instead of spaces) i.e. entering digital-security-for-all will show as not-equal.tech/digital-security-for-all. Note: use lowercase text separated by dashes. Do not use slashes in the slug.",
-                  required: true,
-                }
-              - {
-                  label: "Theme Page",
-                  name: "page",
-                  widget: "relation",
-                  collection: "theme-pages",
-                  value_field: "title",
-                  search_fields: ["title"],
-                }
   - name: "projects"
     label: "Projects"
     folder: "content/projects"
@@ -136,10 +118,9 @@ collections:
           label: "Themes",
           name: "page",
           widget: "relation",
-          collection: "theme-settings",
-          file: "theme-settings-file",
-          value_field: "themes.*.slug",
-          search_fields: ["themes.*.slug"],
+          collection: "theme-pages",
+          value_field: "slug",
+          search_fields: ["slug", "title"],
           multiple: true,
         }
       - label: "Project Lead(s)"
