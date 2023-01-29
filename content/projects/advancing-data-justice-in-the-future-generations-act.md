@@ -7,6 +7,13 @@ page:
 project_lead:
   - lead: Lina Dencik, Cardiff University
     email: dencikl@cardiff.ac.uk
+investigators:
+  - investigator: Bob flemming
+    email: something@somewhere.com
+partners:
+  - name: We and AI
+    link: https://weandai.org/
+    partner_images: uploads/we-and-ai.png
 page_sections:
   - type: link-block
     title: Read the Reports
