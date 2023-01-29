@@ -1,11 +1,11 @@
 ---
-title: Fairer Futures for Businesses and Workforces
-description: What business models offer fairer opportunities & working
-  conditions   for all in the platform economy?
-slug: fairer-futures-for-businesses-and-workforces
-image: uploads/pubjusalgos_01.svg
+title: Digital Security For All
+description: What digital security models can ensure the safeguarding of all in
+  our   digital society?
+slug: digital-security-for-all
+image: uploads/copy-of-openingdoors_01.svg
 ---
-# Fairer Futures for Business + Workforce
+# What digital security models can ensure the safeguarding of all in our digital society?
 
 ## The Challenge
 

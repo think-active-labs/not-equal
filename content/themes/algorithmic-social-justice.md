@@ -1,11 +1,11 @@
 ---
-title: Fairer Futures for Businesses and Workforces
-description: What business models offer fairer opportunities & working
-  conditions   for all in the platform economy?
-slug: fairer-futures-for-businesses-and-workforces
-image: uploads/pubjusalgos_01.svg
+title: Algorithmic Social Justice
+description: How can computers and their underlining algorithms help make the
+  decisions   that affect us all, fairer?
+slug: algorithmic-social-justice
+image: uploads/copy-of-cyberguardians_01.svg
 ---
-# Fairer Futures for Business + Workforce
+# Co-designing a Sustainable Food Justice System with Blockchain Futures
 
 ## The Challenge
 
