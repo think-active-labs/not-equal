@@ -1,7 +1,7 @@
 ---
 title: This is a title
 description: This is a description
-header_image: /public/uploads/pexels-sena-aykut-10592693.jpg
+header_image: uploads/social-algorithmic-justice.png
 page:
   - another-theme
   - older-adults
