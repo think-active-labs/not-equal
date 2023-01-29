@@ -10,6 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      title: ["Take Cover"],
+      subtitle: ["Nixie One"],
+      link: ["Maragsf"],
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 }

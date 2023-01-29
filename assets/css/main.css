@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Take Cover";
+  font-style: normal;
+  font-display: auto;
+  font-smooth: always;
+  src: url("~/assets/fonts/takecover.ttf") format("truetype");
+  font-weight: 400;
+  color: #070707;
+}
+
+@font-face {
+  font-family: "Maragsf";
+  font-style: normal;
+  font-display: auto;
+  font-smooth: always;
+  src: url("~/assets/fonts/maragsf.otf") format("opentype");
+  font-weight: 400;
+  color: #070707;
+}
+
 html,
 body {
   height: 100%;
