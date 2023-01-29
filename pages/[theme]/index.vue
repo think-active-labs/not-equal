@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- {{ theme }} -->
-    <h1>Theme page</h1>
+    <h1 class="underline">Theme page</h1>
     <pre>
       {{ data.projects }}
     </pre>
@@ -22,7 +22,6 @@ const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
     .find()
 
   const [theme, projects] = await Promise.all([themeQuery, projectsQuery])
-  console.log('projects', projects)
   // console.log(theme, 'theme')
   // if (!theme) {
   //   throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
