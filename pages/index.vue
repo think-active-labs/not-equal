@@ -21,7 +21,7 @@
         <div
           class="flex flex-col justify-start border-b-slate-800 border-b-4 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
           :class="activeTab == 'home' ? 'w-full' : 'hidden'">
-          <img :src="data?.home.header_image" class="object-contain w-full max-h-[60%]" />
+          <img :src="data?.home.image" class="object-contain w-full max-h-[60%]" />
           <div class="prose-2xl p-4 sm:p-12">
             <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight">{{ data?.home.title }}</h1>
             <p class="text-4xl font-normal font-subtitle">{{ data?.home.description }}</p>
@@ -46,7 +46,7 @@
         <div
           class="flex flex-col justify-start border-b-slate-800 border-b-4 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
           :class="activeTab == item.slug ? 'w-full' : 'hidden'">
-          <img :src="`${item.header_image}`" class="object-cover w-full max-h-[60%] mb-2 sm:mb-12" />
+          <img :src="`${item.image}`" class="object-cover w-full max-h-[60%] mb-2 sm:mb-12" />
           <div class="prose-2xl p-4 sm:p-12">
             <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight">{{ item.title }}</h1>
             <p class="text-4xl font-normal font-subtitle">{{ item.description }}</p>
