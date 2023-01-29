@@ -3,8 +3,8 @@ title: This is a title
 description: This is a description
 header_image: /public/uploads/pexels-sena-aykut-10592693.jpg
 page:
-  - test-theme
-  - hey-there
+  - another-theme
+  - new-theme
 page_sections:
   - type: image-gallery-block
     images:
