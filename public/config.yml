@@ -41,7 +41,7 @@ collections:
             fields:
               - {
                   label: "Theme Page",
-                  name: "page",
+                  name: "slug",
                   widget: "relation",
                   collection: "theme-pages",
                   value_field: "slug",
