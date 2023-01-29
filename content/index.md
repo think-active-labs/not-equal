@@ -3,8 +3,9 @@ title: Home
 description: Testing
 image: uploads/home.png
 theme_order:
-  - slug: new-theme
-  - slug: another-theme
-  - slug: digital-agenda
+  - slug: algorithmic-social-justice
+  - slug: digital-security-for-all
+  - slug: fairer-futures-for-businesses-and-workforces
+  - slug: digital-access
 ---
 This is a test
