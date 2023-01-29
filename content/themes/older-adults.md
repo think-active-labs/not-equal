@@ -1,9 +1,9 @@
 ---
-title: Another theme
+title: Older adults
 description: This a new theme
-slug: digital-agenda
+slug: older-adults
 image: /public/uploads/digital-access.png
 ---
-# Title here
+# Older Adults Theme
 
 Hello world!

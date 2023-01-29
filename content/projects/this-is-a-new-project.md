@@ -4,7 +4,7 @@ description: This is a description
 header_image: /public/uploads/pexels-sena-aykut-10592693.jpg
 page:
   - another-theme
-  - new-theme
+  - older-adults
 page_sections:
   - type: image-gallery-block
     images:
