@@ -235,6 +235,7 @@ collections:
                   name: "content",
                   widget: "markdown",
                   hint: "Custom text content.",
+                  required: false,
                 }
               - label: "Buttons"
                 name: "buttons"
