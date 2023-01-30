@@ -1,19 +1,23 @@
 ---
 title: Advancing Data Justice in the Future Generations Act
-description: Advancing Data Justice in the Future Generations Act
-image: /uploads/fga_justice_01.svg
+header_image: /uploads/copy-of-deepsea_01.svg
 page:
   - algorithmic-social-justice
 project_lead:
   - name: Lina Dencik, Cardiff University
     email: dencikl@cardiff.ac.uk
+    lead: Bob
 investigators:
   - name: Bob flemming
     email: something@somewhere.com
+    investigator: Bob2
 partners:
   - name: We and AI
     link: https://weandai.org/
     image: /uploads/we-and-ai.png
+    partner_images: /uploads/we-and-ai.png
+image: /uploads/fga_justice_01.svg
+description: Advancing Data Justice in the Future Generations Act
 page_sections:
   - type: link-block
     title: Read the Reports
@@ -21,6 +25,8 @@ page_sections:
       - url: https://drive.google.com/drive/folders/12lhNxa1oPyZc36lCccyMBQTfuFpRC2-q?usp=sharing
         text: View
       - text: View
+        url: https://drive.google.com/drive/folders/1RCMycvtbrSrKuHgqc3JOFxmauKCpPv51?usp=sharing
+      - text: Another button
         url: https://drive.google.com/drive/folders/1RCMycvtbrSrKuHgqc3JOFxmauKCpPv51?usp=sharing
     content: Read the Reports
 ---
