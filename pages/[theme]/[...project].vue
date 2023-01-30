@@ -58,32 +58,34 @@
         </div>
 
         <!-- Page sections -->
-        <div class="flex flex-col gap-8">
-          <div v-for="section in data?.page_sections">
-            <!-- Text Block -->
-            <template v-if="section.template == 'text-block'" :v-html="section.text">
-              <text-block :section="section" />
-            </template>
+        <div class="flex flex-col gap-8 mt-8">
+          <div class="xl:w-1/2">
+            <div v-for="section in data?.page_sections">
+              <!-- Text Block -->
+              <template v-if="section.type == 'text-block'" :v-html="section.text">
+                <text-block :section="section" />
+              </template>
 
-            <!-- Image Gallery Block -->
-            <template v-if="section.template == 'image-gallery-block'">
-              <image-gallery :images="section.images" />
-            </template>
+              <!-- Image Gallery Block -->
+              <template v-if="section.type == 'image-gallery-block'">
+                <image-gallery :images="section.images" />
+              </template>
 
-            <!-- Link Block -->
-            <template v-if="section.template == 'link-block'">
-              <link-block :section="section" />
-            </template>
+              <!-- Link Block -->
+              <template v-if="section.type == 'link-block'">
+                <link-block :section="section" />
+              </template>
 
-            <!-- Video Block -->
-            <template v-if="section.template == 'video-block'">
-              <video-block :section="section" />
-            </template>
+              <!-- Video Block -->
+              <template v-if="section.type == 'video-block'">
+                <video-block :section="section" />
+              </template>
 
-            <!-- Quote Block -->
-            <template v-if="section.template == 'quote-block'">
-              <quote-block :section="section" />
-            </template>
+              <!-- Quote Block -->
+              <template v-if="section.type == 'quote-block'">
+                <quote-block :section="section" />
+              </template>
+            </div>
           </div>
         </div>
       </div>
