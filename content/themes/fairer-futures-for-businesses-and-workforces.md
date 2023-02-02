@@ -5,32 +5,6 @@ description: What business models offer fairer opportunities & working
 slug: fairer-futures-for-businesses-and-workforces
 image: /uploads/pubjusalgos_01.svg
 ---
-# Fairer Futures for Business + Workforce
+Can we re-envisage digital technology to offer fresh patterns of processes and systems to realise equitable economic opportunities for all? Who should be part of this envisaging? Not-Equal projects helped map out and better understand how physical and digital infrastructure cities work together to produce new forms of harm for gig workers in the UK and in India. This work also shows that many of these harms are still poorly understood, and the shortcomings of changing merely at digital infrastructure level as a way to respond to issues that workers face. Projects also looked at how workers with intersecting identities, across gender and class, are impacted differently in the platform economy and found novel ways to better understand such impacts.
 
-## The Challenge
-
-To grow food successfully, humans require the help of other organisms – for example bees, or soil micro-organisms. How can we use new technologies to recognise and value their contributions, to help avoid problems like soil degradation and bee extinction that threaten life on earth?
-
-This project explores how new algorithmic technologies could be used to create a fairer and more sustainable food system.
-
-## Speculative participatory design
-
-This project explored an algorithmic approach to creating a sustainable food justice system through co-designing blockchain futures with urban agricultural communities in London.
-
-They used a speculative participatory design (SPD) approach to explore futures that are grounded in the values, needs and challenges of real communities.
-
-They drew on the expertise of Furtherfield, a London-based arts organisation, who have developed an award-winning programme of engaging non-technical participants in blockchain futures. The approach is interdisciplinary, drawing on methods from art and design, STS, and computer science, in order to ensure that the project generates futures that have been examined both practically and critically. The activities included a multispecies Live Action Role Play (LARP), and paper prototyping of new blockchain-based systems.
-
-## Insights
-
-The methods and approach developed in the project have been adopted and reused in the work of Furtherfield, as part of their programming and through their work on the EU-funded Creatures project. In this work they continue to engage with diverse citizens in issues of equality, participation, and ecology.
-
-The perspectives around more-than-human governance in cities, creative speculation and role play have been developed in further funded projects, including the project More-than-Human Data Interactions in the Smart City, which Sara and Alex are investigators on (funded through an EPSRC HDI Network+ grant).
-
-The project has informed further community work and engagement in workshops held in 2021.
-
-## Future Directions
-
-The project was very inspiring for the people involved, both the team, partners, and participants. We continue to draw on ideas around multispecies.
-
-Future activities include finishing the paper for Big Data and Society. Sara is also co-editing a book on More-than-human smart cities, which draws on insights from this project.
+Other projects experimented with ways to build capacity for resistance in the platform economies, looking at how narratives surrounding gig economy workers could be re-framed and re-appropriated by workers themselves as a first step to consider how platforms could be transformed centring their values, aspirations and needs.  Switch Gigs for example opened participatory spaces to change the narrative around how gig economy workers are viewed in order to imagine different possibilities for socio-technical interventions. Who cares sought to highlight the fact that more than half the gig workers in the UK are women, whose experiences have been largely overlooked, and aimed to identify challenges and opportunities for migrant and BAME women and other vulnerable groups using platforms in the gig economy.
