@@ -1,8 +1,8 @@
 ---
-title: Digital Access
-description: How can computers and their underlining algorithms help make the
-  decisions that affect us all, fairer?
-slug: digital-access
+title: Inclusive Innovation
+description: Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat
+  a ante venenatis dapibus posuere velit aliquet.
+slug: inclusive innovation
 image: /uploads/digital-access.png
 ---
-Digital access
+Innclusive innovation
