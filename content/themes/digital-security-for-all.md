@@ -1,36 +1,16 @@
 ---
 title: Digital Security For All
-description: What digital security models can ensure the safeguarding of all in
-  our   digital society?
+description: "How can digital security design be modelled to offer freedom and
+  civic empowerment as well as protection from harm? "
 slug: digital-security-for-all
 image: /uploads/copy-of-openingdoors_01.svg
 ---
-# What digital security models can ensure the safeguarding of all in our digital society?
+How can digital security design be modelled to offer freedom and civic empowerment as well as protection from harm? What design principles can ensue from approaches that foreground notions of digital security as enablement? Can we design and configure digital security that promotes agency, trust, and care? What happens if we position digital security as a co-created, collaborative endeavour?
 
-## The Challenge
+Not-Equal projects examined the interplay between digital security and socio-technical practices in the context of knife crime, domestic violence, online mundane information seeking practices and social media. The projects involved collaborations between institutions in charge of policing or formal education and young people concerned with knife crime and social media interactions; organisations working in the context of domestic abuse and domestic violence and their beneficiaries; older adults and charities concerned with safe and empowering access to digital services.
 
-To grow food successfully, humans require the help of other organisms – for example bees, or soil micro-organisms. How can we use new technologies to recognise and value their contributions, to help avoid problems like soil degradation and bee extinction that threaten life on earth?
+Away from narrowly technocratic approaches to online protection, Not-Equal projects explored opportunities for enablement that a people-centred approach to digital security can foster. This includes developing tools and processes for people to understand and articulate what should constitute security in certain contexts in the first place. Other projects examined the role of critical pedagogies in digital security including requirements for data infrastructures that support data sharing for co-operation and social innovation in high-stakes contexts. Many of these projects raised questions on the nature of trust in digital security and the way socio-technical design might support agency and trustworthy relations – where agency and trust itself might result from ongoing processes of caring for one another.  
 
-This project explores how new algorithmic technologies could be used to create a fairer and more sustainable food system.
+For example, CinCity enabled young people to collect data about knife crime in London and use this as a vehicle for dialogue with police authorities and to inform grassroots innovation. The project dealt with issues of race and discrimination in policing practices in relation to tackling knife crime, and how grassroots data collection by young people themselves can open up spaces of dialogue and change around those practices. DeSic experimented with prototypes that unsettled power relation in the management and sharing of personal data in the context of domestic violence support. Both projects explored the potential positive outcome when data collection and sharing are shaped by the people directly involved, rather than by institutions or authorities.
 
-## Speculative participatory design
-
-This project explored an algorithmic approach to creating a sustainable food justice system through co-designing blockchain futures with urban agricultural communities in London.
-
-They used a speculative participatory design (SPD) approach to explore futures that are grounded in the values, needs and challenges of real communities.
-
-They drew on the expertise of Furtherfield, a London-based arts organisation, who have developed an award-winning programme of engaging non-technical participants in blockchain futures. The approach is interdisciplinary, drawing on methods from art and design, STS, and computer science, in order to ensure that the project generates futures that have been examined both practically and critically. The activities included a multispecies Live Action Role Play (LARP), and paper prototyping of new blockchain-based systems.
-
-## Insights
-
-The methods and approach developed in the project have been adopted and reused in the work of Furtherfield, as part of their programming and through their work on the EU-funded Creatures project. In this work they continue to engage with diverse citizens in issues of equality, participation, and ecology.
-
-The perspectives around more-than-human governance in cities, creative speculation and role play have been developed in further funded projects, including the project More-than-Human Data Interactions in the Smart City, which Sara and Alex are investigators on (funded through an EPSRC HDI Network+ grant).
-
-The project has informed further community work and engagement in workshops held in 2021.
-
-## Future Directions
-
-The project was very inspiring for the people involved, both the team, partners, and participants. We continue to draw on ideas around multispecies.
-
-Future activities include finishing the paper for Big Data and Society. Sara is also co-editing a book on More-than-human smart cities, which draws on insights from this project.
+Other projects explored how processes that centre the voices of citizens can offer more empowering ways to stay safe online. Cyberguardians developed a network of peer-to-peer training and support for older adults to stay safe online to enable people-centred resources and skills. Similarly Fake News placed young people’s expertise at the centre of responses to fake news, co-developing tools with young people to help them identify fake news online.
