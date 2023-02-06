@@ -4,6 +4,7 @@ description: This is a test project
 image: /uploads/copy-of-desic_01.svg
 themes:
   - digital-security-for-all
+project_type: Testing
 project_lead:
   - name: Bob flemming, Newcastle University
     email: bob@flemming.com
