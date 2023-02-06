@@ -127,7 +127,7 @@ collections:
       - label: "Project Lead(s)"
         name: "project_lead"
         widget: "list"
-        summary: "{{fields.lead}} - {{fields.email}}"
+        summary: "{{fields.name}}"
         fields:
           - {
               label: "Project Lead",
@@ -144,7 +144,7 @@ collections:
       - label: "Co-investigator(s)"
         name: "investigators"
         widget: "list"
-        summary: "{{fields.investigator}} - {{fields.email}}"
+        summary: "{{fields.name}}"
         fields:
           - {
               label: "Investigator",
@@ -228,13 +228,13 @@ collections:
                   label: "Title",
                   name: "title",
                   widget: "string",
-                  hint: "Title of the link text.",
+                  hint: "Title of the link block.",
                 }
               - {
                   label: "Content",
                   name: "content",
                   widget: "markdown",
-                  hint: "Custom text content.",
+                  hint: "Custom text content shown above all the buttons. i.e. description of what the links are.",
                   required: false,
                 }
               - label: "Buttons"
@@ -247,14 +247,14 @@ collections:
                       label: "Text block",
                       name: "content",
                       widget: "markdown",
-                      hint: "Custom text content shown above the button.",
+                      hint: "Text paragraph shown above the button.",
                       required: false,
                     }
                   - {
-                      label: "Button  Text",
+                      label: "Button Text",
                       name: "text",
                       widget: "string",
-                      hint: "Button text.",
+                      hint: "Button text shown on the action button.",
                     }
                   - {
                       label: "Link",
@@ -265,7 +265,7 @@ collections:
           - label: "Video Block"
             name: "video-block"
             widget: "object"
-            summary: "{{fields.title}}"
+            summary: "{{fields.src}}"
             hint: "Full width video element to embed YouTube videos into the project page."
             fields:
               - {
@@ -289,7 +289,7 @@ collections:
               - {
                   label: "Video URL",
                   name: "src",
-                  widget: "text",
+                  widget: "string",
                   hint: "Paste the video url to show as full width video (optional - you can use the video embed if you require more style control).",
                 }
           - label: "Quote Block"
