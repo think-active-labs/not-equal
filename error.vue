@@ -1,5 +1,6 @@
 <template>
   <div>
+    <pre>{{ props.error }}</pre>
     <button @click="handleError">Clear errors</button>
   </div>
 </template>

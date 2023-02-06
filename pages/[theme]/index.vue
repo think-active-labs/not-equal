@@ -27,8 +27,8 @@ const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
   const themeQuery = queryContent('themes').where({ 'slug': route.params.theme }).findOne()
 
   const projectsQuery = queryContent('projects')
-    .where({ 'page': { $contains: route.params.theme } })
-    .only(['title', 'description', 'image', 'page', '_path'])
+    .where({ 'themes': { $contains: route.params.theme } })
+    .only(['title', 'description', 'image', 'themes', '_path'])
     .find()
 
   const [theme, projects] = await Promise.all([themeQuery, projectsQuery])

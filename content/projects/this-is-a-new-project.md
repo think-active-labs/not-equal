@@ -2,7 +2,7 @@
 title: This is a title
 description: This is a description
 image: /uploads/social-algorithmic-justice.png
-page:
+themes:
   - another-theme
   - older-adults
 page_sections:

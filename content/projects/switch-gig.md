@@ -2,7 +2,7 @@
 title: Switch Gig
 description: Exploring digital opportunities to switch the gig-economy to fair and just work
 image: /uploads/switch_gigs_2.svg
-page:
+themes:
   - fairer-futures-for-businesses-and-workforces
 project_lead:
   - name: Ben Kirman, University of York

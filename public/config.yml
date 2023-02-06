@@ -117,7 +117,7 @@ collections:
             multiple: false
       - {
           label: "Themes",
-          name: "page",
+          name: "themes",
           widget: "relation",
           collection: "theme-pages",
           value_field: "slug",
@@ -251,7 +251,7 @@ collections:
                       required: false,
                     }
                   - {
-                      label: "Text",
+                      label: "Button  Text",
                       name: "text",
                       widget: "string",
                       hint: "Button text.",

@@ -7,7 +7,7 @@ header_image: /uploads/copy-of-deepsea_01.svg
 title: Advancing Data Justice in the Future Generations Act
 description: Advancing Data Justice in the Future Generations Act
 image: /uploads/fga_justice_01.svg
-page:
+themes:
   - algorithmic-social-justice
 investigators:
   - name: Bob flemming

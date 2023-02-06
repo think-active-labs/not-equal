@@ -2,7 +2,7 @@
 title: Smart Small Farms
 description: Nullam id dolor id nibh ultricies vehicula ut id elit.
 image: /uploads/smart_farms_1.svg
-page:
+themes:
   - fairer-futures-for-businesses-and-workforces
 project_lead:
   - name: Leanne Townsend, James Hutton Institue (PI)
