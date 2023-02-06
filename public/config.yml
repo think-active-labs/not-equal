@@ -129,9 +129,9 @@ collections:
           name: "project_type",
           widget: "relation",
           collection: "project-types-config.project-types",
-          value_field: "name",
-          search_fields: ["name"],
-          multiple: true,
+          value_field: "type",
+          search_fields: ["type"],
+          multiple: false,
         }
       - label: "Project Lead(s)"
         name: "project_lead"
