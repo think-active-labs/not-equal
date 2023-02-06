@@ -1,0 +1,13 @@
+{
+  "project-types": [
+    {
+      "type": "Funded Project"
+    },
+    {
+      "type": "University Funded"
+    },
+    {
+      "type": "Interactive Project"
+    }
+  ]
+}
