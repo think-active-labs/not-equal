@@ -1,10 +1,16 @@
 ---
+project_type: Testing
 title: Test project
 description: This is a test project
 image: /uploads/copy-of-desic_01.svg
 themes:
   - digital-security-for-all
-project_type: Testing
+project_types:
+  - University Funded
+project_tags:
+  - co-design
+  - food delivery
+  - work
 project_lead:
   - name: Bob flemming, Newcastle University
     email: bob@flemming.com
