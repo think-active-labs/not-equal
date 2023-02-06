@@ -42,7 +42,7 @@
               <p v-else>{{ project_lead.name }}</p>
               </p>
             </div>
-            <div class="w-1/2" v-if="data?.investigators">
+            <div class="w-1/2" v-if="data?.investigators && data.investigators.length > 0">
               <h2>Co-investigators</h2>
               <p v-for="investigator in data?.investigators">
                 <a :href="`mailto:${investigator?.email}`" v-if="investigator.email">{{

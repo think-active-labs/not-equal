@@ -1,13 +1,25 @@
 <template>
-  <div class="xl:w-1/2 prose-xl m-auto">
-    <div v-html="$md.render(section.text)" class="text-block"></div>
+  <div class="prose-xl">
+    <div v-html="parseMarkdown(section.text)" />
   </div>
 </template>
 
-<script>
-export default {
-  props: ['section'],
+<script setup lang="ts">
+import { micromark } from 'micromark'
+
+interface TextBlock {
+  type: string,
+  text: string
 }
+
+const props = defineProps<{
+  section: TextBlock
+}>()
+
+const parseMarkdown = (s: string) => {
+  return micromark(s)
+}
+
 </script>
 
 <style scoped lang="scss">
