@@ -1,8 +1,8 @@
 <template>
-  <div class="prose-xl m-auto">
+  <div>
     <h2>{{ section.title }}</h2>
     <div v-for="button in section.buttons" class="py-1">
-      <div v-html="parseMarkdown(button.content)" />
+      <div v-if="button?.content" v-html="parseMarkdown(button.content)" />
       <div class="flex flex-col sm:flex-row gap-4">
         <a :href="button.url" target="_blank"
           class="py-2 px-4 border-solid border-4 border-gray-600 text-2xl font-semibold hover:bg-gray-600 hover:text-white">

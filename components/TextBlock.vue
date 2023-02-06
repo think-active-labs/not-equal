@@ -1,5 +1,5 @@
 <template>
-  <div class="prose-xl">
+  <div>
     <div v-html="parseMarkdown(section.text)" />
   </div>
 </template>

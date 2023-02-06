@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:w-1/2 prose-xl">
+  <div>
     <h2>{{ section.title }}</h2>
     <div v-if="section.video_embed_code" v-html="section.video_embed_code"></div>
     <div class="video-container" v-if="section.youtube_video_id">
@@ -8,7 +8,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
-    <div class="text-lg" v-html="parseMarkdown(section.caption)" />
+    <div v-html="parseMarkdown(section.caption)" />
   </div>
 </template>
 

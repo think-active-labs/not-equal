@@ -26,66 +26,80 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="flex flex-col p-3 sm:p-6 prose prose-lg m-auto">
+      <h1 class="font-title text-6xl">{{ data?.title }}</h1>
+      <h3 v-if="data?.description">{{ data?.description }}</h3>
+
+      <!-- Investigators -->
+      <div class="flex flex-col sm:flex-row">
+        <div class="w-1/2" v-if="data?.project_lead">
+          <h2>Project Lead</h2>
+          <p v-for="project_lead in data?.project_lead">
+            <a :href="`mailto:${project_lead?.email} `" v-if="project_lead.email">{{ project_lead.name }}</a>
+          <p v-else>{{ project_lead.name }}</p>
+          </p>
+        </div>
+        <div class="w-1/2" v-if="data?.investigators && data.investigators.length > 0">
+          <h2>Co-investigators</h2>
+          <p v-for="investigator in data?.investigators">
+            <a :href="`mailto:${investigator?.email}`" v-if="investigator.email">{{
+              investigator.name
+            }}</a>
+          <p v-else>{{ investigator.name }}</p>
+          </p>
+        </div>
+      </div>
+
+      <!-- Project Type -->
+      <div v-if="data?.project_types">
+        <h2>Project Type</h2>
+        <span v-for="projectType in data.project_types">
+          {{ projectType }}
+        </span>
+      </div>
+
+      <!-- Project Tags -->
+      <div v-if="data?.project_tags">
+        <h2>Project Tags</h2>
+        <span v-for="projectTag, index in data.project_tags">
+          <span>{{ projectTag }}</span><span v-if="index + 1 < data.project_tags.length">, </span>
+        </span>
+      </div>
 
       <!-- Page content -->
-      <div class="flex flex-col p-3 sm:p-6 pb-10">
-        <div class="m-auto xl:w-1/2">
+      <ContentRenderer :value="data" v-if="data" />
 
-          <h1 class="font-title text-6xl">{{ data?.title }}</h1>
+      <!-- Page sections -->
+      <div class="flex flex-col">
+        <div>
+          <div v-for="section in data?.page_sections">
+            <!-- Text Block -->
+            <template v-if="section.type == 'text-block'" :v-html="section.text">
+              <text-block :section="section" />
+            </template>
 
-          <!-- Investigators -->
-          <div class="flex flex-col sm:flex-row prose-xl">
-            <div class="w-1/2" v-if="data?.project_lead">
-              <h2>Project Lead</h2>
-              <p v-for="project_lead in data?.project_lead">
-                <a :href="`mailto:${project_lead?.email} `" v-if="project_lead.email">{{ project_lead.name }}</a>
-              <p v-else>{{ project_lead.name }}</p>
-              </p>
-            </div>
-            <div class="w-1/2" v-if="data?.investigators && data.investigators.length > 0">
-              <h2>Co-investigators</h2>
-              <p v-for="investigator in data?.investigators">
-                <a :href="`mailto:${investigator?.email}`" v-if="investigator.email">{{
-                  investigator.name
-                }}</a>
-              <p v-else>{{ investigator.name }}</p>
-              </p>
-            </div>
-          </div>
+            <!-- Image Gallery Block -->
+            <template v-if="section.type == 'image-gallery-block'">
+              <image-gallery :images="section.images" />
+            </template>
 
-          <!-- Page content -->
-          <ContentRenderer :value="data" v-if="data" class="prose-xl" />
-        </div>
+            <!-- Link Block -->
+            <template v-if="section.type == 'link-block'">
+              <link-block :section="section" />
+            </template>
 
-        <!-- Page sections -->
-        <div class="flex flex-col gap-8 mt-8">
-          <div class="xl:w-1/2">
-            <div v-for="section in data?.page_sections">
-              <!-- Text Block -->
-              <template v-if="section.type == 'text-block'" :v-html="section.text">
-                <text-block :section="section" />
-              </template>
+            <!-- Video Block -->
+            <template v-if="section.type == 'video-block'">
+              <video-block :section="section" />
+            </template>
 
-              <!-- Image Gallery Block -->
-              <template v-if="section.type == 'image-gallery-block'">
-                <image-gallery :images="section.images" />
-              </template>
-
-              <!-- Link Block -->
-              <template v-if="section.type == 'link-block'">
-                <link-block :section="section" />
-              </template>
-
-              <!-- Video Block -->
-              <template v-if="section.type == 'video-block'">
-                <video-block :section="section" />
-              </template>
-
-              <!-- Quote Block -->
-              <template v-if="section.type == 'quote-block'">
-                <quote-block :section="section" />
-              </template>
-            </div>
+            <!-- Quote Block -->
+            <template v-if="section.type == 'quote-block'">
+              <quote-block :section="section" />
+            </template>
           </div>
         </div>
       </div>

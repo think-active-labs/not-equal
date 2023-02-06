@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:w-1/2 prose-xl m-auto">
+  <div class="m-auto">
     <blockquote :class="`text-${section.alignment}`">
       <p class="text-4xl italic"><span class="text-4xl text-gray-800 font-serif">"</span>{{ section.quote }}<span
           class="text-4xl">"</span></p>
