@@ -1,19 +1,35 @@
 <template>
-  <div class="xl:w-1/2 prose-xl m-auto">
+  <div class="xl:w-1/2 prose-xl">
     <h2>{{ section.title }}</h2>
-    <div v-html="section.video_embed_code"></div>
-    <div class="video-container">
-      <iframe class="video" :src="section.src" :title="section.title" frameborder="0"
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <div v-if="section.video_embed_code" v-html="section.video_embed_code"></div> -->
+    <div class="video-container" v-if="section.youtube_video_id">
+      <iframe class="video" :src="`https://www.youtube.com/embed/${section.youtube_video_id}`" :title="section.title"
+        frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
-    <p class="text-lg">{{ section.caption }}</p>
+    <div class="text-lg" v-html="parseMarkdown(section.caption)" />
   </div>
 </template>
 
-<script>
-export default {
-  props: ['section'],
+<script setup lang="ts">
+import { micromark } from 'micromark'
+
+interface VideoBlock {
+  type: string,
+  title: string,
+  caption: string,
+  video_embed_code: string,
+  youtube_video_id: string
 }
+
+const props = defineProps<{
+  section: VideoBlock
+}>()
+
+const parseMarkdown = (s: string) => {
+  return micromark(s)
+}
+
 </script>
 
 <style scoped lang="scss">

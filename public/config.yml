@@ -267,7 +267,7 @@ collections:
           - label: "Video Block"
             name: "video-block"
             widget: "object"
-            summary: "{{fields.src}}"
+            summary: "{{fields.title}}"
             hint: "Full width video element to embed YouTube videos into the project page."
             fields:
               - {
@@ -275,24 +275,28 @@ collections:
                   name: "title",
                   widget: "string",
                   hint: "Title of the block (leave blank if you don't want a title to appear).",
+                  required: false,
                 }
               - {
                   label: "Caption",
                   name: "caption",
                   widget: "markdown",
                   hint: "Caption displayed below the video.",
+                  required: false,
                 }
               - {
                   label: "Video Embed Code",
                   name: "video_embed_code",
                   widget: "text",
                   hint: "Paste in video embed code (see https://support.google.com/youtube/answer/171780?hl=en-GB)",
+                  required: false,
                 }
               - {
-                  label: "Video URL",
-                  name: "src",
+                  label: "YouTube Video ID",
+                  name: "youtube_video_id",
                   widget: "string",
-                  hint: "Paste the video url to show as full width video (optional - you can use the video embed if you require more style control).",
+                  hint: "Paste the YouTube video ID to show as full width video (Important: e.g. enter MM6ZPrJDBO8 rather than https://www.youtube.com/watch?v=MM6ZPrJDBO8).",
+                  required: false,
                 }
           - label: "Quote Block"
             name: "quote-block"
