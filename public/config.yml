@@ -349,3 +349,39 @@ collections:
               - label: "Project Type"
                 name: "type"
                 widget: string
+  - name: posts
+    label: Posts
+    label_singular: "Post"
+    folder: content/posts
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Relation
+        name: relation
+        widget: relation
+        collection: files
+        valueField: categories.*.id
+        searchFields: [categories.*.name] # not really used
+        displayFields: [categories.*.name]
+        file: categories
+  - name: files
+    label: Files
+    label_singular: "File"
+    files:
+      - label: Categories
+        name: categories
+        file: _data/_cats.json
+        fields:
+          - label: Categories
+            name: categories
+            widget: list
+            allow_add: true
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: Id
+                name: id
+                widget: string
