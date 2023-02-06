@@ -372,7 +372,7 @@ collections:
     files:
       - label: Categories
         name: categories
-        file: _data/_cats.json
+        file: content/_cats.json
         fields:
           - label: Categories
             name: categories
