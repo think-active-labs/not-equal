@@ -316,3 +316,10 @@ collections:
                   widget: "string",
                   hint: "Person(s) you are attributing the quote to (optional).",
                 }
+              - {
+                  label: "Align Text",
+                  name: "align",
+                  widget: "select",
+                  options: ["left", "center", "right"],
+                  required: true,
+                }
