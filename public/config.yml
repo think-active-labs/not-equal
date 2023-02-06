@@ -242,8 +242,8 @@ collections:
                     widget: "image"
                     hint: "Add an image you want to show in the gallery."
                   - {
-                      label: "Description Text",
-                      name: "string",
+                      label: "Caption Text",
+                      name: "caption",
                       widget: "string",
                       hint: "Caption text describing the image.",
                       required: false,
