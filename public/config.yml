@@ -240,7 +240,7 @@ collections:
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
-                summary: "{{fields.text}}"
+                summary: "{{fields.text}} {{fields.url}}"
                 hint: "Buttons associated with the text block."
                 fields:
                   - {
