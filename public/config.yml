@@ -135,18 +135,20 @@ collections:
           file: "project-types-list",
           multiple: true,
           hint: "Select project type. Make sure you've entered your project type in the Project Association > Project Types file for the type to display in this list.",
+          required: false,
         }
       - {
           label: "Project Tags",
           name: "project_tags",
           widget: "relation",
-          collection: "project-tags-files",
+          collection: "project-association-files",
           valueField: "project-tags-list.*.tag",
           searchFields: ["project-tags-list.*.tag"],
           displayFields: ["project-tags-list.*.tag"],
           file: "project-tags-list",
           multiple: true,
           hint: "Select project tags. Make sure you've entered your project tags in the Project Association > Project Tags file for the type to display in this list.",
+          required: false,
         }
       - label: "Project Lead(s)"
         name: "project_lead"
