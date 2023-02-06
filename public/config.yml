@@ -246,6 +246,7 @@ collections:
                       name: "string",
                       widget: "string",
                       hint: "Caption text describing the image.",
+                      required: false,
                     }
           - label: "Link Block"
             name: "link-block"
