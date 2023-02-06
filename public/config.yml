@@ -140,6 +140,7 @@ collections:
               name: "email",
               widget: "string",
               hint: "Enter the email of the lead project coordinator.",
+              required: false,
             }
       - label: "Co-investigator(s)"
         name: "investigators"
@@ -157,6 +158,7 @@ collections:
               name: "email",
               widget: "string",
               hint: "Enter the email of the project co-investigators.",
+              required: false,
             }
       - label: "Partner Images"
         name: "partners"

@@ -16,7 +16,7 @@
             class="hover:underline">Back</span></a>
 
         <!-- Partners box -->
-        <div class="p-2 sm:p-8 text-left prose-xl">
+        <div class="p-2 sm:p-8 text-left prose-xl" v-if="data?.partners">
           <h2 class="text-4xl font-light text-gray-600 my-6">Partners</h2>
           <div v-for="partner in data?.partners" class="flex flex-col gap-12">
             <a :href="partner.link" target="_blank">
@@ -35,14 +35,14 @@
 
           <!-- Investigators -->
           <div class="flex flex-col sm:flex-row prose-xl">
-            <div class="w-1/2">
+            <div class="w-1/2" v-if="data?.project_lead">
               <h2>Project Lead</h2>
               <p v-for="project_lead in data?.project_lead">
                 <a :href="`mailto:${project_lead?.email} `" v-if="project_lead.email">{{ project_lead.name }}</a>
               <p v-else>{{ project_lead.name }}</p>
               </p>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2" v-if="data?.investigators">
               <h2>Co-investigators</h2>
               <p v-for="investigator in data?.investigators">
                 <a :href="`mailto:${investigator?.email}`" v-if="investigator.email">{{
