@@ -130,8 +130,9 @@ collections:
           widget: "relation",
           collection: "project-type-files",
           file: "project-types-config",
-          value_field: "project-types-config.*.type",
-          search_fields: ["project-types-config.*.type"],
+          value_field: "project-type-files.project-types-config.project-types-list.type",
+          search_fields:
+            ["project-type-files.project-types-config.project-types-list.type"],
           multiple: false,
         }
       - label: "Project Lead(s)"
