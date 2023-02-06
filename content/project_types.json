@@ -1,12 +1,4 @@
 {
-  "project-types": [
-    {
-      "type": "Paid project"
-    },
-    {
-      "type": "Central funding"
-    }
-  ],
   "project-types-list": [
     {
       "type": "Testing"
