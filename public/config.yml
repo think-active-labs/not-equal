@@ -128,7 +128,7 @@ collections:
           label: "Project Type",
           name: "project_type",
           widget: "relation",
-          collection: "project-types",
+          collection: "project-types-config.project-types",
           value_field: "name",
           search_fields: ["name"],
           multiple: true,
