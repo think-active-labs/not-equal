@@ -124,6 +124,15 @@ collections:
           search_fields: ["slug", "title"],
           multiple: true,
         }
+      - {
+          label: "Project Type",
+          name: "project_type",
+          widget: "relation",
+          collection: "project-types",
+          value_field: "name",
+          search_fields: ["name"],
+          multiple: true,
+        }
       - label: "Project Lead(s)"
         name: "project_lead"
         widget: "list"
@@ -323,3 +332,16 @@ collections:
                   options: ["left", "center", "right"],
                   required: true,
                 }
+  - name: "project-types"
+    label: "Project Types"
+    files:
+      - label: "Project Types"
+        name: "project-types-config"
+        file: "content/project_types.json"
+        fields:
+          - label: "Project Types"
+            name: "project-types"
+            widget: "list"
+            hint: "Specify the project types you'd like to use in your projects."
+            fields:
+              - { label: "Project Type", name: "type", widget: string }
