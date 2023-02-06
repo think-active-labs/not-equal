@@ -343,6 +343,7 @@ collections:
             name: "project-types"
             widget: "list"
             hint: "Specify the project types you'd like to use in your projects."
-          - label: "Project Type"
-            name: "type"
-            widget: string
+            fields:
+              - label: "Project Type"
+                name: "type"
+                widget: string
