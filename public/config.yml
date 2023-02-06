@@ -124,26 +124,29 @@ collections:
           search_fields: ["slug", "title"],
           multiple: true,
         }
-      # - {
-      #     label: "Project Type",
-      #     name: "project_type",
-      #     widget: "relation",
-      #     collection: "project-type-files",
-      #     file: "project-types-config",
-      #     value_field: "project-types-config.*.type",
-      #     search_fields: ["project-types-config.*.type"],
-      #     display_fields: ["project-types-config.*.type"],
-      #     multiple: false,
-      #   }
       - {
           label: "Project Type",
-          name: "project_type",
+          name: "project_types",
           widget: "relation",
-          collection: "project-type-files",
+          collection: "project-association-files",
           valueField: "project-types-list.*.type",
           searchFields: ["project-types-list.*.type"],
           displayFields: ["project-types-list.*.type"],
           file: "project-types-list",
+          multiple: true,
+          hint: "Select project type. Make sure you've entered your project type in the Project Association > Project Types file for the type to display in this list.",
+        }
+      - {
+          label: "Project Tags",
+          name: "project_tags",
+          widget: "relation",
+          collection: "project-tags-files",
+          valueField: "project-tags-list.*.tag",
+          searchFields: ["project-tags-list.*.tag"],
+          displayFields: ["project-tags-list.*.tag"],
+          file: "project-tags-list",
+          multiple: true,
+          hint: "Select project tags. Make sure you've entered your project tags in the Project Association > Project Tags file for the type to display in this list.",
         }
       - label: "Project Lead(s)"
         name: "project_lead"
@@ -344,8 +347,8 @@ collections:
                   options: ["left", "center", "right"],
                   required: true,
                 }
-  - name: "project-type-files"
-    label: "Project Types"
+  - name: "project-association-files"
+    label: "Project Associations"
     files:
       - label: "Project Types"
         name: "project-types-list"
@@ -359,39 +362,15 @@ collections:
               - label: "Project Type"
                 name: "type"
                 widget: string
-  - name: posts
-    label: Posts
-    label_singular: "Post"
-    folder: content/posts
-    create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Relation
-        name: relation
-        widget: relation
-        collection: files
-        valueField: categories.*.id
-        searchFields: [categories.*.name] # not really used
-        displayFields: [categories.*.name]
-        file: categories
-  - name: files
-    label: Files
-    label_singular: "File"
-    files:
-      - label: Categories
-        name: categories
-        file: content/_cats.json
+      - label: "Project Tags"
+        name: "project-tags-list"
+        file: "content/project_tags.json"
         fields:
-          - label: Categories
-            name: categories
-            widget: list
-            allow_add: true
+          - label: "Project tags"
+            name: "project-tags-list"
+            widget: "list"
+            hint: "Specify the project tags you'd like to use in your projects."
             fields:
-              - label: Name
-                name: name
-                widget: string
-              - label: Id
-                name: id
+              - label: "Project Tag"
+                name: "tag"
                 widget: string
