@@ -1,0 +1,10 @@
+{
+  "project-types": [
+    {
+      "type": "Paid project"
+    },
+    {
+      "type": "Central funding"
+    }
+  ]
+}
