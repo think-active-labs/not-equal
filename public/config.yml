@@ -128,9 +128,9 @@ collections:
           label: "Project Type",
           name: "project_type",
           widget: "relation",
-          collection: "project-types",
-          value_field: "project-types",
-          search_fields: ["project-types"],
+          collection: "project-type-files",
+          value_field: "project-types-config.project-types-list.type",
+          search_fields: ["project-types-config.project-types-list.type"],
           multiple: false,
         }
       - label: "Project Lead(s)"
@@ -340,7 +340,7 @@ collections:
         file: "content/project_types.json"
         fields:
           - label: "Project Types"
-            name: "project-types"
+            name: "project-types-list"
             widget: "list"
             hint: "Specify the project types you'd like to use in your projects."
             fields:
