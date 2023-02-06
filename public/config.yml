@@ -332,7 +332,7 @@ collections:
                   options: ["left", "center", "right"],
                   required: true,
                 }
-  - name: "project-types"
+  - name: "project-type-files"
     label: "Project Types"
     files:
       - label: "Project Types"
