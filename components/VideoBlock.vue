@@ -1,7 +1,7 @@
 <template>
   <div class="xl:w-1/2 prose-xl">
     <h2>{{ section.title }}</h2>
-    <!-- <div v-if="section.video_embed_code" v-html="section.video_embed_code"></div> -->
+    <div v-if="section.video_embed_code" v-html="section.video_embed_code"></div>
     <div class="video-container" v-if="section.youtube_video_id">
       <iframe class="video" :src="`https://www.youtube.com/embed/${section.youtube_video_id}`" :title="section.title"
         frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
