@@ -1,10 +1,10 @@
 {
   "project-types-list": [
     {
-      "type": "Testing"
+      "type": "University Funded"
     },
     {
-      "type": "Another test"
+      "type": "Central Funding"
     }
   ]
 }
