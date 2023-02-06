@@ -124,16 +124,26 @@ collections:
           search_fields: ["slug", "title"],
           multiple: true,
         }
+      # - {
+      #     label: "Project Type",
+      #     name: "project_type",
+      #     widget: "relation",
+      #     collection: "project-type-files",
+      #     file: "project-types-config",
+      #     value_field: "project-types-config.*.type",
+      #     search_fields: ["project-types-config.*.type"],
+      #     display_fields: ["project-types-config.*.type"],
+      #     multiple: false,
+      #   }
       - {
           label: "Project Type",
           name: "project_type",
           widget: "relation",
           collection: "project-type-files",
-          file: "project-types-config",
-          value_field: "project-types-config.*.type",
-          search_fields: ["project-types-config.*.type"],
-          display_fields: ["project-types-config.*.type"],
-          multiple: false,
+          valueField: "project-types-list.*.type",
+          searchFields: ["project-types-list.*.type"],
+          displayFields: ["project-types-list.*.type"],
+          file: "project-types-list",
         }
       - label: "Project Lead(s)"
         name: "project_lead"
@@ -338,7 +348,7 @@ collections:
     label: "Project Types"
     files:
       - label: "Project Types"
-        name: "project-types-config"
+        name: "project-types-list"
         file: "content/project_types.json"
         fields:
           - label: "Project Types"
