@@ -128,9 +128,9 @@ collections:
           label: "Project Type",
           name: "project_type",
           widget: "relation",
-          collection: "project-type-files",
-          value_field: "type",
-          search_fields: ["type"],
+          collection: "project-types",
+          value_field: "project-types",
+          search_fields: ["project-types"],
           multiple: false,
         }
       - label: "Project Lead(s)"
@@ -343,6 +343,7 @@ collections:
             name: "project-types"
             widget: "list"
             hint: "Specify the project types you'd like to use in your projects."
-          - label: "Project Type"
-            name: "type"
-            widget: string
+            fields:
+              - label: "Project Type"
+                name: "type"
+                widget: string
