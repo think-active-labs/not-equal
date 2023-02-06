@@ -16,6 +16,13 @@ page_sections:
           nulla non metus auctor fringilla.
         text: Download paper
         url: https://google.com
+  - type: text-block
+    text: |-
+      This is a test block with *Rich* **Text**
+
+      **and paragraph** 
+
+      breaks
 ---
 Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
