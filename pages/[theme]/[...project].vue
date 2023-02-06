@@ -4,7 +4,7 @@
 
     <div class="flex flex-col sm:flex-row">
       <!-- Mobile back button -->
-      <NuxtLink :to="`/${route.params.theme} `" class="sm:hidden p-4 text-2xl font-semibold">← <span
+      <NuxtLink :to="`${route.params.theme} `" class="sm:hidden p-4 text-2xl font-semibold">← <span
           class="hover:underline">Back</span>
       </NuxtLink>
       <a @click="$router.back()" class="sm:hidden p-4 text-2xl font-semibold">← <span
@@ -16,7 +16,7 @@
             class="hover:underline">Back</span></a>
 
         <!-- Partners box -->
-        <div class="p-2 sm:p-8 text-left prose-xl" v-if="data?.partners">
+        <div class="p-2 sm:p-8 text-left prose-xl">
           <h2 class="text-4xl font-light text-gray-600 my-6">Partners</h2>
           <div v-for="partner in data?.partners" class="flex flex-col gap-12">
             <a :href="partner.link" target="_blank">
@@ -83,7 +83,7 @@
 
             <!-- Image Gallery Block -->
             <template v-if="section.type == 'image-gallery-block'">
-              <image-gallery :images="section.images" />
+              <image-gallery :section="section" />
             </template>
 
             <!-- Link Block -->

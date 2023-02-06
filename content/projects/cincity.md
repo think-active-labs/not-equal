@@ -13,11 +13,11 @@ page_sections:
   - type: image-gallery-block
     images:
       - image: /uploads/cincity-1.jpg
-        string: "-"
+        caption: "-"
       - image: /uploads/citizens-uk-meeting-1024x579.jpg
-        string: "-"
+        caption: "-"
       - image: /uploads/cincity-2.jpg
-        string: "-"
+        caption: "-"
   - type: text-block
     text: The project team interviewed 23 young people and police experts. 50 young
       people were involved as co-researchers and used the app to interview their
