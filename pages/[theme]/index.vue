@@ -1,12 +1,12 @@
 <template>
   <div class="w-full">
     <div class="h-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4">
-      <div class="p-6 border-r-2 border-b-2 border-black">
+      <div class="sm:p-3 p-6 border-r-2 border-b-2 border-black">
         <h1 class="font-title text-3xl sm:text-4xl md:text-5xl mb-4 antialiased">{{ data?.theme.title }}</h1>
         <p class="font-subtitle text-lg sm:text-xl md:text-3xl">{{ data?.theme.description }}</p>
       </div>
       <div v-for="p, index in data?.projects"
-        class="flex flex-col gap-2 p-6 border-r-2 border-b-2 border-black justify-start">
+        class="flex flex-col gap-2 sm:p-3 p-6 border-r-2 border-b-2 border-black justify-start">
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`">
           <img class="object-contain" :src="p.image" />
         </nuxt-link>
@@ -17,7 +17,7 @@
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`"
           class="text-xl sm:text-2xl self-end hover:underline">Read →</nuxt-link>
       </div>
-      <div class="p-6 border-r-2 border-b-2 border-black">
+      <div class="sm:p-3 p-6 border-r-2 border-b-2 border-black">
         <h1 class="font-subtitle sm:text-4xl md:text-7xl mb-4">Next Chapter</h1>
       </div>
     </div>
