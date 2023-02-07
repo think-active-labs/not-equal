@@ -49,7 +49,7 @@
           :class="activeTab == item.slug ? 'w-full' : 'hidden'">
           <img :src="`${item.image}`" class="object-cover w-full max-h-[60%] mb-2 sm:mb-12" />
           <div class="prose-2xl p-3 sm:p-12">
-            <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight">{{ item.title }}</h1>
+            <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight antialiased">{{ item.title }}</h1>
             <p class="text-4xl font-normal font-subtitle">{{ item.description }}</p>
             <NuxtLink :to="`/${item.slug}`" class="font-subtitle text-2xl underline justify-end">View More
             </NuxtLink> <span>→</span>
