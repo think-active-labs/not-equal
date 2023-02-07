@@ -18,9 +18,9 @@
     </NuxtLink>
 
     <div
-      class="prose sm:prose-2xl border-b-2 sm:border-b-4 border-b-slate-800 py-10 m-auto px-3 sm:px-0 sm:text-center">
-      <h1 class="font-title">{{ data?.title }}</h1>
-      <h3 v-if="data?.description">{{ data?.description }}</h3>
+      class="flex flex-col gap-12 w-2/3 border-b-2 sm:border-b-4 border-b-slate-800 py-10 m-auto px-3 sm:px-0 sm:text-center">
+      <h1 class="text-4xl sm:text-7xl font-normal font-title leading-tight">{{ data?.title }}</h1>
+      <h3 class="text-2xl sm:text-4xl" v-if="data?.description">{{ data?.description }}</h3>
     </div>
     <!-- Page content -->
     <div class="flex flex-col p-3 sm:p-6 prose sm:prose-lg m-auto sm:mb-40">
