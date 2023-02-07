@@ -26,7 +26,7 @@
 
       <!-- Partners box -->
       <div class="prose-xl" v-if="data?.partners">
-        <h2 class="text-4xl font-light text-gray-600 my-6">Partners</h2>
+        <h2>Partners</h2>
         <div v-for="partner in data?.partners" class="flex flex-col gap-12">
           <a :href="partner.link" target="_blank">
             <img v-if="partner.image" :src="partner.image" :alt="partner.name" />
