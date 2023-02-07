@@ -54,7 +54,7 @@ page_sections:
       inform larger-scale projects to support the needs of, and address the
       issues faced by, gig-workers, both in the UK and abroad.
   - type: link-block
-    title: https://www.wired.co.uk/article/gig-economy-fix-academics
+    title: Media Articles
     buttons:
       - url: https://www.wired.co.uk/article/gig-economy-fix-academics
         text: https://www.wired.co.uk/article/gig-economy-fix-academics
