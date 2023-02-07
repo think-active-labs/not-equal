@@ -19,10 +19,10 @@
 
         <!-- page content -->
         <div
-          class="flex flex-col justify-start border-b-slate-800 border-b-4 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
+          class="flex flex-col justify-start border-b-slate-800 border-b-2 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
           :class="activeTab == 'home' ? 'w-full' : 'hidden'">
           <img :src="data?.home.image" class="object-contain w-full max-h-[60%]" />
-          <div class="prose-2xl p-4 sm:p-12">
+          <div class="prose-2xl p-3 sm:p-12">
             <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight antialiased">{{ data?.home.title }}
             </h1>
             <p class="text-4xl font-normal font-subtitle">{{ data?.home.description }}</p>
@@ -38,17 +38,17 @@
 
         <!-- page vertical title bar -->
         <div v-if="item.order != -1"
-          class="p-4 sm:w-24 sm:h-full flex flex-row sm:flex-col sm:text-center items-center justify-between cursor-pointer shrink-0 border-b-slate-800 border-b-2 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4">
+          class="p-3 sm:w-24 sm:h-full flex flex-row sm:flex-col sm:text-center items-center justify-between cursor-pointer shrink-0 border-b-slate-800 border-b-2 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4">
           <h2 class="rotated-header text-3xl sm:pt-24 font-link">{{ item.title }}</h2>
           <a href="#" class="mb-4 text-4xl">→</a>
         </div>
 
         <!-- page content -->
         <div
-          class="flex flex-col justify-start border-b-slate-800 border-b-4 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
+          class="flex flex-col justify-start border-b-slate-800 border-b-2 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
           :class="activeTab == item.slug ? 'w-full' : 'hidden'">
           <img :src="`${item.image}`" class="object-cover w-full max-h-[60%] mb-2 sm:mb-12" />
-          <div class="prose-2xl p-4 sm:p-12">
+          <div class="prose-2xl p-3 sm:p-12">
             <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight">{{ item.title }}</h1>
             <p class="text-4xl font-normal font-subtitle">{{ item.description }}</p>
             <NuxtLink :to="`/${item.slug}`" class="font-subtitle text-2xl underline justify-end">View More
