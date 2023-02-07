@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
 
-    <div class="w-full border-b-4 border-black">
+    <div class="w-full sm:border-b-4 border-b-slate-800">
       <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[30%]" :alt="data?.description" />
     </div>
 
@@ -17,15 +17,16 @@
       <span class="hover:underline">Back</span>
     </NuxtLink>
 
-    <div class="prose sm:prose-2xl border-b-4 border-black py-10 m-auto px-3 sm:px-0 sm:text-center">
+    <div
+      class="prose sm:prose-2xl border-b-2 sm:border-b-4 border-b-slate-800 py-10 m-auto px-3 sm:px-0 sm:text-center">
       <h1 class="font-title">{{ data?.title }}</h1>
       <h3 v-if="data?.description">{{ data?.description }}</h3>
     </div>
     <!-- Page content -->
-    <div class="flex flex-col p-3 sm:p-6 prose prose-xl m-auto sm:mb-40">
+    <div class="flex flex-col p-3 sm:p-6 prose sm:prose-lg m-auto sm:mb-40">
 
       <!-- Partners box -->
-      <div class="prose-xl" v-if="data?.partners">
+      <div class="prose sm:prose-lg" v-if="data?.partners">
         <h2>Partners</h2>
         <div v-for="partner in data?.partners" class="flex flex-col gap-12">
           <a :href="partner.link" target="_blank">
@@ -37,7 +38,7 @@
 
       <!-- Investigators -->
       <div class="flex flex-col sm:flex-row">
-        <div class="w-1/2" v-if="data?.project_lead">
+        <div class="sm:w-1/2" v-if="data?.project_lead">
           <h2>Project Lead</h2>
           <p v-for="project_lead in data?.project_lead">
             <a :href="`mailto:${project_lead?.email ? project_lead?.email : ''}`"
@@ -46,7 +47,7 @@
               }}</a>
           </p>
         </div>
-        <div class="w-1/2" v-if="data?.investigators && data.investigators.length > 0">
+        <div class="sm:w-1/2" v-if="data?.investigators && data.investigators.length > 0">
           <h2>Co-investigators</h2>
           <p v-for="investigator in data?.investigators">
             <a :href="`mailto:${investigator?.email ? investigator.email : ''}`" class="no-underline hover:underline">{{

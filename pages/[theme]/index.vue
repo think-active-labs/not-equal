@@ -53,14 +53,12 @@ const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
     .find()
 
   const [theme, themeList, projects] = await Promise.all([themeQuery, allThemesQuery, projectsQuery])
-  console.log(themeList)
+
   const t: any = {}, currentThemeIndex = themeList.filter((t, index) => {
     if (t.slug == route.params.theme) {
       return [t, index]
     }
   })
-
-  console.log(t)
 
   return { theme, projects }
 
