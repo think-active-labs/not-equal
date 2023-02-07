@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="w-full">
     <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[10%]" :alt="data?.description" />
 
     <div class="flex flex-col sm:flex-row">
