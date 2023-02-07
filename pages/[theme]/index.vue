@@ -7,11 +7,13 @@
       </div>
       <div v-for="p, index in data?.projects"
         class="flex flex-col gap-2 p-6 border-r-2 border-b-2 border-black justify-start">
-        <img class="object-contain" :src="p.image" />
-        <h1 class="font-title text-4xl">{{ p.title }}</h1>
-        <p class="font-subtitle text-base md:text-xl text-clip">{{ p.description }}</p>
-        <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`"
-          class="text-xl sm:text-4xl self-end">→</nuxt-link>
+        <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`">
+          <img class="object-contain" :src="p.image" />
+          <h1 class="font-title text-4xl">{{ p.title }}</h1>
+          <p class="font-subtitle text-base md:text-xl text-clip">{{ p.description }}</p>
+          <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`"
+            class="text-xl sm:text-4xl self-end hover:underline">→</nuxt-link>
+        </nuxt-link>
       </div>
       <div class="p-6 border-r-2 border-b-2 border-black">
         <h1 class="font-subtitle sm:text-4xl md:text-7xl mb-4">Next Chapter</h1>

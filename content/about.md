@@ -1,6 +1,5 @@
 ---
 title: "Not-Equal"
-img: "home"
 ---
 
 # About

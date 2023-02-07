@@ -1,54 +1,58 @@
 <template>
   <div class="w-full">
-    <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[10%]" :alt="data?.description" />
+
+    <div class="w-full border-b-4 border-black">
+      <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[30%]" :alt="data?.description" />
+    </div>
 
     <div class="flex flex-col sm:flex-row">
       <!-- Mobile back button -->
-      <NuxtLink :to="`${route.params.theme} `" class="sm:hidden p-4 text-2xl font-semibold">← <span
+      <NuxtLink :to="`/${route.params.theme}`" class="sm:hidden p-4 text-2xl font-semibold">← <span
           class="hover:underline">Back</span>
       </NuxtLink>
-      <a @click="$router.back()" class="sm:hidden p-4 text-2xl font-semibold">← <span
-          class="hover:underline">Back</span></a>
-
-      <!-- Back and partners box -->
-      <div class="p-2 sm:text-center order-last sm:-order-1 sm:w-1/5">
-        <a @click="$router.back()" class="text-2xl font-semibold cursor-pointer">← <span
-            class="hover:underline">Back</span></a>
-
-        <!-- Partners box -->
-        <div class="p-2 sm:p-8 text-left prose-xl">
-          <h2 class="text-4xl font-light text-gray-600 my-6">Partners</h2>
-          <div v-for="partner in data?.partners" class="flex flex-col gap-12">
-            <a :href="partner.link" target="_blank">
-              <img v-if="partner.image" :src="partner.image" :alt="partner.name" />
-              <h3 v-else>{{ partner.name }}</h3>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
 
+    <NuxtLink :to="`/${route.params.theme}`"
+      class="absolute ml-5 mt-5 invisible sm:visible text-2xl font-semibold cursor-pointer">←
+      <span class="hover:underline">Back</span>
+    </NuxtLink>
+
+
     <!-- Page content -->
-    <div class="flex flex-col p-3 sm:p-6 prose prose-lg m-auto">
-      <h1 class="font-title text-6xl">{{ data?.title }}</h1>
-      <h3 v-if="data?.description">{{ data?.description }}</h3>
+    <div class="flex flex-col p-3 sm:p-6 prose prose-xl m-auto sm:mb-40">
+      <div class="prose prose-2xl">
+        <h1 class="font-title text-6xl">{{ data?.title }}</h1>
+        <h3 v-if="data?.description">{{ data?.description }}</h3>
+      </div>
+
+      <!-- Partners box -->
+      <div class="prose-xl" v-if="data?.partners">
+        <h2 class="text-4xl font-light text-gray-600 my-6">Partners</h2>
+        <div v-for="partner in data?.partners" class="flex flex-col gap-12">
+          <a :href="partner.link" target="_blank">
+            <img v-if="partner.image" :src="partner.image" :alt="partner.name" />
+            <h3 v-else>{{ partner.name }}</h3>
+          </a>
+        </div>
+      </div>
 
       <!-- Investigators -->
       <div class="flex flex-col sm:flex-row">
         <div class="w-1/2" v-if="data?.project_lead">
           <h2>Project Lead</h2>
           <p v-for="project_lead in data?.project_lead">
-            <a :href="`mailto:${project_lead?.email} `" v-if="project_lead.email">{{ project_lead.name }}</a>
-          <p v-else>{{ project_lead.name }}</p>
+            <a :href="`mailto:${project_lead?.email ? project_lead?.email : ''}`"
+              class="no-underline hover:underline">{{
+                project_lead.name
+              }}</a>
           </p>
         </div>
         <div class="w-1/2" v-if="data?.investigators && data.investigators.length > 0">
           <h2>Co-investigators</h2>
           <p v-for="investigator in data?.investigators">
-            <a :href="`mailto:${investigator?.email}`" v-if="investigator.email">{{
+            <a :href="`mailto:${investigator?.email ? investigator.email : ''}`" class="no-underline hover:underline">{{
               investigator.name
             }}</a>
-          <p v-else>{{ investigator.name }}</p>
           </p>
         </div>
       </div>
