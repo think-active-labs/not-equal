@@ -17,13 +17,12 @@
       <span class="hover:underline">Back</span>
     </NuxtLink>
 
-
+    <div class="prose sm:prose-2xl border-b-4 border-black py-10 m-auto px-3 sm:px-0 sm:text-center">
+      <h1 class="font-title">{{ data?.title }}</h1>
+      <h3 v-if="data?.description">{{ data?.description }}</h3>
+    </div>
     <!-- Page content -->
     <div class="flex flex-col p-3 sm:p-6 prose prose-xl m-auto sm:mb-40">
-      <div class="prose prose-2xl">
-        <h1 class="font-title text-6xl">{{ data?.title }}</h1>
-        <h3 v-if="data?.description">{{ data?.description }}</h3>
-      </div>
 
       <!-- Partners box -->
       <div class="prose-xl" v-if="data?.partners">
