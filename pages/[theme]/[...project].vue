@@ -39,20 +39,19 @@
       <div class="flex flex-col sm:flex-row">
         <div class="sm:w-1/2" v-if="data?.project_lead && data.project_lead.length > 0">
           <h2>Project Lead</h2>
-          <p v-for="project_lead in data?.project_lead">
-            <a :href="`mailto:${project_lead?.email ? project_lead?.email : ''}`"
-              class="no-underline hover:underline">{{
-                project_lead.name
-              }}</a>
-          </p>
+          <a v-for="project_lead in data?.project_lead"
+            :href="`mailto:${project_lead?.email ? project_lead?.email : ''}`"
+            class="block no-underline hover:underline">{{
+              project_lead.name
+            }}</a>
         </div>
         <div class="sm:w-1/2" v-if="data?.investigators && data.investigators.length > 0">
           <h2>Co-investigators</h2>
-          <p v-for="investigator in data?.investigators">
-            <a :href="`mailto:${investigator?.email ? investigator.email : ''}`" class="no-underline hover:underline">{{
+          <a v-for="investigator in data?.investigators"
+            :href="`mailto:${investigator?.email ? investigator.email : ''}`"
+            class="block no-underline hover:underline">{{
               investigator.name
             }}</a>
-          </p>
         </div>
       </div>
 
