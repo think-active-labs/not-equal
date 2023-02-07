@@ -7,7 +7,7 @@
     <div class="w-full border-b-2 sm:border-b-4 border-slate-800 p-12">
       <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[50vh]" :alt="data?.description" />
     </div>
-    <ContentDoc class="prose sm:prose-xl m-auto pt-20 py-3" />
+    <ContentDoc class="prose sm:px-6 px-3 sm:prose-xl m-auto pt-20 py-3" />
   </div>
 </template>
 
