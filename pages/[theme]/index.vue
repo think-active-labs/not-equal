@@ -6,7 +6,7 @@
         <p class="font-subtitle text-lg sm:text-xl md:text-3xl">{{ data?.theme.description }}</p>
       </div>
       <div v-for="p, index in data?.projects"
-        class="flex flex-col gap-2 sm:p-3 p-6 border-r-2 border-b-2 border-black justify-start">
+        class="flex flex-col gap-2 p-3 sm:p-6 border-r-2 border-b-2 border-black justify-start">
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`">
           <img class="object-contain" :src="p.image" />
         </nuxt-link>
