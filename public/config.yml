@@ -16,6 +16,7 @@ collections:
         file: "content/about.md"
         format: "frontmatter"
         fields:
+          - { label: "Header Image", name: "image", widget: "image" }
           - {
               label: "Body",
               name: "body",

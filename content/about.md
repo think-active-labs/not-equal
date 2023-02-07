@@ -1,5 +1,6 @@
 ---
 title: "Not-Equal"
+image: /uploads/about.jpg
 ---
 
 # About
