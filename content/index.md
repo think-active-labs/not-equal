@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Testing
+description: Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
 image: uploads/home.png
 theme_order:
   - slug: algorithmic-social-justice
@@ -8,4 +8,4 @@ theme_order:
   - slug: fairer-futures-for-businesses-and-workforces
   - slug: digital-access
 ---
-This is a test
+Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
