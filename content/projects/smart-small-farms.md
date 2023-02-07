@@ -4,6 +4,8 @@ description: Nullam id dolor id nibh ultricies vehicula ut id elit.
 image: /uploads/smart_farms_1.svg
 themes:
   - fairer-futures-for-businesses-and-workforces
+project_types:
+  - Funded Project
 project_lead:
   - name: Leanne Townsend, James Hutton Institue (PI)
     email: "leanne.townsend@hutton.ac.uk "
