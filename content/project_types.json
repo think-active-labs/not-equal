@@ -4,7 +4,25 @@
       "type": "Funded Project"
     },
     {
-      "type": "Central Funding"
+      "type": "Funded Micro Project"
+    },
+    {
+      "type": "Tool"
+    },
+    {
+      "type": "Project "
+    },
+    {
+      "type": "Event"
+    },
+    {
+      "type": "Blog"
+    },
+    {
+      "type": "Talk / Video"
+    },
+    {
+      "type": "Panel Discussion"
     }
   ]
 }
