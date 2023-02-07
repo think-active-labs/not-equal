@@ -17,16 +17,15 @@
       <span class="hover:underline">Back</span>
     </NuxtLink>
 
-    <div
-      class="flex flex-col gap-12 w-2/3 border-b-2 sm:border-b-4 border-b-slate-800 py-10 m-auto px-3 sm:px-0 sm:text-center">
+    <div class="sm:w-2/3 border-b-2 sm:border-b-4 border-b-slate-800 py-10 sm:py-20 m-auto px-3 sm:px-0 sm:text-center">
       <h1 class="text-4xl sm:text-7xl font-normal font-title leading-tight">{{ data?.title }}</h1>
-      <h3 class="text-2xl sm:text-4xl" v-if="data?.description">{{ data?.description }}</h3>
+      <h3 class="text-2xl sm:text-4xl mt-8" v-if="data?.description">{{ data?.description }}</h3>
     </div>
     <!-- Page content -->
     <div class="flex flex-col p-3 sm:p-6 prose sm:prose-lg m-auto sm:mb-40">
 
       <!-- Partners box -->
-      <div class="prose sm:prose-lg" v-if="data?.partners">
+      <div class="prose sm:prose-lg" v-if="data?.partners && data.partners.length > 0">
         <h2>Partners</h2>
         <div v-for="partner in data?.partners" class="flex flex-col gap-12">
           <a :href="partner.link" target="_blank">
@@ -38,7 +37,7 @@
 
       <!-- Investigators -->
       <div class="flex flex-col sm:flex-row">
-        <div class="sm:w-1/2" v-if="data?.project_lead">
+        <div class="sm:w-1/2" v-if="data?.project_lead && data.project_lead.length > 0">
           <h2>Project Lead</h2>
           <p v-for="project_lead in data?.project_lead">
             <a :href="`mailto:${project_lead?.email ? project_lead?.email : ''}`"
@@ -58,7 +57,7 @@
       </div>
 
       <!-- Project Type -->
-      <div v-if="data?.project_types">
+      <div v-if="data?.project_types && data.project_types.length > 0">
         <h2>Project Type</h2>
         <span v-for="projectType in data.project_types">
           {{ projectType }}
@@ -66,7 +65,7 @@
       </div>
 
       <!-- Project Tags -->
-      <div v-if="data?.project_tags">
+      <div v-if="data?.project_tags && data.project_tags.length > 0">
         <h2>Project Tags</h2>
         <span v-for="projectTag, index in data.project_tags">
           <span>{{ projectTag }}</span><span v-if="index + 1 < data.project_tags.length">, </span>
