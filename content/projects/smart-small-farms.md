@@ -6,6 +6,10 @@ themes:
   - fairer-futures-for-businesses-and-workforces
 project_types:
   - Funded Project
+project_tags:
+  - farms
+  - rural economy
+  - digital inclusion
 project_lead:
   - name: Leanne Townsend, James Hutton Institue (PI)
     email: "leanne.townsend@hutton.ac.uk "
@@ -21,8 +25,9 @@ page_sections:
   - type: video-block
     src: "https://youtu.be/ZzKbdIsHUQI "
     video_embed_code: " "
-    caption: \
+    caption: ""
     title: " "
+    youtube_video_id: "ZzKbdIsHUQI "
   - type: text-block
     text: >-
       The research team worked with one crofter and community representative
@@ -36,14 +41,11 @@ page_sections:
   - type: link-block
     title: " "
     buttons:
-      - text: "Proposal: "
+      - text: Proposal
         url: "https://drive.google.com/drive/folders/1NED3i8RG7zAmENTnn09EW2lzdRx7pexP?\
           usp=sharing "
-  - type: link-block
-    buttons:
-      - text: "Reports: "
-        url: https://drive.google.com/drive/folders/1A1v8Ye22ZdCj_XVzaB9HjvXkJjxr_sjv?usp=sharing
-    title: " "
-    content: ""
+      - text: "Reports:"
+        url: "https://drive.google.com/drive/folders/1A1v8Ye22ZdCj_XVzaB9HjvXkJjxr_sjv?\
+          usp=sharing "
 ---
 Small farms are less likely to enjoy the benefits of the digital economy so this project aimed to empower and more fairly distribute the opportunities of the digital economy through the development of Smart Farming Technologies (SFTs). The project planned to work with small farms to design prototype technologies.
