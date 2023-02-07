@@ -18,7 +18,7 @@
     </NuxtLink>
 
     <div class="sm:w-2/3 border-b-2 sm:border-b-4 border-b-slate-800 py-10 sm:py-20 m-auto px-3 sm:px-0 sm:text-center">
-      <h1 class="text-4xl sm:text-7xl font-normal font-title leading-tight">{{ data?.title }}</h1>
+      <h1 class="text-4xl sm:text-7xl font-normal font-title leading-tight antialiased">{{ data?.title }}</h1>
       <h3 class="text-2xl sm:text-4xl mt-8" v-if="data?.description">{{ data?.description }}</h3>
     </div>
     <!-- Page content -->

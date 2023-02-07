@@ -23,7 +23,8 @@
           :class="activeTab == 'home' ? 'w-full' : 'hidden'">
           <img :src="data?.home.image" class="object-contain w-full max-h-[60%]" />
           <div class="prose-2xl p-4 sm:p-12">
-            <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight">{{ data?.home.title }}</h1>
+            <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight antialiased">{{ data?.home.title }}
+            </h1>
             <p class="text-4xl font-normal font-subtitle">{{ data?.home.description }}</p>
             <NuxtLink :to="`about`" class="font-subtitle text-2xl underline justify-end">View More
             </NuxtLink> <span>→</span>
