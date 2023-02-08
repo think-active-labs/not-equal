@@ -3,7 +3,7 @@ title: Digital Security For All
 description: "How can digital security design be modelled to offer freedom and
   civic empowerment as well as protection from harm? "
 slug: digital-security-for-all
-image: /uploads/copy-of-openingdoors_01.svg
+image: /uploads/ne22_challenge_digsecurity_01.svg
 ---
 How can digital security design be modelled to offer freedom and civic empowerment as well as protection from harm? What design principles can ensue from approaches that foreground notions of digital security as enablement? Can we design and configure digital security that promotes agency, trust, and care? What happens if we position digital security as a co-created, collaborative endeavour?
 
