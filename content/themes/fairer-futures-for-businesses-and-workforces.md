@@ -3,7 +3,7 @@ title: Fairer Futures for Businesses and Workforces
 description: What business models offer fairer opportunities & working
   conditions   for all in the platform economy?
 slug: fairer-futures-for-businesses-and-workforces
-image: /uploads/pubjusalgos_01.svg
+image: /uploads/ne22_challenge_fairfuts_01.svg
 ---
 Can we re-envisage digital technology to offer fresh patterns of processes and systems to realise equitable economic opportunities for all? Who should be part of this envisaging? Not-Equal projects helped map out and better understand how physical and digital infrastructure cities work together to produce new forms of harm for gig workers in the UK and in India. This work also shows that many of these harms are still poorly understood, and the shortcomings of changing merely at digital infrastructure level as a way to respond to issues that workers face. Projects also looked at how workers with intersecting identities, across gender and class, are impacted differently in the platform economy and found novel ways to better understand such impacts.
 
