@@ -4,8 +4,14 @@ description: Co-designing a Sustainable Food Justice System with Blockchain Futu
 image: /uploads/copy-of-blockchain_futures_01.svg
 themes:
   - algorithmic-social-justice
+project_types:
+  - Funded Project
+project_tags:
+  - sustainability
+  - blockchain
+  - co-design
 project_lead:
-  - name: Sara Heitlinger, Lecturer in Computer Science, City, University of London
+  - name: Sara Heitlinger, Lecturer in Computer Science, University of London
     email: sara.heitlinger@city.ac.uk
 investigators:
   - name: Lara Houston, City, University of London
@@ -14,16 +20,19 @@ page_sections:
   - type: video-block
     youtube_video_id: XcOgYNJZrso
   - type: text-block
-    text: >-
-      The expertise of Furtherfield, a London-based arts organization who have
+    text: The expertise of Furtherfield, a London-based arts organization who have
       developed an award-winning programme of engaging non-technical
       participants in blockchain futures, was drawn upon. The approach was
       interdisciplinary, drawing on methods from art and design, STS, and
       computer science. Activities included a multispecies Live Action Role Play
       (LARP), and paper prototyping of new blockchain-based systems.
-
-
-      The methods and approach developed have been adopted by Furtherfield, as part of their programming and through their work on the EU-funded Creatures project. In this work they continue to engage with diverse citizens on issues of equality, participation, and ecology. Future activities include a paper for Big Data and Society and a book on More-than-human smart cities.
+  - type: text-block
+    text: The methods and approach developed have been adopted by Furtherfield, as
+      part of their programming and through their work on the EU-funded
+      Creatures project. In this work they continue to engage with diverse
+      citizens on issues of equality, participation, and ecology. Future
+      activities include a paper for Big Data and Society and a book on
+      More-than-human smart cities.
   - type: link-block
     title: Publications
     buttons:
