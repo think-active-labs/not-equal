@@ -38,5 +38,10 @@ page_sections:
       - text: "Co-Creation and Co-Design Methodologies to address Social Justice and
           Ethics in Machine Learning:"
         url: https://drive.google.com/file/d/1dfxfrsQH42qpIwUbG622b7cbyHvdPH58/view?usp=sharing
+      - text: Read the Proposal
+        url: https://drive.google.com/drive/folders/1efppw8ZUni6GJRQOBpu8b4MLg01QSn2p?usp=sharing
+      - text: View the Report
+        url: "https://drive.google.com/drive/folders/1TfmX6NJ-lYqgmlYV2pB7hDBrXgEp3nWM?\
+          usp=sharing "
 ---
 This project aimed to tackle social injustice in future algorithmic-based decision-making applications by devising strategies to expose, counterbalance, and remedy bias and exclusion built into algorithms, considering fairness, transparency, and accountability. The project employed a design fiction approach to developing a toolkit in a collaborative workshop session with supporting materials to be used by stakeholders to experiment with scenarios to expose potential bias and reflect on mitigation strategies early in the design process.
