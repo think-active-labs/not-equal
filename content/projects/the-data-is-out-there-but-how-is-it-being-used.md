@@ -13,6 +13,11 @@ project_tags:
 project_lead:
   - name: Emily Barker, Newcastle University
 page_sections:
+  - type: image-gallery-block
+    images:
+      - image: /uploads/flashcards.jpg
+      - image: /uploads/not-equal-clara.jpg
+      - image: /uploads/poster-2.jpg
   - type: text-block
     text: >-
       **Public vs private data: what can the algorithms use?** 
