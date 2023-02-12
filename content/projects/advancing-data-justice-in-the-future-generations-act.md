@@ -3,7 +3,6 @@ project_lead:
   - name: Lina Dencik, Cardiff University
     email: dencikl@cardiff.ac.uk
     lead: Bob
-header_image: /uploads/copy-of-deepsea_01.svg
 title: Advancing Data Justice in the Future Generations Act
 description: Advancing Data Justice in the Future Generations Act
 image: /uploads/fga_justice_01.svg
