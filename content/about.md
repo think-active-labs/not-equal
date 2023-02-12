@@ -1,8 +1,7 @@
 ---
-title: "Not-Equal"
+title: Not-Equal
 image: /uploads/about.jpg
 ---
-
 # About
 
 Not-Equal is a UKRI funded network, NetworkPlus, that aims to foster new collaborations in order to create the conditions for digital technology to support social justice, and develop a path for inclusive digital innovation and a fairer future for all in and through the digital economy.

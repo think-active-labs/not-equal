@@ -4,6 +4,12 @@ description: "Civic InnovatioN in CommunITY: safety, policing and trust with you
 image: /uploads/cincity_01.svg
 themes:
   - digital-security-for-all
+project_types:
+  - Funded Project
+project_tags:
+  - young people
+  - "transparency "
+  - crime
 project_lead:
   - name: Artemis Skarlatidou, University College London
     email: a.skarlatidou@ucl.ac.uk
@@ -13,11 +19,11 @@ page_sections:
   - type: image-gallery-block
     images:
       - image: /uploads/cincity-1.jpg
-        caption: "Participants working together in the workshop."
+        caption: Participants working together in the workshop.
       - image: /uploads/citizens-uk-meeting-1024x579.jpg
-        caption: "Everyone getting along and shaking hands."
+        caption: Everyone getting along and shaking hands.
       - image: /uploads/cincity-2.jpg
-        caption: "Engaging in discussions with the team."
+        caption: Engaging in discussions with the team.
   - type: text-block
     text: The project team interviewed 23 young people and police experts. 50 young
       people were involved as co-researchers and used the app to interview their
