@@ -57,7 +57,7 @@
 <script setup lang="ts">
 import debounce from 'lodash.debounce'
 import { emit } from 'process';
-import { AisInstantSearch, AisSearchBox, AisHits, AisHighlight, AisConfigure } from 'vue-instantsearch/vue3/es'
+import { AisInstantSearch, AisSearchBox, AisHits, AisHighlight, AisConfigure } from 'vue-instantsearch/vue3/es/index.js'
 
 const algolia = useAlgoliaRef()
 
