@@ -21,9 +21,9 @@
         <div
           class="flex flex-col justify-start border-b-slate-800 border-b-2 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
           :class="activeTab == 'home' ? 'w-full' : 'hidden'">
-          <img :src="data?.home.image" class="object-contain w-full max-h-[60%]" />
-          <div class="prose-2xl p-3 sm:p-12">
-            <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight antialiased">{{ data?.home.title }}
+          <img :src="data?.home.image" class="object-contain w-full max-h-[30%] sm:max-h-[50%] pt-2 sm:pt-6" />
+          <div class="prose md:prose-2xl p-3 sm:p-12">
+            <h1 class="font-normal font-title leading-tight antialiased">{{ data?.home.title }}
             </h1>
             <p class="text-4xl font-normal font-subtitle">{{ data?.home.description }}</p>
             <NuxtLink :to="`about`" class="font-subtitle text-2xl underline justify-end">View More
@@ -47,8 +47,8 @@
         <div
           class="flex flex-col justify-start border-b-slate-800 border-b-2 sm:border-b-0 sm:border-r-slate-800 sm:border-r-4 overflow-auto"
           :class="activeTab == item.slug ? 'w-full' : 'hidden'">
-          <img :src="`${item.image}`" class="object-contain w-full max-h-[60%] mb-2 sm:mb-12" />
-          <div class="prose-2xl p-3 sm:p-12">
+          <img :src="`${item.image}`" class="object-contain w-full max-h-[30%] sm:max-h-[50%] pt-2 sm:pt-6" />
+          <div class="prose md:prose-2xl p-3 sm:p-12">
             <h1 class="text-4xl sm:text-8xl font-normal font-title leading-tight antialiased">{{ item.title }}</h1>
             <p class="text-4xl font-normal font-subtitle">{{ item.description }}</p>
             <NuxtLink :to="`/${item.slug}`" class="font-subtitle text-2xl underline justify-end">View More
