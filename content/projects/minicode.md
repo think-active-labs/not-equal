@@ -15,6 +15,7 @@ project_lead:
     email: "a.malizia@herts.ac.uk "
 investigators:
   - name: Silvio Carta, University of Hertfordshire
+partners: []
 page_sections:
   - type: video-block
     youtube_video_id: ou5TY-Qv948
@@ -32,9 +33,10 @@ page_sections:
   - type: link-block
     title: Publications
     buttons:
-      - text: "MiniCoDe Workshops. Minimise Algorithmic Bias in Collaborative Decision
-          Making with Design Fiction: "
+      - text: View the Paper
         url: https://www.hhai-conference.org/wp-content/uploads/2022/06/hhai-2022_paper_58.pdf
+        content: "MiniCoDe Workshops. Minimise Algorithmic Bias in Collaborative
+          Decision Making with Design Fiction: "
       - text: "Co-Creation and Co-Design Methodologies to address Social Justice and
           Ethics in Machine Learning:"
         url: https://drive.google.com/file/d/1dfxfrsQH42qpIwUbG622b7cbyHvdPH58/view?usp=sharing
