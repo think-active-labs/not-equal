@@ -1,6 +1,6 @@
 ---
 title: Not-Equal
-image: /uploads/about.jpg
+image: /uploads/ne-gif.gif
 ---
 # About
 
