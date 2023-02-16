@@ -16,6 +16,7 @@ project_tags:
   - social justice
 project_lead:
   - name: Clara Crivellaro, Newcastle University
+page_sections: []
 ---
 Over the 22-23rd September, the V & A hosted a Digital Design weekend to coincide with the London Design Festival. This included artists, engineers and technologists collaborating on a weekend of free workshops, talks and demonstrations to explore the intersection of technology and design.
 
