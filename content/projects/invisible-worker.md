@@ -1,7 +1,7 @@
 ---
 title: Invisible Worker
 description: " "
-image: /uploads/ehgsa8yxgae2x47-1024x765.jpeg
+image: /uploads/invisible-worker-03.svg
 themes:
   - algorithmic-social-justice
   - digital-security-for-all
