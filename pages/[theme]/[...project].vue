@@ -2,7 +2,7 @@
   <div class="w-full">
 
     <div class="w-full sm:border-b-4 border-b-slate-800">
-      <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[30%]" :alt="data?.description" />
+      <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[70vh]" :alt="data?.description" />
     </div>
 
     <div class="flex flex-col sm:flex-row">
