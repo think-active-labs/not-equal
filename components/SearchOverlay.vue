@@ -97,7 +97,6 @@ watch(searchQuery, () => {
 })
 
 onMounted(async () => {
-  console.log(process.env)
 })
 
 </script>

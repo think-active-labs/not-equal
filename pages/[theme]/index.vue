@@ -2,7 +2,7 @@
   <div class="w-full">
     <div class="h-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4" v-if="data?.theme">
       <div class="p-3 sm:p-6 border-r-2 border-b-2 border-black">
-        <h1 class="font-title text-3xl mb-4 antialiased">{{ data?.theme.title }}</h1>
+        <h1 class="font-title text-4xl mb-4 antialiased leading-9">{{ data?.theme.title }}</h1>
         <p class="font-subtitle text-lg sm:text-2xl">{{ data?.theme.description }}</p>
       </div>
       <div v-for="p, index in data?.projects"
@@ -11,14 +11,20 @@
           <img class="object-cover w-full" :src="p.image" />
         </nuxt-link>
         <div class="flex flex-col gap-4">
-          <h1 class="font-title text-2xl antialiased">{{ p.title }}</h1>
+          <h1 class="font-title text-2xl antialiased leading-6">{{ p.title }}</h1>
           <p class="font-subtitle text-base md:text-xl text-clip">{{ p.description }}</p>
         </div>
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`"
           class="text-xl sm:text-2xl self-end hover:underline">Read →</nuxt-link>
       </div>
       <div class="p-3 sm:p-6 border-r-2 border-b-2 border-black">
-        <h1 class="font-subtitle sm:text-4xl md:text-7xl mb-4">Next Chapter</h1>
+        <nuxt-link :to="`${data.nextChapter.slug}`">
+          <img class="object-cover w-full" :src="data.nextChapter.image" />
+          <h2 class="font-title text-3xl mb-4 antialiased hover:underline">{{ data.nextChapter.title }}</h2>
+          <h1 class="font-subtitle text-4xl md:text-5xl py-10 text-center sm:text-left hover:underline">
+            Next Chapter
+          </h1>
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -39,23 +45,18 @@ const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
 
   const [theme, themeList, projects] = await Promise.all([themeQuery, allThemesQuery, projectsQuery])
 
-  const t: any = {}, currentThemeIndex = themeList.filter((t, index) => {
-    if (t.slug == route.params.theme) {
-      return [t, index]
-    }
-  })
+  const currentThemeIndex = themeList.findIndex(t => t.slug == route.params.theme)
 
-  return { theme, projects }
+  let nextChapterIndex = themeList[currentThemeIndex + 1] ? currentThemeIndex + 1 : 0
+
+  const nextChapter = themeList[nextChapterIndex]
+
+  return { theme, projects, nextChapter }
 
 })
 
 const theme = ref(route.params.theme)
 
-// const data = await queryContent().where({ _file: 'themes.json' }).findOne()
-
-// const projects = await queryContent().where({ _dir: route.params.theme }).only(['title', 'description']).find()
-
-// console.log(route.params.theme)
 </script>
 
 <style scoped>
