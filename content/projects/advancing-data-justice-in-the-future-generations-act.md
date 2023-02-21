@@ -1,23 +1,20 @@
 ---
-project_lead:
-  - name: Lina Dencik, Cardiff University
-    email: dencikl@cardiff.ac.uk
-    lead: Bob
 title: Advancing Data Justice in the Future Generations Act
 description: Advancing Data Justice in the Future Generations Act
 image: /uploads/fga_justice_01.svg
 themes:
   - algorithmic-social-justice
-investigators:
-  - name: Bob flemming
-    email: something@somewhere.com
-    investigator: Bob2
-partners:
-  - name: We and AI
-    link: https://weandai.org/
-    image: /uploads/we-and-ai.png
-    partner_images: /uploads/we-and-ai.png
-    partner_image: /uploads/we-and-ai.png
+project_types:
+  - Funded Project
+project_tags:
+  - data
+  - data justice
+project_lead:
+  - name: Lina Dencik, Cardiff University
+    email: dencikl@cardiff.ac.uk
+    lead: Bob
+investigators: []
+partners: []
 page_sections:
   - type: link-block
     title: Read the Reports
