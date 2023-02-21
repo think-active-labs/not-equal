@@ -378,3 +378,40 @@ collections:
               - label: "Project Tag"
                 name: "tag"
                 widget: string
+  - name: "site-settings"
+    label: "Site Settings"
+    files:
+      - label: "Site Settings"
+        name: "site-settings"
+        file: "content/site-settings.json"
+        fields:
+          - label: "Project Types"
+            name: "project-types-list"
+            widget: "list"
+            hint: "Specify the project types you'd like to use in your projects."
+            fields:
+              - label: "Project Type"
+                name: "type"
+                widget: string
+          - label: "Footer Images"
+            name: "footer-images"
+            widget: "object"
+            summary: "{{fields.image}}"
+            hint: "Images that are displayed at the footer of the site."
+            fields:
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                summary: "{{fields.image}}"
+                fields:
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
+                    hint: "Add an image you want to show at the footer of the page."
+                  - {
+                      label: "Caption Text",
+                      name: "caption",
+                      widget: "string",
+                      hint: "Caption text describing the image.",
+                      required: false,
+                    }
