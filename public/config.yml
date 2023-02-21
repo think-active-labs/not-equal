@@ -385,14 +385,10 @@ collections:
         name: "site-settings"
         file: "content/site-settings.json"
         fields:
-          - label: "Project Types"
-            name: "project-types-list"
-            widget: "list"
-            hint: "Specify the project types you'd like to use in your projects."
-            fields:
-              - label: "Project Type"
-                name: "type"
-                widget: string
+          - name: "site-title"
+            label: "Site Title"
+            hint: "Shown on the tab in the browser window."
+            widget: "string"
           - label: "Footer Images"
             name: "footer-images"
             widget: "object"
