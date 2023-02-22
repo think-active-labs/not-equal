@@ -47,7 +47,7 @@ page_sections:
         text: Watch the video
       - text: Github
         url: "https://github.com/equalityTime/projectreal "
-      - text: List the Website
+      - text: Link to the Website
         url: http://www.projectreal.co.uk/
       - text: Read the Proposal
         url: https://drive.google.com/drive/folders/1nIv75TWCqtiX6Qe8Jnqy0Lj_Q9-QwOXU?usp=sharing
