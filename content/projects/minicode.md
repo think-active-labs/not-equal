@@ -33,7 +33,7 @@ page_sections:
   - type: link-block
     title: Publications
     buttons:
-      - text: View the Paper
+      - text: View the workshops
         url: https://www.hhai-conference.org/wp-content/uploads/2022/06/hhai-2022_paper_58.pdf
         content: "MiniCoDe Workshops. Minimise Algorithmic Bias in Collaborative
           Decision Making with Design Fiction: "
