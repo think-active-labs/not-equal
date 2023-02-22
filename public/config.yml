@@ -4,8 +4,8 @@ backend:
   branch: main # Branch to update
   base_url: https://not-equal-netlify-cms-github-oauth-provider.vercel.app # Path to ext auth provider
 
-media_folder: /uploads
-public_folder: /uploads
+media_folder: "public/uploads"
+public_folder: "/uploads"
 
 collections:
   - name: "pages"
