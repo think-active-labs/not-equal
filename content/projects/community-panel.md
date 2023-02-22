@@ -18,9 +18,7 @@ investigators:
   - name: Solen Lees, Community Champion
 page_sections:
   - type: link-block
-    buttons:
-      - text: Use the Tool
-        url: https://drive.google.com/drive/folders/1doAYmiM3WZyG8ZFZg2ZTsZsKp90sTYH4
+    buttons: []
     title: " "
 ---
 Civic participation and participatory design have historically been regarded as critical ways to tackle the power imbalance between ‘users’ and systems designers and developers. As part of Not-Equal's Open Commissioning process, citizens were invited to review the social impact of submitted research proposals to help determine which project should be funded. 

@@ -15,7 +15,7 @@ project_lead:
   - name: Ian Johnson, Newcastle University
 page_sections:
   - type: video-block
-    youtube_video_id: xUKaxoJn0hg&t=267s
+    youtube_video_id: xUKaxoJn0hg
 ---
 The Not Equal Bits Leak Out workshop, which was held in the Computational Foundry at Swansea University on the 15th November looked at how we can navigate the potential risks and opportunities when it comes to algorithm service delivery. 
 

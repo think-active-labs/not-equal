@@ -1,6 +1,7 @@
 ---
 title: Smart Small Farms
-description: Nullam id dolor id nibh ultricies vehicula ut id elit.
+description: Distribute the opportunities of the digital economy through the
+  development of Smart Farming Technologies (SFTs)
 image: /uploads/smart_farms_1.svg
 themes:
   - fairer-futures-for-businesses-and-workforces
