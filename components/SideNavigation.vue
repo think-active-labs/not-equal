@@ -1,10 +1,9 @@
 <template>
   <div>
-    <nav
-      class="side-menu top-0 h-screen sm:w-2/5 fixed ease-in-out duration-300 z-30 flex flex-col sm:flex-row justify-between"
+    <nav class="side-menu top-0 h-screen fixed ease-in-out duration-300 z-30 flex flex-col sm:flex-row justify-between"
       :class="isOpen ? 'open' : 'close'">
       <div class="flex flex-col grow justify-center">
-        <ul class="px-6 my-3 text-center flex flex-col gap-6 sm:gap-6 sm:my-5 sm:text-left w-full">
+        <ul class="px-12 sm:px-20 my-3 text-center flex flex-col gap-6 sm:gap-6 sm:my-5 sm:text-left w-full">
           <nuxt-link to="/" @click.native="isOpen = false">
             <li class="text-4xl underline font-link sm:text-4xl">Home</li>
           </nuxt-link>
@@ -27,7 +26,7 @@
           </svg>
         </div>
         <!-- title -->
-        <nuxt-link to="/" class="rotated-header ml-16 sm:ml-0 text-2xl font-link">
+        <nuxt-link to="/" class="rotated-header ml-16 sm:ml-0 text-lg sm:text-2xl font-link">
           Not-Equal Archive
         </nuxt-link>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" @click="showSearch = !showSearch"
