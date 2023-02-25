@@ -8,7 +8,8 @@
       <div v-for="p, index in data?.projects"
         class="flex flex-col gap-2 p-3 sm:p-6 border-r-2 border-b-2 border-black justify-start">
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`">
-          <nuxt-img class="object-cover w-full" :src="p.image" />
+          <nuxt-img class="object-cover w-full" format="webp" sizes="sm:100vw md:50vw lg:400px" quality="60"
+            :src="p.image" />
         </nuxt-link>
         <div class="flex flex-col gap-4">
           <h1 class="font-title text-2xl antialiased leading-6">{{ p.title }}</h1>
