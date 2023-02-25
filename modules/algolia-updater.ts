@@ -9,9 +9,11 @@ export async function updateAlgolia(apiKey: string, algoliaIndex: string, algoli
   }
   interface AlgoliaRecord {
     objectID: string
-    image: string
     title: string
     description: string
+    image: string
+    project_tags: string[]
+    project_types: string[]
     themes: string[]
     body: string
   }
@@ -28,9 +30,11 @@ export async function updateAlgolia(apiKey: string, algoliaIndex: string, algoli
     const f: any = fm(await fs.readFile(`${contentDir}/${file}`, 'utf-8'))
     algoliaRecords.push({
       objectID: file,
-      image: f.attributes.image,
       title: f.attributes.title,
       description: f.attributes.description,
+      image: f.attributes.image,
+      project_tags: f.attributes.project_tags,
+      project_types: f.attributes.project_types,
       themes: f.attributes.themes,
       body: f.body
     })

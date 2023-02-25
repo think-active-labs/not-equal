@@ -30,11 +30,14 @@
                   <div class="flex flex-col sm:flex-row gap-4 p-4">
                     <nuxt-img :src="hit.image" class="sm:max-w-[25%] h-auto object-contain" />
                     <div class="prose">
-                      <h2>{{ hit.title }}</h2>
+                      <h2>{{ hit.title }} <span v-for="project_type in hit.project_types"
+                          class="text-xs font-medium text-gray-800">({{
+                            project_type
+                          }})</span></h2>
                       <p>{{ hit.description }}</p>
                       <div v-for="theme in hit.themes">
                         <span
-                          class="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-gray-800">{{
+                          class="items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-gray-800">{{
                             theme
                           }}</span>
                       </div>
