@@ -115,6 +115,8 @@ const route = useRoute()
 const { data } = await useAsyncData(`project-${route.params.slug}`, () => {
   return queryContent('projects').where({ _path: { $eq: `/projects/${route.params.project[0]}` } }).findOne()
 })
+
+if (!data.value) { throw createError({ statusCode: 404, statusMessage: 'Page Not Found' }) }
 </script>
 
 <style scoped>

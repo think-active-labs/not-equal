@@ -57,6 +57,8 @@ const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
 
 const theme = ref(route.params.theme)
 
+if (!data.value) { throw createError({ statusCode: 404, statusMessage: 'Page Not Found' }) }
+
 </script>
 
 <style scoped>
