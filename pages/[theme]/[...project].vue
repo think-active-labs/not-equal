@@ -2,7 +2,8 @@
   <div class="w-full">
 
     <div class="w-full sm:border-b-4 border-b-slate-800">
-      <img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[70vh]" :alt="data?.description" />
+      <nuxt-img v-if="data?.image" :src="data?.image" class="object-contain m-auto max-h-[70vh]"
+        :alt="data?.description" />
     </div>
 
     <div class="flex flex-col sm:flex-row">
@@ -29,7 +30,7 @@
         <h2>Partners</h2>
         <div v-for="partner in data?.partners" class="flex flex-col gap-12">
           <a :href="partner.link" target="_blank">
-            <img v-if="partner.image" :src="partner.image" :alt="partner.name" />
+            <nuxt-img v-if="partner.image" :src="partner.image" :alt="partner.name" />
             <h3 v-else>{{ partner.name }}</h3>
           </a>
         </div>

@@ -2,7 +2,7 @@
   <div v-if="config">
     <div class="bg-zinc-800 py-4 px-3 sm:py-8 sm:px-12">
       <div class="flex gap-1">
-        <img :src="i.image" class="w-1/2 sm:w-1/5" v-for="i in config['footer-images'].images" />
+        <nuxt-img :src="i.image" class="w-1/2 sm:w-1/5" v-for="i in config['footer-images'].images" />
       </div>
     </div>
     <div class="bg-zinc-900 py-4 px-3 sm:py-3 sm:px-12 text-center sm:text-left">

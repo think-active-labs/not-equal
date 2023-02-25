@@ -8,7 +8,7 @@
       <div v-for="p, index in data?.projects"
         class="flex flex-col gap-2 p-3 sm:p-6 border-r-2 border-b-2 border-black justify-start">
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`">
-          <img class="object-cover w-full" :src="p.image" />
+          <nuxt-img class="object-cover w-full" :src="p.image" />
         </nuxt-link>
         <div class="flex flex-col gap-4">
           <h1 class="font-title text-2xl antialiased leading-6">{{ p.title }}</h1>
@@ -19,7 +19,7 @@
       </div>
       <div class="p-3 sm:p-6 border-r-2 border-b-2 border-black">
         <nuxt-link :to="`${data.nextChapter.slug}`">
-          <img class="object-cover w-full" :src="data.nextChapter.image" />
+          <nuxt-img class="object-cover w-full" :src="data.nextChapter.image" />
           <h2 class="font-title text-3xl mb-4 antialiased hover:underline">{{ data.nextChapter.title }}</h2>
           <h1 class="font-subtitle text-4xl md:text-5xl py-10 text-center sm:text-left hover:underline">
             Next Chapter

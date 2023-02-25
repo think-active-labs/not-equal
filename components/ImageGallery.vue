@@ -5,7 +5,8 @@
       <Slide v-for="i, index in section.images" :key="index">
         <div class="carousel__item">
           <div class="flex flex-col justify-between h-full">
-            <img class="object-fill h-auto sm:h-96 sm:max-h-96 w-auto rounded-md" :alt="i.caption" :src="i.image" />
+            <nuxt-img class="object-fill h-auto sm:h-96 sm:max-h-96 w-auto rounded-md" :alt="i.caption"
+              :src="i.image" />
             <p>{{ i.caption }}</p>
           </div>
         </div>
@@ -21,7 +22,7 @@
       <Slide v-for="i, index in section.images" :key="index">
         <div class="carousel__item p-0.5" @click="slideTo(index)">
           <div class="flex">
-            <img class="w-full h-36 object-cover" :alt="i.caption" :src="i.image" />
+            <nuxt-img class="w-full h-36 object-cover" :alt="i.caption" :src="i.image" />
           </div>
         </div>
       </Slide>

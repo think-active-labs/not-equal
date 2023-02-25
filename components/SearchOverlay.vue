@@ -28,7 +28,7 @@
                 <nuxt-link :to="`${hit.themes[0]}/${hit.objectID.replace('.md', '')}`" class="hover:bg-gray-300"
                   @click="close()">
                   <div class="flex flex-col sm:flex-row gap-4 p-4">
-                    <img :src="hit.image" class="sm:max-w-[25%] h-auto object-contain" />
+                    <nuxt-img :src="hit.image" class="sm:max-w-[25%] h-auto object-contain" />
                     <div class="prose">
                       <h2>{{ hit.title }}</h2>
                       <p>{{ hit.description }}</p>
@@ -57,7 +57,7 @@
 <script setup lang="ts">
 import debounce from 'lodash.debounce'
 import { emit } from 'process';
-import { AisInstantSearch, AisSearchBox, AisHits, AisHighlight, AisConfigure } from 'vue-instantsearch/vue3/es/index.js'
+import { AisInstantSearch } from 'vue-instantsearch/vue3/es/index.js'
 
 const algolia = useAlgoliaRef()
 

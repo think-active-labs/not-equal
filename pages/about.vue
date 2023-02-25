@@ -5,7 +5,7 @@
     </NuxtLink>
     <h1 class="font-title text-8xl pt-24 pb-12 text-center">Not-Equal</h1>
     <div class="w-full border-b-2 sm:border-b-4 border-slate-800 p-12">
-      <img v-if="data?.image" :src="data?.image" class="object-contain m-auto m-w-full" :alt="data?.description" />
+      <nuxt-img v-if="data?.image" :src="data?.image" class="object-contain m-auto m-w-full" :alt="data?.description" />
     </div>
     <ContentDoc class="prose sm:px-6 px-3 sm:prose-xl m-auto pt-20 py-3" />
   </div>
