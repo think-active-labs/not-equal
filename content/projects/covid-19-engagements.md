@@ -15,17 +15,6 @@ project_tags:
 page_sections:
   - type: video-block
     youtube_video_id: tiB12nen46Q
-  - type: link-block
-    title: Publications
-    content: "**Opening Research Commissioning To Civic Participation:** Creating A
-      Community Panel To Review The Social Impact of HCI Research Proposals"
-    buttons:
-      - text: View the paper
-        url: https://dl.acm.org/doi/10.1145/3411764.3445113
-        content: "**Opening Research Commissioning To Civic Participation:** Creating A
-          Community Panel To Review The Social Impact of HCI Research Proposals"
-      - text: View the Report
-        url: https://drive.google.com/drive/folders/1fAC8RPkaHlCNjBjPbCfhKBAjDXmkUlST
 ---
 Not-Equal engaged with 21 representatives of NotEqual non-academic members organisations to find out how they were using technology to work with their constituencies and what issues they were facing during COVID-19.
 
