@@ -1,7 +1,7 @@
 ---
 title: Award events
-description: We have hosted two events to celebrate the launch of the 17
-  projects we have funded from the UKRI Not-Equal Network+ since 2018
+description: Two events celebrating the launch of the 17 projects we have funded
+  from the UKRI Not-Equal Network+
 image: /uploads/eehbuf0ueair3px-1024x683.jpeg
 themes:
   - algorithmic-social-justice
