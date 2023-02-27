@@ -87,7 +87,7 @@ page_sections:
     title: " "
     buttons:
       - text: Booklet
-        url: uploads/switch-gig-booklet.pdf
+        url: /uploads/switch-gig-booklet.pdf
       - text: Proposal
         url: uploads/ne84_final.pdf
       - text: Mid Term Report
