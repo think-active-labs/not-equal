@@ -1,7 +1,7 @@
 ---
 title: Fostering Collaborations
-description: "Overview of different ways we fostered collaboration in first and
-  second cycle of commissioning including catalyst. "
+description: Fostering collaborations in first and second cycle of commissioning
+  including Catalyst
 image: /uploads/pexels-sena-aykut-10592693.jpg
 themes:
   - algorithmic-social-justice
