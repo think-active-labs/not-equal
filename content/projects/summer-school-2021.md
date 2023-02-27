@@ -1,6 +1,7 @@
 ---
 title: Summer School 2021
-description: " "
+description: Equipping the next generation of researchers to help create the
+  conditions to support social justice in the Digital Economy
 image: /uploads/e3nkasvxmaah1il-1024x593.jpeg
 themes:
   - algorithmic-social-justice
