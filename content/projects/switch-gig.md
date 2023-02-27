@@ -29,7 +29,7 @@ page_sections:
     src: "https://youtu.be/duZqX7UWm84 "
     video_embed_code: " "
     title: " "
-    caption: " Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+    caption: ""
     youtube_video_id: "duZqX7UWm84 "
   - type: text-block
     text: Through speculative fiction, the groups came up with ideas to create a
