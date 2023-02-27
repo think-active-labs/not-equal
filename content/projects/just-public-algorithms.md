@@ -1,6 +1,6 @@
 ---
 title: Just Public Algorithms
-description: " "
+description: Engaging with public service algorithms
 image: /uploads/pubjusalgos_02.svg
 themes:
   - algorithmic-social-justice
