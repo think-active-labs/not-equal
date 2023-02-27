@@ -1,6 +1,7 @@
 ---
 title: Summer Webinar Series
-description: " "
+description: " A four part Summer Webinar Series open to the public alongside
+  the Summer School 2021"
 image: /uploads/microsoftteams-image.png
 themes:
   - algorithmic-social-justice
