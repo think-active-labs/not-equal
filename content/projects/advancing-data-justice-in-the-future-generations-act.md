@@ -1,6 +1,6 @@
 ---
 title: Advancing Data Justice in the Future Generations Act
-description: Examining the Future Generations Act (FGA)
+description: Examining the intersection of the Future Generations Act and data justice
 image: /uploads/fga_justice_01.svg
 themes:
   - algorithmic-social-justice
