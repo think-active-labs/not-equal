@@ -1,6 +1,6 @@
 ---
 title: Tackling digital poverty
-description: VCSE work
+description: Lessons learned from the region's VCSE sector
 image: /uploads/vcse_digiexclusion_01.svg
 themes:
   - algorithmic-social-justice
