@@ -1,7 +1,7 @@
 ---
 title: "V&A Digital Design Weekend "
-description: " V & A hosted a Digital Design weekend to coincide with the London
-  Design Festival. "
+description: " Workshop at V & A Digital Design weekend to coincide with the
+  London Design Festival. "
 image: /uploads/img_3948.jpg
 themes:
   - algorithmic-social-justice
