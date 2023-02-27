@@ -1,6 +1,7 @@
 ---
 title: Summer School 2019
-description: " "
+description: Bringing together ECRs and students to explore Digital Security for
+  All and Algorithmic Social Justice
 image: /uploads/summer-school-2019-1024x768.jpeg
 themes:
   - digital-security-for-all
