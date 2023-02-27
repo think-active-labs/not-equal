@@ -14,7 +14,10 @@ project_lead:
     email: dencikl@cardiff.ac.uk
     lead: Bob
 investigators: []
-partners: []
+partners:
+  - name: Future Generations Commissioner
+    partner_image: /uploads/fga-logo.png
+    link: https://www.futuregenerations.wales/
 page_sections:
   - type: link-block
     title: Read the Reports
