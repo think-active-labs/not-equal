@@ -1,6 +1,6 @@
 ---
 title: Crowdsourcing Wage Pledge
-description: " "
+description: " Improving wages for crowd-workers"
 image: /uploads/copy-of-wagepledge_01.svg
 themes:
   - fairer-futures-for-businesses-and-workforces
