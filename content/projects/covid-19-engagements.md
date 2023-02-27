@@ -1,6 +1,6 @@
 ---
 title: Covid-19 Engagements
-description: Working with VCSE to find out what issues they are facing in Covid-19
+description: Working with VCSE to find out what issues they faced in Covid-19
 image: /uploads/ebhsnpmu4aaknpr-1024x768.jpeg
 themes:
   - algorithmic-social-justice
