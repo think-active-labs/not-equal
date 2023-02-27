@@ -87,8 +87,7 @@ page_sections:
     title: " "
     buttons:
       - text: Booklet
-        url: "https://drive.google.com/file/d/1vgrwTfMuuebVh0ca_DMijT6JTaDL_6Kf/view?us\
-          p=sharing "
+        url: uploads/switch-gig-booklet.pdf
       - text: Proposal
         url: "https://drive.google.com/drive/folders/1CXjHC2VkWYYsDKDlNUuhs2bUGBCmbxF3?\
           usp=sharing "
