@@ -1,6 +1,6 @@
 ---
 title: "Covid-19 Debt Advice "
-description: " Creating a debt advice tool"
+description: " Developing, evaluating, and deploying an online Covid-19 debt advice tool"
 image: /uploads/coviddebt_01.svg
 themes:
   - algorithmic-social-justice
