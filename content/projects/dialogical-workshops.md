@@ -1,8 +1,8 @@
 ---
-title: Dialogical workshops
-description: These sets of workshops were aimed at those interested in aspects
-  of social justice and fairness affected by the developments related to Big
-  Data, Artificial Intelligence and Algorithmic Service Design.
+title: "Developing the Not-Equal agenda - workshops "
+description: Workshops aimed at those interested in aspects of social justice
+  and fairness affected by the developments related to Big Data, Artificial
+  Intelligence and Algorithmic Service Design.
 image: /uploads/20200227-1u6a7112-1024x683.jpg
 themes:
   - algorithmic-social-justice
