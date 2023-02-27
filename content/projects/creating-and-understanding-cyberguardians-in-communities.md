@@ -1,6 +1,6 @@
 ---
-title: Creating and Understanding CyberGuardians in Communities
-description: " "
+title: CyberGuardians
+description: " Creating and understanding CyberGuardians in communities"
 image: /uploads/copy-of-cyberguardians_01.svg
 themes:
   - digital-security-for-all
