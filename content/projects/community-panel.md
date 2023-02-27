@@ -1,6 +1,6 @@
 ---
 title: Community Panel
-description: " "
+description: " Opening research commissioning to civic participation"
 image: /uploads/communitypanel_01.svg
 themes:
   - algorithmic-social-justice
