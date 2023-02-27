@@ -1,7 +1,7 @@
 ---
 title: MiniCoDe
-description: "Minimize algorithmic bias in Collaborative Decision Making with
-  Design Fiction "
+description: "Minimize algorithmic bias in collaborative decision making with
+  design fiction "
 image: /uploads/minicode_01.svg
 themes:
   - algorithmic-social-justice
