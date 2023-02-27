@@ -1,6 +1,6 @@
 ---
 title: Between Digital Platforms and the Deep Sea
-description: Between Digital Platforms and the Deep Sea
+description: "Examining the food delivery sector in India. "
 image: /uploads/copy-of-deepsea_01.svg
 themes:
   - digital-security-for-all
