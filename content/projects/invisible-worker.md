@@ -1,7 +1,6 @@
 ---
 title: Invisible Worker
-description: " Aiming to aims to explore the interface between work and
-  technology in contemporary capitalism"
+description: Exploring the interface between work and technology in contemporary capitalism
 image: /uploads/invisible-worker-03.svg
 themes:
   - algorithmic-social-justice
