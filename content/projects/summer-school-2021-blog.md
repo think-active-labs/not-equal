@@ -1,6 +1,6 @@
 ---
-title: Summer School 2021 blog
-description: Dive into our highlights
+title: "Summer School 2021 blog "
+description: A week-long journey exploring exploring social justice in the digital economy
 image: /uploads/screenshot-2021-07-09-091937.png
 themes:
   - algorithmic-social-justice
