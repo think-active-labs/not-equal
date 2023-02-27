@@ -18,8 +18,8 @@ investigators:
   - name: Oliver Bates, Lancaster University
     email: " "
 partners:
-  - name: We&AI
-    partner_image: /uploads/we-and-ai.png
+  - name: Co-operatives UK
+    partner_image: /uploads/co-operatives_transparent.png
     link: " "
 page_sections:
   - type: video-block
