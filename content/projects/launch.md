@@ -1,8 +1,6 @@
 ---
 title: Launch Symposium
-description: The Not-Equal project launched at two events in London and
-  Newcastle in January 2019. The events brought together Network+ partners and
-  launched Not Equal‘s first Call for Collaborative research proposals.
+description: Two events to launch the Not-Equal project in Newcastle and London
 image: /uploads/1u6a8688.jpg
 themes:
   - algorithmic-social-justice
