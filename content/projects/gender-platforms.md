@@ -1,6 +1,6 @@
 ---
 title: Gender Platforms
-description: " "
+description: " How do digital platforms restructure power relations in the care economy?"
 image: /uploads/daria-nepriakhina-_xr5rkprhqu-unsplash-1116x629.jpg
 themes:
   - fairer-futures-for-businesses-and-workforces
