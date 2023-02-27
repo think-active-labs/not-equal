@@ -21,6 +21,9 @@ partners:
   - name: Co-operatives UK
     partner_image: /uploads/co-operatives_transparent.png
     link: " "
+  - name: Miralis Data
+    partner_image: /uploads/miralis-logo.png
+    link: https://www.miralis.co.uk/
 page_sections:
   - type: video-block
     src: "https://youtu.be/duZqX7UWm84 "
