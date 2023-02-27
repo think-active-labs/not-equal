@@ -1,7 +1,6 @@
 ---
-title: "Opening Doors: Art and Inequality in the Platform Economy"
-description: Addressing entrenched inequalities in the cultural sector and work
-  towards social justice for workers in a precarious economy.
+title: Opening Doors
+description: Art and Inequality in the Platform Economy
 image: /uploads/copy-of-openingdoors_01.svg
 themes:
   - fairer-futures-for-businesses-and-workforces
