@@ -1,6 +1,6 @@
 ---
 title: "Equally Digital, Digitally Equal "
-description: " "
+description: " How communities are using technology since the Covid-19 pandemic"
 image: /uploads/copy-of-ed-de_01.svg
 themes:
   - digital-security-for-all
