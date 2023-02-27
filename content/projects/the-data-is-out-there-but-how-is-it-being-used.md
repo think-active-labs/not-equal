@@ -1,6 +1,6 @@
 ---
-title: The data is out there, but how is it being used?
-description: " "
+title: The Sharing Perspectives, Exploring Responses workshop
+description: " The data is out there, but how is it being used?"
 image: /uploads/not-equal-heads-.jpg
 themes:
   - algorithmic-social-justice
