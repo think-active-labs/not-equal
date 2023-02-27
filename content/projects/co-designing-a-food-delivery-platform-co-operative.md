@@ -1,6 +1,7 @@
 ---
 title: Co-Designing a Food Delivery Platform Co-operative
-description: " "
+description: Developing an understanding of the challenges facing a food
+  delivery platform co-operative
 image: /uploads/copy-of-ne22_projects_02.svg
 themes:
   - fairer-futures-for-businesses-and-workforces
@@ -45,4 +46,6 @@ page_sections:
           usp=sharing"
     title: Publications
 ---
-The food delivery industry in the UK is big business, however, there remains a lack of employment law protections for many self-employed workers. This project aimed to develop an understanding of the challenges facing a food delivery platform co-operative and to co-design principles, strategies and systems to overcome these challenges. The project engaged in an initial literature review on food delivery platforms in order to understand why these workers were seeking a more ethical alternative. The team then reached out to new platform co-operatives in the sector, Through interviews, data on business operations was gathered from five UK based co-operatives: the Doorstep Collective in London, Chorlton Bike Deliveries, Manchester CoopCycle, the York Collective and Bristol CoopCycle.
+The food delivery industry in the UK is big business, however, there remains a lack of employment law protections for many self-employed workers. This project aimed to develop an understanding of the challenges facing a food delivery platform co-operative and to co-design principles, strategies and systems to overcome these challenges. The project engaged in an initial literature review on food delivery platforms in order to understand why these workers were seeking a more ethical alternative. 
+
+The team then reached out to new platform co-operatives in the sector, Through interviews, data on business operations was gathered from five UK based co-operatives: the Doorstep Collective in London, Chorlton Bike Deliveries, Manchester CoopCycle, the York Collective and Bristol CoopCycle.
