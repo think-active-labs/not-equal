@@ -43,10 +43,8 @@ page_sections:
     title: Publications
     buttons:
       - text: Read the Proposal
-        url: "https://drive.google.com/drive/folders/18iaXfR5xGZLWmBkl6to38KW9XgmwLri-?\
-          usp=sharing "
-      - url: "https://drive.google.com/drive/folders/1w1V9AFMImUVyY-XHDae5ozrlE6dT60if?\
-          usp=sharing "
-        text: View the Report
+        url: /uploads/ed-de-proposal.pdf
+      - url: /uploads/ed-de_final_project_report.pdf
+        text: Final Report
 ---
 This project evaluated the current practices and methods of four NGOs from the UK and South America to develop new sharable and collaborative practices fit for the current global condition, given the shift in how communities are using technology since the Covid-19 pandemic.
