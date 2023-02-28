@@ -16,12 +16,12 @@ page_sections:
   - type: link-block
     title: " "
     buttons:
-      - text: Read the Proposal
-        url: "https://drive.google.com/drive/folders/152KOV9WEqKBedx1dDa9xzywnf93r3-r9?\
-          usp=sharing "
-      - text: View the Reports
-        url: "https://drive.google.com/drive/folders/1fuKChv2fB9zJ8Lfg8h_97n47gsGDzloa?\
-          usp=sharing "
+      - text: Proposal
+        url: /uploads/proposal-crowdsourcing-wage-pledge.pdf
+      - text: Mid Term Report
+        url: /uploads/midtermprojectreport_wagepledge_notequal.pdf
+      - text: Final Report
+        url: /uploads/finalprojectreport_notequal-crowdsourcing-wage-pledge.pdf
 ---
 Crowd-working platforms such as Amazon Mechanical Turk often pay workers around two dollars per hour and most requesters pay less than five dollars. This project developed a Crowdsourcing Wage Pledge to improve wages for crowd-workers, and to thus ensure fairer futures for digital workers in the platform economy. 
 
