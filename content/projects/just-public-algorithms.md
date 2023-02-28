@@ -33,13 +33,12 @@ page_sections:
     title: Publications
     buttons:
       - text: View the Policy Report
-        url: "https://drive.google.com/file/d/1_O7AKIUqwtozNv3oD8UUN3uDmgd3gYfm/view?us\
-          p=sharing "
-      - text: Read the Proposal
-        url: "https://drive.google.com/drive/folders/1Apv5Izo3Lmjk4G0_fULFcmlJuePhhh6l?\
-          usp=sharing "
-      - text: All Reports
-        url: "https://drive.google.com/drive/folders/12gXO8cIoW1vEkehqSoi_jcB6iIY-JT48?\
-          usp=sharing "
+        url: /uploads/public-engagement-with-algorithms-in-public-services.pdf
+      - text: Proposal
+        url: /uploads/just-public-algorithms-proposal.pdf
+      - text: Mid Term Report
+        url: /uploads/mid-term_report_just-public-algorithms.pdf
+      - text: Final Report
+        url: /uploads/just-public-algorithms-finalprojectreport.pdf
 ---
 Algorithms are increasingly being used in the delivery of public services. However, this has had some negative consequences, such as deepening some forms of discrimination, as well as raising concerns about surveillance. The project aimed to develop a blueprint for the socially responsible development of algorithms in public services. Data from 77 cases of public engagement from 2013-2020 was analyzed and public hopes and concerns about the use of data-driven services in the public sector were mapped.
