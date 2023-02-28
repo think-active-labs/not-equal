@@ -43,10 +43,8 @@ page_sections:
     title: " "
     buttons:
       - text: Proposal
-        url: "https://drive.google.com/drive/folders/1NED3i8RG7zAmENTnn09EW2lzdRx7pexP?\
-          usp=sharing "
-      - text: "Reports:"
-        url: "https://drive.google.com/drive/folders/1A1v8Ye22ZdCj_XVzaB9HjvXkJjxr_sjv?\
-          usp=sharing "
+        url: /uploads/switch-gig-proposal.pdf
+      - text: Final report
+        url: /uploads/smallsmartfarmsfinalreport.pdf
 ---
 Small farms are less likely to enjoy the benefits of the digital economy so this project aimed to empower and more fairly distribute the opportunities of the digital economy through the development of Smart Farming Technologies (SFTs). The project planned to work with small farms to design prototype technologies.
