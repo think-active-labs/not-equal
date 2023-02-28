@@ -33,12 +33,12 @@ page_sections:
       workers are paid a minimum wage.
   - type: link-block
     buttons:
-      - text: "Proposal:"
-        url: "https://drive.google.com/drive/folders/1VkGdRMnWb9fYjVAHfZRHAg09pCHmcMG4?\
-          usp=sharing "
-      - text: "Reports:"
-        url: "https://drive.google.com/drive/folders/1lUbq1X352hQPku7c6jxci7JdQE1OE532?\
-          usp=sharing "
+      - text: Proposal
+        url: /uploads/proposal-who-cares.pdf
+      - text: Mid-Term report
+        url: /uploads/mid-term-whocares.pdf
+      - text: Final report
+        url: /uploads/finalprojectreport-whocares.pdf
     title: " "
 ---
 In the UK, women make up over half of gig workers but their experiences have been largely overlooked in public debates. The project aimed to identify challenges and opportunities for migrant and BAME women and other vulnerable groups using platforms in the gig economy. The project captured micro-stories – snapshots from workers’ lives – that illustrated some of the issues experienced and created visualisations to provide synthetic overviews of workers’ networks and analyze conversations in context. The project showed how the nature and extent of this digital labour is often hidden and deemed unproductive.
