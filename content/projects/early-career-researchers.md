@@ -20,11 +20,10 @@ page_sections:
   - type: link-block
     title: Publications
     buttons:
-      - text: "Read the Proposal "
-        url: https://drive.google.com/drive/folders/1mMXVK8gcou3I0qpYeIT3ljcOvGYZtwQ3?usp=sharing
-      - url: "https://drive.google.com/drive/folders/1Pgw5CN3xG4v9o0Udd_G559azsqqKGpQi?\
-          usp=sharing "
-        text: View the Report
+      - text: "Proposal "
+        url: /uploads/early-career-researchers-proposal.pdf
+      - url: /uploads/early-career-researchers-final-report.pdf
+        text: Final Report
 ---
 There is a growing number of early career researchers (ECRs) and precariously employed postdoctoral researchers in academia, including multi- and inter-disciplinary researchers who do not fit traditional moulds and academic trajectories. The project invited interdisciplinary researchers working on topics related to digital social justice to an interview about their experiences of academia. Many participants referenced concerns about money, specifically pointing to financial instability making them feel anxious about their futures in academia and spoke of the challenges of working between disciplines and research streams. 
 
