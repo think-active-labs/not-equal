@@ -15,6 +15,7 @@ project_lead:
     email: a.z.wyner@swansea.ac.uk
 investigators:
   - name: Richard Owen, Swansea University
+partners: []
 page_sections:
   - type: video-block
     youtube_video_id: psoHZ5mROMI
@@ -34,11 +35,11 @@ page_sections:
   - type: link-block
     title: Publications
     buttons:
-      - url: "https://drive.google.com/drive/folders/144LR3MN_kJoCrFM_etXz4GcRC1GDFbhZ?\
-          usp=sharing "
-        text: Read the Proposal
-      - url: "https://drive.google.com/drive/folders/1ZfzyA-_Z1pvHRyILLZyLYqlIl-bMBqa-?\
-          usp=sharing "
-        text: View the Reports
+      - url: /uploads/covid-19-debt-advice.pdf
+        text: Proposal
+      - url: /uploads/midtermprojectreportcovid-19debtadvice.pdf
+        text: Mid Term Report
+      - text: Final Report
+        url: /uploads/finalprojectreportcovid-19debtadvice.pdf
 ---
 According to Citizens Advice, the Covid-19 outbreak led to financial turmoil for millions of UK residents, undermining fairness, equality, and economic opportunity. Legal advice clinics desperately need greater capacity and the project aimed to support that by developing, evaluating, and deploying an online Covid-19 debt advice tool. The project formed their analysis in consultation with legal professionals and clients to co-create a support tool incorporating both perspectives and experiences. The aim of the tool was to gather essential, basic information about the client’s situation to enable debt advice by a legal professional.
