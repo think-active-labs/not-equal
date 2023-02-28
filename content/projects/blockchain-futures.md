@@ -41,11 +41,11 @@ page_sections:
           Conference."
         text: View Paper
         url: https://dl.acm.org/doi/10.1145/3411764.3445655
-      - text: "Read the Proposal "
-        url: "https://drive.google.com/drive/folders/1XO3JKCeTuLzCgShXixDJgamw2aax_Rre?\
-          usp=sharing "
-      - text: View the Report
-        url: "https://drive.google.com/drive/folders/1OoBuC_R9vUkmMeaevf-nq9oFuByyxCt5?\
-          usp=sharing "
+      - text: "Proposal "
+        url: /uploads/sustainable-food-justice-system-with-blockchain-future-proposal.pdf
+      - text: Mid Term Report
+        url: /uploads/mid-term-sustainable-food-justice-system-with-blockchain-future.pdf
+      - text: Final Report
+        url: /uploads/finalprojectreport-algorithmicfoodjustice.pdf
 ---
 To grow food successfully, humans require the help of other organisms – for example bees, or soil micro-organisms. This project explored how we can use new technologies to help avoid problems such as soil degradation and bee extinction that threaten life on earth and looked at an algorithmic approach to creating a sustainable food justice system through co-designing blockchain futures with urban agricultural communities in London. A speculative participatory design (SPD) approach was used to explore futures grounded in the values, needs and challenges of real communities.
