@@ -60,10 +60,12 @@ page_sections:
     title: Media Articles
     buttons:
       - url: https://www.wired.co.uk/article/gig-economy-fix-academics
-        text: https://www.wired.co.uk/article/gig-economy-fix-academics
-      - text: https://markets.businessinsider.com/news/stocks/i-tried-tiktoks-new-e-commerce-platform-fanno-2022-2
+        text: Academics are trying to fix the last mile gig economy
+      - text: I tried the buzzy new shopping app from TikTok's parent company aimed to
+          rival Amazon. It's totally hit or miss — here's why.
         url: https://markets.businessinsider.com/news/stocks/i-tried-tiktoks-new-e-commerce-platform-fanno-2022-2
-      - text: https://www.theguardian.com/society/2022/mar/01/the-hidden-life-of-a-courier-13-hour-days-rude-customers-and-big-dreams
+      - text: "The hidden life of a courier: 13-hour days, rude customers – and big
+          dreams"
         url: https://www.theguardian.com/society/2022/mar/01/the-hidden-life-of-a-courier-13-hour-days-rude-customers-and-big-dreams
   - type: link-block
     title: Publications
