@@ -95,6 +95,6 @@ page_sections:
       - text: Mid Term Report
         url: /uploads/midtermprojectreport_switchgig.pdf
       - text: Final Report
-        url: /uploads/finalprojectreportswitchgig.docx
+        url: /uploads/finalprojectreportswitchgig.pdf
 ---
 In 2019, Britain’s gig economy doubled over three years accounting for 4.7 million workers. However, these digital platforms have created a precarious nature of employment with working people struggling to make ends meet. Switch-Gig explored how to centre the voices and experiences of gig workers in the re-design of gig economy platforms. The project team ran workshops for couriers discussing their experiences of technology.
