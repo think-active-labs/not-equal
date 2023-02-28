@@ -37,13 +37,12 @@ page_sections:
       - text: "How to Launch a Food Co-operative: "
         url: "https://autonomy.work/wp-content/uploads/2021/05/NOTEQUAL_PT1_MAY25.pdf   \
           "
-      - url: "https://drive.google.com/drive/folders/1k7wW84oZhghj7wY4bF67MJFCIrKl1YXV?\
-          usp=sharing "
-        text: "Read the Proposal: "
-      - text: "View the Reports:"
-        url: "
-          https://drive.google.com/drive/folders/1Yz69FE6A0XmAQ2Eg7zGTecX9nI8J88Ry?\
-          usp=sharing"
+      - url: /uploads/proposal-co-designing-a-food-delivery-platform-co-operative.pdf
+        text: Proposal
+      - text: Mid Term Report
+        url: /uploads/midtermprojectreportfooddelivery.pdf
+      - text: Final Report
+        url: /uploads/finalprojectreport-fooddelivery.pdf
     title: Publications
 ---
 The food delivery industry in the UK is big business, however, there remains a lack of employment law protections for many self-employed workers. This project aimed to develop an understanding of the challenges facing a food delivery platform co-operative and to co-design principles, strategies and systems to overcome these challenges. The project engaged in an initial literature review on food delivery platforms in order to understand why these workers were seeking a more ethical alternative. 
