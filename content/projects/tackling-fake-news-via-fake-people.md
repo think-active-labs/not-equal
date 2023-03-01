@@ -49,9 +49,11 @@ page_sections:
         url: "https://github.com/equalityTime/projectreal "
       - text: Link to the Website
         url: http://www.projectreal.co.uk/
-      - text: Read the Proposal
-        url: https://drive.google.com/drive/folders/1nIv75TWCqtiX6Qe8Jnqy0Lj_Q9-QwOXU?usp=sharing
-      - text: View the Report
-        url: https://drive.google.com/drive/folders/1uvCf17-XhEu3LyyleMtssvAkQ24bqQHX?usp=sharing
+      - text: Proposal
+        url: /uploads/fake-news-proposal.pdf
+      - text: Mid Term Report
+        url: /uploads/midtermprojectreport-fakenews.pdf
+      - text: Final Report
+        url: /uploads/finalprojectreport-fakenews.pdf
 ---
 Today fake news spreads six times quicker than the truth and is believed 75% of the time, meaning it has the power to change behaviour and impact society. The project’s aim was to work with young people, social media influencers, teachers and academics to co-create materials to help young people to recognize fake news and to test these materials to ascertain their efficacy. The project recruited from three schools in Glasgow which drew a diverse group of young people.
