@@ -31,11 +31,11 @@ page_sections:
   - type: link-block
     title: Publications
     buttons:
-      - text: Read the Proposal
-        url: https://drive.google.com/drive/folders/1DGf68YGFLvqY4g1QgmAmNTV_dB4W7H27?usp=sharing
-      - text: View the Report
-        url: "
-          https://drive.google.com/drive/folders/1D-GFqaHHPmrsE-d5DKS4yFinmTJwMdj_?\
-          usp=sharing "
+      - text: Proposal
+        url: /uploads/desic-proposal.pdf
+      - text: Mid Term Report
+        url: /uploads/midtermprojectreportdesic.docx.pdf
+      - text: Final Report
+        url: /uploads/desic_finalprojectreport.pdf
 ---
 For this project the research team explored notions of ‘positive digital security’ with two organizations focused on promoting empowerment and active citizenship for migrant women experiencing gender-based violence in the UK (Angelou Centre) and Greece (UWAH). They developed a low-fidelity web-based prototype to include both an administrator and client-based system for data management. The design was informed by three themes: information safekeeping and sharing, access to data and classification and communication.
