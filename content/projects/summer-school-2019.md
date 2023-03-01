@@ -37,6 +37,13 @@ page_sections:
 
 
       Participants were invited to use creative engagement methods such as storytelling, physical modelling and video to reflect and explore what they had learned during the talks and to discuss how this might be applied to a particular problem of algorithmic social justice. The Summer School concluded with presentations from each collaborative group work.
+  - type: link-block
+    title: Presentations
+    buttons:
+      - text: Group Presentation One
+        url: /uploads/not-equal-collaborative_group_work.pptx
+      - text: Group Presentation Two
+        url: /uploads/not-equal_summer_school_2019-group_project-presentation.pptx
 ---
 The 2019 Not-Equal Summer School took place in the last week of August, at Swansea University. Hosted by Alan Dix (Swansea University) and Lizzie Coles-Kemp (Royal Holloway University of London).
 
