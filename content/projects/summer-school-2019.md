@@ -41,9 +41,9 @@ page_sections:
     title: Presentations
     buttons:
       - text: Group Presentation One
-        url: /uploads/not-equal-collaborative_group_work.pptx
+        url: /uploads/not-equal-collaborative_group_one.pdf
       - text: Group Presentation Two
-        url: /uploads/not-equal_summer_school_2019-group_project-presentation.pptx
+        url: /uploads/not-equal_summer_school_2019-group_two.pdf
 ---
 The 2019 Not-Equal Summer School took place in the last week of August, at Swansea University. Hosted by Alan Dix (Swansea University) and Lizzie Coles-Kemp (Royal Holloway University of London).
 
