@@ -48,10 +48,12 @@ page_sections:
         url: https://dl.acm.org/doi/10.1145/3393914.3395871
       - text: Visit the website
         url: " https://thecyberguardians.co.uk/"
-      - text: Read the Proposal
-        url: https://drive.google.com/drive/folders/147NrAi8pMs8Y6xGlGV2AZh40U3-bH6A1?usp=sharing
-      - text: View the Report
-        url: https://drive.google.com/drive/folders/1fmViwvIQvBb1n9wLHL6KzAYyf8k09Dn2?usp=sharing
+      - text: Proposal
+        url: /uploads/cyberguardians-proposal.pdf
+      - text: Mid Term Report
+        url: /uploads/mid-term_cyberguardians.pdf
+      - text: Final Report
+        url: /uploads/finalprojectreportcyberguardians.pdf
     title: " "
 ---
 Older adults are targeted by internet scammers due to their lower digital literacy and limited computer support network. This project worked with 14 older adults to train them to share reliable cybersecurity information with their peers to help prevent opportunistic cyber-attacks. The CyberGuardians received training looking at different aspects of cybersecurity including live demonstrations of password hacking, and a phishing test. The topics focused on issues the group identified, such as password management, scam detection and protective software.
