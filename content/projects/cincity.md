@@ -51,7 +51,9 @@ page_sections:
   - type: link-block
     title: Reports
     buttons:
-      - text: Read the Report
-        url: https://drive.google.com/drive/folders/1xPX0RT_LFAUSwQZVF1v0hrd9jvnGDLgc?usp=sharing
+      - text: Proposal
+        url: /uploads/cincity-proposal.pdf
+      - text: Final Report
+        url: /uploads/finalprojectreport-cincity.pdf
 ---
 Knife crime offences in England and Wales have hit a record high; with most incidents in London involving young people 10-25 years old. The project’s aim was to create a technology-based mechanism to enable the collection of data to understand the experiences and contexts of knife crime and thereby open up dialogue with local institutions in order to co-create potential responses. The project first sought to understand and compare police officials’ and young people’s perceptions about knife crime, and trust in policing in Hackney. This understanding was used to design the ‘Fear of Crime App’.
