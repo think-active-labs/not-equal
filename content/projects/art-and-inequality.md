@@ -46,3 +46,6 @@ page_sections:
     title: " "
 ---
 The project set out to address entrenched inequalities in the cultural sector and work towards social justice for workers in a precarious economy. The project ran a series of six research workshops entitled Assembly: A Forum for Artists in Precarious Labour hosted by, and produced in collaboration with, Newbridge Project, an artist-led community centre. Around 50 participants attended the workshops.
+
+* Test 1
+* test 2
