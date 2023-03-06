@@ -1,7 +1,9 @@
 ---
 title: Not-Equal
-description: Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit
-  libero, a pharetra augue.
+description: Not-Equal, the EPSRC Network+ on Social Justice through the Digital
+  Economy was a three-year project led by Newcastle University, in collaboration
+  with Royal Holloway University of London, the University of Sussex and Swansea
+  University.
 image: /uploads/ne-gif.gif
 theme_order:
   - slug: algorithmic-social-justice
@@ -9,4 +11,4 @@ theme_order:
   - slug: fairer-futures-for-businesses-and-workforces
   - slug: inclusive-innovation
 ---
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+Not-Equal, the EPSRC Network+ on Social Justice through the Digital Economy was a three-year project led by Newcastle University, in collaboration with Royal Holloway University of London, the University of Sussex and Swansea University.
