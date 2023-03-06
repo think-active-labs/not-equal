@@ -36,5 +36,5 @@ The project’s research found that within the Future Generations (Wales) Act pu
 
 Policy makers and professionals in the Welsh Government engaged well with the project. However, whilst there may be a will to advance data justice, there are historical and structural barriers in place. The research indicates a discrepancy between the vision of the Future Generations (Wales) Act and how it is being implemented in practice. Advancing real change in how data-driven technologies are understood, pursued, designed, implemented and used in the public sector requires structural and institutional reform.
 
-* test 1
-* test 2
+1. test 1
+2. test 2
