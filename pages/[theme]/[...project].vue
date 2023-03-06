@@ -31,14 +31,15 @@
       </div>
     </div>
     <!-- Page content -->
-    <div class="flex flex-col p-3 sm:p-6 prose sm:prose-lg m-auto sm:mb-40">
+    <div class="flex flex-col p-3 sm:p-6 prose sm:prose-lg m-auto sm:mb-40 prose-li:marker:text-gray-800">
 
       <!-- Partners box -->
       <div class="prose sm:prose-lg" v-if="data?.partners && data.partners.length > 0">
         <h2>Partners</h2>
-        <div v-for="partner in data?.partners" class="flex flex-col gap-12">
+        <div v-for="partner in data?.partners">
           <a :href="partner.link" target="_blank">
-            <nuxt-img v-if="partner.image" :src="partner.image" :alt="partner.name" />
+            <nuxt-img v-if="partner.partner_image" :src="partner.partner_image" :alt="partner.name"
+              class="w-40 inline-block" />
             <h3 v-else>{{ partner.name }}</h3>
           </a>
         </div>
@@ -48,16 +49,14 @@
       <div class="flex flex-col sm:flex-row">
         <div class="sm:w-1/2" v-if="data?.project_lead && data.project_lead.length > 0">
           <h2>Project Lead</h2>
-          <a v-for="project_lead in data?.project_lead"
-            :href="`mailto:${project_lead?.email ? project_lead?.email : ''}`"
+          <a v-for="project_lead in data?.project_lead" :href="`mailto:${project_lead?.email ? project_lead?.email : ''}`"
             class="block no-underline hover:underline">{{
               project_lead.name
             }}</a>
         </div>
         <div class="sm:w-1/2" v-if="data?.investigators && data.investigators.length > 0">
           <h2>Co-investigators</h2>
-          <a v-for="investigator in data?.investigators"
-            :href="`mailto:${investigator?.email ? investigator.email : ''}`"
+          <a v-for="investigator in data?.investigators" :href="`mailto:${investigator?.email ? investigator.email : ''}`"
             class="block no-underline hover:underline">{{
               investigator.name
             }}</a>
@@ -74,7 +73,6 @@
 
       <!-- Page content -->
       <ContentRenderer :value="data" v-if="data" />
-
       <!-- Page sections -->
       <div class="flex flex-col">
         <div>
@@ -117,9 +115,7 @@ const { data } = await useAsyncData(`project-${route.params.slug}`, () => {
   return queryContent('projects').where({ _path: { $eq: `/projects/${route.params.project[0]}` } }).findOne()
 })
 
-if (!data.value) { throw createError({ statusCode: 404, statusMessage: 'Page Not Found' }) }
+// if (!data.value) { throw createError({ statusCode: 404, statusMessage: 'Page Not Found' }) }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
