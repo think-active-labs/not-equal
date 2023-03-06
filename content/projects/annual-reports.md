@@ -13,8 +13,7 @@ project_types:
 project_tags:
   - annual report
   - engagement
-partners:
-  - name: test
+partners: []
 page_sections:
   - type: link-block
     title: Activities Report
