@@ -35,3 +35,6 @@ The Future Generations Act (FGA) was implemented in 2015 with the aim to advance
 The project’s research found that within the Future Generations (Wales) Act public procurement provides avenues for social value but this is not yet widely applied to digital procurement; data collection and sharing require more public dialogue and citizen involvement; there needs to be a distinction between token and meaningful public engagement.
 
 Policy makers and professionals in the Welsh Government engaged well with the project. However, whilst there may be a will to advance data justice, there are historical and structural barriers in place. The research indicates a discrepancy between the vision of the Future Generations (Wales) Act and how it is being implemented in practice. Advancing real change in how data-driven technologies are understood, pursued, designed, implemented and used in the public sector requires structural and institutional reform.
+
+* test 1
+* test 2
