@@ -19,20 +19,23 @@ page_sections:
     buttons:
       - text: July 2018 - January 2019
         url: /uploads/not-equal_summary_report-final-february2019-2-.pdf
-    content: The first report from July 2018 – January 2019 covers the initial
-      engagements with Network members to find out what issues matter to them
-      when thinking about social justice in the digital economy. We conducted
-      engagements through surveys, workshop style events and informal
-      discussions with academics, third sector and community groups.
+        content: The first report from July 2018 – January 2019 covers the initial
+          engagements with Network members to find out what issues matter to
+          them when thinking about social justice in the digital economy. We
+          conducted engagements through surveys, workshop style events and
+          informal discussions with academics, third sector and community
+          groups.
+    content: ""
   - type: link-block
     buttons:
       - text: March - September 2019
         url: /uploads/not-equal_summary_report_march-september_2019final-2-.pdf
+        content: The second report presents the main findings from Not Equal’s first
+          call for proposals and the commissioning process. It also reflects on
+          engagements with network members to find out what issues matter to
+          them when thinking about social justice in the digital economy.
     title: Summary Report
-    content: The second report presents the main findings from Not Equal’s first
-      call for proposals and the commissioning process. It also reflects on
-      engagements with network members to find out what issues matter to them
-      when thinking about social justice in the digital economy.
+    content: ""
 ---
 Not-Equal released two reports including the main findings from initial engagements and the call for proposals and commissioning process.
 
