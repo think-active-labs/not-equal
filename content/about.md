@@ -18,4 +18,6 @@ Clara Crivellaro, Newcastle University, Principal investigator; Lizzie Coles-Kem
 
 **Steering Group**
 
-Elisabeth Churchill, Google, Steering Group; Libby Kinsey, Digital Catapult, Steering Group; Simon Burrall, Involve, Steering Group; Maria Angela Ferrario, Lancaster University, Steering Group; Pamela Briggs, Northumbria University, Steering Group; Reema Patel, Ada Lovelace Institute, Steering Group; Anat Elhalal, Steering Group
+Elisabeth Churchill, Google, Steering Group; Libby Kinsey, Digital Catapult, Steering Group; Simon Burrall, Involve, Steering Group; Maria Angela Ferrario, Lancaster University, Steering Group; Pamela Briggs, Northumbria University, Steering Group; Reema Patel, Ada Lovelace Institute, Steering Group; Anat Elhalal, Steering Group.
+
+Artwork by [Chris Day @ Little Creature](http://littlecreature.org/portfolio/scribing/) licensed under Creative Commons by Not-Equal.
