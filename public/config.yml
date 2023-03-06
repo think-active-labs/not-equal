@@ -201,12 +201,14 @@ collections:
             name: "link"
             widget: "string"
             hint: "URL to link to the project partner image."
+            required: false
           - name: "partner_image"
             widget: "image"
             hint: "Partner image shown on the left hand side."
             media_library:
               config:
                 multiple: false
+            required: false
       - label: "Body"
         name: "body"
         widget: "markdown"
