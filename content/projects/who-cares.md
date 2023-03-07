@@ -19,6 +19,10 @@ investigators:
   - name: James Stewart, University of Edinburgh
   - name: Rob Procter, University of Warwick
   - name: James Ravenscroft, University of Warwick and Filament Consultancy
+partners:
+  - name: New Economics Foundation
+    link: https://neweconomics.org/
+    partner_image: /uploads/nef-logo.png
 page_sections:
   - type: video-block
     youtube_video_id: l120HNkNDi8
