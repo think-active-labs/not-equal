@@ -1,6 +1,5 @@
 ---
-title: Not Equal London Launch - Chi Onwurah, MP and Shadow Minister for
-  Digital, Culture, Media and Sport
+title: Not Equal London Launch - Chi Onwurah, Keynote
 description: "Chi Onwurah's keynote from the Not Equal Launch. "
 image: /uploads/1u6a7840.jpg
 themes:
