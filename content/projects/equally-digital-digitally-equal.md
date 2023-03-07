@@ -17,6 +17,19 @@ project_lead:
 investigators:
   - name: " Helen Thornham, University of Leeds"
   - name: Chris Birchall, University of Leeds
+partners:
+  - name: Space 2
+    link: https://space2.org.uk/
+    partner_image: /uploads/space-2.png
+  - name: Espacio Nixso
+    link: https://www.espacionixso.com.ar/
+    partner_image: /uploads/espacio-nixso.png
+  - name: MedialabMx
+    link: https://medialabmx.org/
+    partner_image: /uploads/medialabmx.png
+  - name: " C-Innova (aka Diversa)"
+    link: https://www.c-innova.org/
+    partner_image: /uploads/c-innova.png
 page_sections:
   - type: image-gallery-block
     images:
