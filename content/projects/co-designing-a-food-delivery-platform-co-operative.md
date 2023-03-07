@@ -14,6 +14,16 @@ project_tags:
 project_lead:
   - name: James Muldoon, University of Exeter
     email: j.muldoon@exeter.ac.uk
+partners:
+  - name: Autonomy Think Tank
+    partner_image: /uploads/images-1-.png
+    link: https://autonomy.work/
+  - name: Co-operatives UK
+    link: https://www.uk.coop/
+    partner_image: /uploads/co-operatives_transparent.png
+  - name: "CoopCycle "
+    partner_image: /uploads/download-3-.png
+    link: https://coopcycle.org/
 page_sections:
   - type: video-block
     youtube_video_id: OB58WQR3ZyI
