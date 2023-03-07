@@ -16,6 +16,10 @@ project_lead:
 investigators:
   - name: Jason Chilvers, University of East Anglia
   - name: Catherine Price, Researcher
+partners:
+  - partner_image: /uploads/fhhqycl0_400x400.jpg
+    name: Involve
+    link: https://involve.org.uk/
 page_sections:
   - type: video-block
     youtube_video_id: 9KtfAbnGDJA
