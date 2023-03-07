@@ -1,7 +1,7 @@
 ---
 title: "'The Bits Leak Out' Digital Infrastructure affecting social justice "
 description: "Video from the Bits Leak Out workshop. "
-image: https://www.youtube.com/watch?v=xUKaxoJn0hg&t=267s
+image: /uploads/20200227-1u6a6816-min.jpg
 themes:
   - algorithmic-social-justice
 project_types:
