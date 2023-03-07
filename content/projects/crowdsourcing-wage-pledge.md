@@ -12,6 +12,11 @@ project_tags:
 project_lead:
   - name: Jamie Woodcock, Open University
     email: jamie.woodcock@open.ac.uk
+partners:
+  - name: " IG Metall"
+    partner_image: /uploads/images-2-.png
+    link: https://www.igmetall.de/
+  - name: " Hannah Johnston"
 page_sections:
   - type: link-block
     title: " "
