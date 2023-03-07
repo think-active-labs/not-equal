@@ -31,6 +31,6 @@ page_sections:
 ---
 Not all data is made equal. As data is increasingly mobilized in the service of governments and corporations, their unequal effects on both individuals and groups become increasingly difficult for data scientists. We ask data science by whom? Data science for whom? Data science with whose interests in mind?   
 
-Join us this evening and hear from Catherine D’Ignazio (MIT) who will help us consider how feminist thinking can be operationalized to enact more just data practices, and Giselle Cory who will talk about the role data science has in the social sector.
+Catherine D’Ignazio (MIT) considered how feminist thinking can be operationalized to enact more just data practices, and Giselle Cory talked about the role data science has in the social sector.
 
 This webinar took place on Wednesday 9th June, 2021.
