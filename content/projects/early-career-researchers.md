@@ -16,6 +16,9 @@ project_lead:
 investigators:
   - name: Oliver Bates, Lancaster University
   - name: Nayana Prakash, Oxford University
+partners:
+  - name: International and Broke
+    link: https://twitter.com/intnlandbroke
 page_sections:
   - type: link-block
     title: Publications
