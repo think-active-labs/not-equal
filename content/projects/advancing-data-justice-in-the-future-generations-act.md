@@ -16,7 +16,7 @@ project_lead:
 investigators: []
 partners:
   - name: Future Generations Commissioner
-    partner_image: /uploads/fga-logo.png
+    partner_image: /uploads/fgcw.png
     link: https://www.futuregenerations.wales/
 page_sections:
   - type: link-block
