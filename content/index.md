@@ -1,7 +1,6 @@
 ---
 title: Not-Equal
-description: Not-Equal, a three-year EPSRC Network+ on Social Justice through
-  the Digital Economy.
+description: A three-year EPSRC Network+ on Social Justice through the Digital Economy.
 image: /uploads/ne-gif.gif
 theme_order:
   - slug: algorithmic-social-justice
