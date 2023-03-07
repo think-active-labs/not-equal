@@ -15,6 +15,11 @@ project_lead:
     email: a.skarlatidou@ucl.ac.uk
 investigators:
   - name: Dr Reka Solymosi, University of Manchester
+partners:
+  - name: "Schools in East London "
+  - name: Citizens UK
+    link: https://actionnetwork.org/
+    partner_image: /uploads/citizens-uk.png
 page_sections:
   - type: image-gallery-block
     images:
