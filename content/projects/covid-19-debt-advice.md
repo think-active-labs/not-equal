@@ -15,7 +15,16 @@ project_lead:
     email: a.z.wyner@swansea.ac.uk
 investigators:
   - name: Richard Owen, Swansea University
-partners: []
+partners:
+  - link: http://www.bpo-insolvency.co.uk/
+    name: BPO Insolvency
+    partner_image: /uploads/download-1-.jpg
+  - link: https://www.speakeasy.cymru/
+    name: Speakeasy Law Centre
+    partner_image: /uploads/download-4-.png
+  - name: Citizens Advice of Neath Port Talbot
+    link: https://www.citizensadvice.org.uk/local/swansea-neath-port-talbot/contact-us/
+    partner_image: /uploads/citizens_advice_logo.png
 page_sections:
   - type: video-block
     youtube_video_id: psoHZ5mROMI
