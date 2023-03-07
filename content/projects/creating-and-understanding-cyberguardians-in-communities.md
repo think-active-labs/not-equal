@@ -12,6 +12,13 @@ project_tags:
 project_lead:
   - name: James Nicholson, Northumbria University
     email: james.nicholson@northumbria.ac.uk
+partners:
+  - name: University of the Third Age
+    link: https://www.u3a.org.uk/
+    partner_image: /uploads/university-of-the-third-age.jpg
+  - name: The Old Low Light
+    link: https://oldlowlight.co.uk/
+    partner_image: /uploads/oll-footer-logo.png
 page_sections:
   - type: video-block
     youtube_video_id: uqYK-A_4jy8
