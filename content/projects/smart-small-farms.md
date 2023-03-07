@@ -21,7 +21,13 @@ investigators:
     email: " "
   - name: "Jen Pearson, Swansea University "
     email: " "
-partners: []
+partners:
+  - partner_image: /uploads/scf.png
+    name: Scottish Crofting Federation
+    link: https://www.crofting.org/
+  - partner_image: /uploads/news_smallholdingscotland.png
+    name: Smallholding Scotland
+    link: https://smallholding.scot/
 page_sections:
   - type: video-block
     src: "https://youtu.be/ZzKbdIsHUQI "
