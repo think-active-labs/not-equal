@@ -14,6 +14,10 @@ project_lead:
     email: Yvonne.Skipper@glasgow.ac.uk
 investigators:
   - name: " Daniel Jolley, Northumbria University"
+partners:
+  - name: eQuality Time
+    link: https://equalitytime.co.uk/
+    partner_image: /uploads/cropped-equality-time-logo.png
 page_sections:
   - type: video-block
     youtube_video_id: "5VVm7mYXzgY "
