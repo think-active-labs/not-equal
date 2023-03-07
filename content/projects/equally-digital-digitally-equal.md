@@ -29,7 +29,7 @@ partners:
     partner_image: /uploads/medialabmx.png
   - name: " C-Innova (aka Diversa)"
     link: https://www.c-innova.org/
-    partner_image: /uploads/c-innova.png
+    partner_image: https://www.c-innova.org/wp-content/uploads/2016/12/C-Innova-Icono.png
 page_sections:
   - type: image-gallery-block
     images:
