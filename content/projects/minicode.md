@@ -15,7 +15,13 @@ project_lead:
     email: "a.malizia@herts.ac.uk "
 investigators:
   - name: Silvio Carta, University of Hertfordshire
-partners: []
+partners:
+  - name: WeandAI
+    link: https://weandai.org/
+    partner_image: /uploads/weandai.png
+  - name: Data Reply
+    link: https://www.reply.com/data-reply/en/
+    partner_image: /uploads/data-reply.png
 page_sections:
   - type: video-block
     youtube_video_id: ou5TY-Qv948
