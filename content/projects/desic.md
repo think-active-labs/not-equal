@@ -15,6 +15,14 @@ project_lead:
   - name: Vasilis Vlachokyriakos, Newcastle University
 investigators:
   - name: "Rachel Clarke, Newcastle University "
+partners:
+  - partner_image: /uploads/angelou-centre.png
+    name: Angelou Centre
+    link: https://angelou-centre.org.uk/
+  - name: Union of Women Associations of Heraklion
+    partner_image: /uploads/logo-1.webp
+    link: https://kakopoiisi.gr/
+  - name: Sociality
 page_sections:
   - type: video-block
     youtube_video_id: sYXqTEvkE-4
