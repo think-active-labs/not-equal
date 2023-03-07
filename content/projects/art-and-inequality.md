@@ -15,7 +15,10 @@ project_lead:
     email: harry.weeks@newcastle.ac.uk
 investigators:
   - name: Lucas Ferguson-Sharp, Northumbria University
-partners: []
+partners:
+  - partner_image: /uploads/screenshot-2020-12-08-at-08.21.19.png
+    name: The NewBridge Project
+    link: https://thenewbridgeproject.com/
 page_sections:
   - type: image-gallery-block
     images:
