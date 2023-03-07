@@ -21,7 +21,7 @@ partners:
     partner_image: /uploads/download-1-.jpg
   - link: https://www.speakeasy.cymru/
     name: Speakeasy Law Centre
-    partner_image: /uploads/download-4-.png
+    partner_image: https://jff.thelegaleducationfoundation.org/wp-content/uploads/2019/07/south-wales-lc.png
   - name: Citizens Advice of Neath Port Talbot
     link: https://www.citizensadvice.org.uk/local/swansea-neath-port-talbot/contact-us/
     partner_image: /uploads/citizens_advice_logo.png
