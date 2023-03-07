@@ -19,10 +19,10 @@ investigators:
 partners:
   - name: Spitalfields City Farm
     link: https://www.spitalfieldscityfarm.org/
-    partner_image: /uploads/_rhrpp30_400x400.jpg
+    partner_image: /uploads/spitalfieldscityfarm_rectangle_rgb.png
   - name: Furtherfield
     link: https://www.furtherfield.org/
-    partner_image: /uploads/furtherfield.jpg
+    partner_image: https://www.furtherfield.org/wp-content/themes/FurtherfieldTheme/assets/furtherfield_logo.png
   - link: https://gaiafoundation.org/
     name: Gaia Foundation
     partner_image: /uploads/gaia.png
