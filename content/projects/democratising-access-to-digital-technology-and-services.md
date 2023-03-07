@@ -1,6 +1,6 @@
 ---
 title: Democratising Access to Digital Technology and Services
-description: Video from HCI Summer Festival 2020
+description: Video from HCI Summer Festival 2020.
 image: /uploads/post-cover-hci-summer-fest-large.jpg
 themes:
   - algorithmic-social-justice
