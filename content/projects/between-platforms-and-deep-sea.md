@@ -15,7 +15,10 @@ project_lead:
   - name: Yingqin Zheng, Royal Holloway, University of London
     email: yingqin.zheng@rhul.ac.uk
 investigators: []
-partners: []
+partners:
+  - name: Indian Fishermen Association
+    link: https://www.indianfisherman.org/
+  - name: Chennai–India
 page_sections:
   - type: link-block
     title: Publications
