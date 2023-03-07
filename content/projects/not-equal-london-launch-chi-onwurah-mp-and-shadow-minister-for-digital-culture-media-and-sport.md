@@ -1,5 +1,5 @@
 ---
-title: Not Equal London Launch - Chi Onwurah, Keynote
+title: Not Equal London Launch - Chi Onwurah
 description: "Chi Onwurah's keynote from the Not Equal Launch. "
 image: /uploads/1u6a7840.jpg
 themes:
