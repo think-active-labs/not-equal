@@ -25,6 +25,7 @@ partners:
     partner_image: /uploads/miralis-logo.png
     link: https://www.miralis.co.uk/
   - name: Future City Logistics
+    link: https://futurecitylogistics.com/
 page_sections:
   - type: video-block
     src: "https://youtu.be/duZqX7UWm84 "
