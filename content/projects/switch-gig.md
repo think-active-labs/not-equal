@@ -24,6 +24,7 @@ partners:
   - name: Miralis Data
     partner_image: /uploads/miralis-logo.png
     link: https://www.miralis.co.uk/
+  - name: Future City Logistics
 page_sections:
   - type: video-block
     src: "https://youtu.be/duZqX7UWm84 "
