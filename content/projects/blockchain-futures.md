@@ -16,6 +16,16 @@ project_lead:
 investigators:
   - name: Lara Houston, City, University of London
   - name: Alex Taylor, City, University of London
+partners:
+  - name: Spitalfields City Farm
+    link: https://www.spitalfieldscityfarm.org/
+    partner_image: /uploads/_rhrpp30_400x400.jpg
+  - name: Furtherfield
+    link: https://www.furtherfield.org/
+    partner_image: /uploads/furtherfield.jpg
+  - link: https://gaiafoundation.org/
+    name: Gaia Foundation
+    partner_image: /uploads/gaia.png
 page_sections:
   - type: video-block
     youtube_video_id: XcOgYNJZrso
