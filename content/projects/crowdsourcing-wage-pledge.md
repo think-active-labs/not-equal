@@ -16,7 +16,7 @@ partners:
   - name: " IG Metall"
     partner_image: /uploads/images-2-.png
     link: https://www.igmetall.de/
-  - name: " Hannah Johnston"
+  - name: " Hannah Johnston, Independent"
 page_sections:
   - type: link-block
     title: " "
