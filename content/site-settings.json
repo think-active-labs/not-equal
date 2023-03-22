@@ -3,23 +3,23 @@
   "footer-images": {
     "images": [
       {
-        "image": "/uploads/ukri.svg",
+        "image": "/uploads/ukri.png",
         "caption": "UKRI - EPSRC"
       },
       {
-        "image": "/uploads/ol.svg",
+        "image": "/uploads/ol.png",
         "caption": "Openly"
       },
       {
-        "image": "/uploads/us.svg",
+        "image": "/uploads/us.png",
         "caption": "University of Sussex"
       },
       {
-        "image": "/uploads/rh.svg",
+        "image": "/uploads/rh.png",
         "caption": "Royal Holloway University"
       },
       {
-        "image": "/uploads/sw.svg",
+        "image": "/uploads/sw.png",
         "caption": "Swansea University"
       }
     ]
