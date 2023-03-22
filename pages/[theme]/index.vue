@@ -6,24 +6,25 @@
         <p class="font-subtitle text-lg sm:text-2xl">{{ data?.theme.description }}</p>
       </div>
       <div v-for="p, index in data?.projects"
-        class="flex flex-col gap-2 p-3 sm:p-6 border-r-2 border-b-2 border-black justify-start">
+        class="flex flex-col gap-2 p-2 sm:p-4 border-r-2 border-b-2 border-black justify-start relative">
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`">
-          <nuxt-img class="object-cover w-full" format="webp" sizes="sm:100vw md:50vw lg:400px" quality="60"
+          <nuxt-img class="object-cover w-full max-h-40" format="webp" sizes="sm:100vw md:50vw lg:400px" quality="60"
             :src="p.image" />
         </nuxt-link>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 mb-8">
           <h1 class="font-title text-2xl antialiased leading-6">{{ p.title }}</h1>
           <p class="font-subtitle text-base md:text-xl text-clip">{{ p.description }}</p>
         </div>
         <nuxt-link :to="`${theme}/${p._path!.replace('/projects/', '')}`"
-          class="text-xl sm:text-2xl self-end hover:underline">Read →</nuxt-link>
+          class="text-xl sm:text-2xl absolute bottom-3 right-3 hover:underline">Read →</nuxt-link>
       </div>
-      <div class="p-3 sm:p-6 border-r-2 border-b-2 border-black">
+      <div class="p-3 sm:p-4 border-r-2 border-b-2 border-black relative">
         <nuxt-link :to="`${data.nextChapter.slug}`">
-          <nuxt-img class="object-cover w-full" :src="data.nextChapter.image" />
-          <h2 class="font-title text-3xl mb-4 antialiased hover:underline">{{ data.nextChapter.title }}</h2>
-          <h1 class="font-subtitle text-4xl md:text-5xl py-10 text-center sm:text-left hover:underline">
-            Next Chapter
+          <nuxt-img class="object-cover w-full max-h-40" :src="data.nextChapter.image" />
+          <h2 class="font-title text-2xl mb-4 antialiased hover:underline">{{ data.nextChapter.title }}</h2>
+          <p>{{ data.nextChapter.description }}</p>
+          <h1 class="font-subtitle text-2xl text-center sm:text-left hover:underline absolute bottom-3 right-3">
+            Next Chapter →
           </h1>
         </nuxt-link>
       </div>
@@ -37,7 +38,7 @@ const route = useRoute()
 const { data } = await useAsyncData(`theme-${route.params.theme}`, async () => {
   const themeQuery = queryContent('themes').where({ 'slug': route.params.theme }).only(['title', 'slug', 'description', 'image']).findOne()
 
-  const allThemesQuery = queryContent('themes').only(['title', 'slug', 'image']).find()
+  const allThemesQuery = queryContent('themes').only(['title', 'description', 'slug', 'image']).find()
 
   const projectsQuery = queryContent('projects')
     .where({ 'themes': { $contains: route.params.theme } })
@@ -62,6 +63,4 @@ if (!data.value) { throw createError({ statusCode: 404, statusMessage: 'Page Not
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
