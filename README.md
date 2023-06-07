@@ -60,7 +60,7 @@ Environment vars:
 | PORT                | 3000                                                                    | Port of running application                         |
 
 ### OAuth credentials
-To generate OAuth credentials click on your profile (top right) > Settings > Developer Settings > OAuth Apps > New OAuth App.
+To generate OAuth credentials click on your profile / org profile (top right) > Settings > Developer Settings > OAuth Apps > New OAuth App.
 
 Use the following settings:
 | Field                      | Value                                                                   |
